@@ -6,6 +6,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 	Momento_iOS.xcframework
+	More details? Check our github page.
                        DESC
 
   s.license      = { :type => "Commercial",
