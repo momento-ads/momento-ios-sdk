@@ -2,33 +2,25 @@ Pod::Spec.new do |s|
   s.name             = 'Momento_iOS'
   s.version          = '0.0.1'
   s.summary          = 'Momento_iOS.xcframework'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.homepage         = 'https://github.com/momento-ads/momento-ios-sdk'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+	Momento_iOS.xcframework
                        DESC
 
-  s.homepage         = 'https://github.com/cho.minhyun@cashwalk.io/Momento_iOS'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license      = { :type => "Commercial",
+:text => <<-LICENSE
+https://github.com/momento-ads/momento-ios-sdk
+LICENSE
+}
+
   s.author           = { 'cho.minhyun@cashwalk.io' => 'cho.minhyun@cashwalk.io' }
-  s.source           = { :git => 'https://github.com/cho.minhyun@cashwalk.io/Momento_iOS.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/momento-ads/momento-ios-sdk.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
+  s.platform     = :ios, "11.0"
 
-  s.source_files = 'Momento_iOS/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'Momento_iOS' => ['Momento_iOS/Assets/*.png']
-  # }
+  s.ios.vendored_frameworks = 'Momento_iOS.xcframework'
+  s.frameworks = 'Foundation', 'CoreTelephony', 'UIKit', 'AdSupport','AVKit','StoreKit','WebKit', 'AppTrackingTransparency'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
