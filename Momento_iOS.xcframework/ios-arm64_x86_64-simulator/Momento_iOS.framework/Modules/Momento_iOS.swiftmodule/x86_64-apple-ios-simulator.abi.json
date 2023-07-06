@@ -8562,44 +8562,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "AdSupport",
-        "printedName": "AdSupport",
-        "declKind": "Import",
-        "moduleName": "Momento_iOS"
-      },
-      {
-        "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "Momento_iOS"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreTelephony",
-        "printedName": "CoreTelephony",
-        "declKind": "Import",
-        "moduleName": "Momento_iOS"
-      },
-      {
-        "kind": "Import",
-        "name": "AppTrackingTransparency",
-        "printedName": "AppTrackingTransparency",
-        "declKind": "Import",
-        "moduleName": "Momento_iOS"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Momento_iOS",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "TrackingEventType",
         "printedName": "TrackingEventType",
@@ -27277,6 +27239,37 @@
       },
       {
         "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "Momento_iOS"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Momento_iOS"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "Momento_iOS"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Momento_iOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -34823,811 +34816,6 @@
       "value": "60"
     },
     {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 486,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 541,
-      "length": 17,
-      "value": "\"url is validate\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 566,
-      "length": 3,
-      "value": "999"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 720,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 760,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 801,
-      "length": 12,
-      "value": "\"keep-alive\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 835,
-      "length": 12,
-      "value": "\"Connection\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 878,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1082,
-      "length": 10,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1091,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1368,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1374,
-      "length": 3,
-      "value": "300"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1426,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1510,
-      "length": 18,
-      "value": "\"statusCode error\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1944,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2207,
-      "length": 8,
-      "value": "\"Banner\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2253,
-      "length": 23,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2264,
-      "length": 1,
-      "value": "\"\/ads\/banner\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2291,
-      "length": 8,
-      "value": "\"Native\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2337,
-      "length": 23,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2348,
-      "length": 1,
-      "value": "\"\/ads\/native\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2375,
-      "length": 7,
-      "value": "\"Video\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2420,
-      "length": 22,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2431,
-      "length": 1,
-      "value": "\"\/ads\/video\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2479,
-      "length": 15,
-      "value": "\"Invalid Input\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2636,
-      "length": 31,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2666,
-      "length": 23,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2688,
-      "length": 12,
-      "value": "\"User-Agent\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2731,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2771,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2816,
-      "length": 12,
-      "value": "\"keep-alive\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2850,
-      "length": 12,
-      "value": "\"Connection\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2897,
-      "length": 6,
-      "value": "\"POST\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2934,
-      "length": 5,
-      "value": "\"1.0\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2996,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3218,
-      "length": 14,
-      "value": "\"IAB_TCString\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3722,
-      "length": 9,
-      "value": "\"version\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3778,
-      "length": 13,
-      "value": "\"productpage\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3793,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3901,
-      "length": 8,
-      "value": "\"unitId\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3935,
-      "length": 8,
-      "value": "\"device\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3967,
-      "length": 4,
-      "value": "\"os\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3973,
-      "length": 5,
-      "value": "\"iOS\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4000,
-      "length": 5,
-      "value": "\"osv\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4059,
-      "length": 7,
-      "value": "\"model\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4116,
-      "length": 5,
-      "value": "\"ifa\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4206,
-      "length": 5,
-      "value": "\"ifv\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4243,
-      "length": 6,
-      "value": "\"atts\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4277,
-      "length": 10,
-      "value": "\"language\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4330,
-      "length": 9,
-      "value": "\"carrier\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4385,
-      "length": 16,
-      "value": "\"connectiontype\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4403,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4426,
-      "length": 5,
-      "value": "\"geo\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4459,
-      "length": 9,
-      "value": "\"country\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4499,
-      "length": 6,
-      "value": "\"none\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4531,
-      "length": 6,
-      "value": "\"type\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4539,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4598,
-      "length": 8,
-      "value": "\"client\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4630,
-      "length": 9,
-      "value": "\"package\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4673,
-      "length": 11,
-      "value": "\"com.nudge\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4706,
-      "length": 8,
-      "value": "\"appVer\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4801,
-      "length": 6,
-      "value": "\"user\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4831,
-      "length": 9,
-      "value": "\"consent\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4889,
-      "length": 6,
-      "value": "\"skan\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4955,
-      "length": 28,
-      "value": "\"Moment :: RequestParameter\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "Array",
-      "offset": 5108,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5528,
-      "length": 10,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5537,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5683,
-      "length": 8,
-      "value": "\"Banner\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5929,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5935,
-      "length": 3,
-      "value": "300"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5974,
-      "length": 9,
-      "value": "\"success\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6533,
-      "length": 18,
-      "value": "\"statusCode error\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6763,
-      "length": 8,
-      "value": "\"Native\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7009,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7015,
-      "length": 3,
-      "value": "300"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 7054,
-      "length": 9,
-      "value": "\"success\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 7619,
-      "length": 18,
-      "value": "\"statusCode error\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 7829,
-      "length": 7,
-      "value": "\"Video\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8074,
-      "length": 3,
-      "value": "200"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8080,
-      "length": 3,
-      "value": "300"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 8119,
-      "length": 9,
-      "value": "\"success\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 8683,
-      "length": 18,
-      "value": "\"statusCode error\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 8922,
-      "length": 15,
-      "value": "\"Invalid Input\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "Array",
-      "offset": 9173,
-      "length": 10,
-      "value": "[\" \", \"\/\"]"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9210,
-      "length": 42,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9230,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9237,
-      "length": 13,
-      "value": "\"AppleWebKit\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9251,
-      "length": 3,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9253,
-      "length": 39,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 9273,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9280,
-      "length": 10,
-      "value": "\"605.1.15\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9291,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9805,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9856,
-      "length": 4,
-      "value": "\"ko\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 9931,
-      "length": 4,
-      "value": "\"ko\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10254,
-      "length": 29,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10269,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10282,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "StringLiteral",
-      "offset": 10320,
-      "length": 3,
-      "value": "\"0\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 10464,
-      "length": 4,
-      "value": "14.0"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10490,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10521,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 10680,
-      "length": 4,
-      "value": "16.1"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "Array",
-      "offset": 10708,
-      "length": 35,
-      "value": "[\"2.0\", \"2.1\", \"2.2\", \"3.0\", \"4.0\"]"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 10757,
-      "length": 4,
-      "value": "14.6"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 10764,
-      "length": 4,
-      "value": "16.1"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "Array",
-      "offset": 10789,
-      "length": 28,
-      "value": "[\"2.0\", \"2.1\", \"2.2\", \"3.0\"]"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 10831,
-      "length": 4,
-      "value": "14.5"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "Array",
-      "offset": 10856,
-      "length": 21,
-      "value": "[\"2.0\", \"2.1\", \"2.2\"]"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 10891,
-      "length": 4,
-      "value": "14.0"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "FloatLiteral",
-      "offset": 10898,
-      "length": 4,
-      "value": "14.5"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "Array",
-      "offset": 10923,
-      "length": 14,
-      "value": "[\"2.0\", \"2.1\"]"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "Array",
-      "offset": 10974,
-      "length": 4,
-      "value": "[\"\"]"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 11189,
-      "length": 1,
-      "value": "3"
-    },
-    {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/VastTrackingEvent.swift",
       "kind": "StringLiteral",
       "offset": 747,
@@ -39308,6 +38496,664 @@
       "offset": 8786,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 455,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 510,
+      "length": 17,
+      "value": "\"url is validate\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 535,
+      "length": 3,
+      "value": "999"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 689,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 729,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 770,
+      "length": 12,
+      "value": "\"keep-alive\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 804,
+      "length": 12,
+      "value": "\"Connection\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 847,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1051,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1060,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1337,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1343,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1395,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1479,
+      "length": 18,
+      "value": "\"statusCode error\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1913,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2176,
+      "length": 8,
+      "value": "\"Banner\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2222,
+      "length": 23,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2233,
+      "length": 1,
+      "value": "\"\/ads\/banner\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2260,
+      "length": 8,
+      "value": "\"Native\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2306,
+      "length": 23,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2317,
+      "length": 1,
+      "value": "\"\/ads\/native\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2344,
+      "length": 7,
+      "value": "\"Video\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2389,
+      "length": 22,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2400,
+      "length": 1,
+      "value": "\"\/ads\/video\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2448,
+      "length": 15,
+      "value": "\"Invalid Input\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2605,
+      "length": 31,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2635,
+      "length": 23,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2657,
+      "length": 12,
+      "value": "\"User-Agent\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2700,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2740,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2785,
+      "length": 12,
+      "value": "\"keep-alive\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2819,
+      "length": 12,
+      "value": "\"Connection\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2866,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2903,
+      "length": 5,
+      "value": "\"1.0\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2965,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3187,
+      "length": 14,
+      "value": "\"IAB_TCString\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3349,
+      "length": 8,
+      "value": "\"unitId\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3383,
+      "length": 8,
+      "value": "\"device\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3415,
+      "length": 4,
+      "value": "\"os\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3421,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3448,
+      "length": 5,
+      "value": "\"osv\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3507,
+      "length": 7,
+      "value": "\"model\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3564,
+      "length": 5,
+      "value": "\"ifa\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3654,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3707,
+      "length": 9,
+      "value": "\"carrier\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3762,
+      "length": 16,
+      "value": "\"connectiontype\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3780,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3803,
+      "length": 5,
+      "value": "\"geo\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3836,
+      "length": 9,
+      "value": "\"country\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3876,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3908,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3916,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3975,
+      "length": 8,
+      "value": "\"client\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4007,
+      "length": 9,
+      "value": "\"package\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4050,
+      "length": 11,
+      "value": "\"com.nudge\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4083,
+      "length": 8,
+      "value": "\"appVer\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4178,
+      "length": 6,
+      "value": "\"user\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4208,
+      "length": 9,
+      "value": "\"consent\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4294,
+      "length": 28,
+      "value": "\"Moment :: RequestParameter\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "Array",
+      "offset": 4447,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4867,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4876,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5022,
+      "length": 8,
+      "value": "\"Banner\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5268,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5274,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5313,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5872,
+      "length": 18,
+      "value": "\"statusCode error\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6102,
+      "length": 8,
+      "value": "\"Native\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6348,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6354,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6393,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6958,
+      "length": 18,
+      "value": "\"statusCode error\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7168,
+      "length": 7,
+      "value": "\"Video\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7413,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7419,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7458,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8022,
+      "length": 18,
+      "value": "\"statusCode error\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8261,
+      "length": 15,
+      "value": "\"Invalid Input\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "Array",
+      "offset": 8512,
+      "length": 10,
+      "value": "[\" \", \"\/\"]"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8549,
+      "length": 42,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8569,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8576,
+      "length": 13,
+      "value": "\"AppleWebKit\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8590,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8592,
+      "length": 39,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8612,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8619,
+      "length": 10,
+      "value": "\"605.1.15\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 8630,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9144,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9195,
+      "length": 4,
+      "value": "\"ko\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9270,
+      "length": 4,
+      "value": "\"ko\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9593,
+      "length": 29,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9608,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9621,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/MomentNetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9659,
+      "length": 3,
+      "value": "\"0\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/Momento_iOS\/Momento_iOS\/Momento_iOS\/Const.swift",

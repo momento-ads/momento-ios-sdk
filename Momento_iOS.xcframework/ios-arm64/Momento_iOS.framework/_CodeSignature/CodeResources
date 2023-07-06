@@ -4,49 +4,61 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Resources/Contents.json</key>
+		<key>Headers/Momento_iOS-Swift.h</key>
 		<data>
-		OsxTSdeF0zGUdTl13dMC26vX4YM=
+		3e67tB+MYMEnOPOK9+AwkMW3MkY=
 		</data>
-		<key>Resources/closeImageWhite.imageset/Contents.json</key>
+		<key>Headers/Momento_iOS.h</key>
 		<data>
-		7UHtao5x0eDX/EtJ260Upc4VvMA=
+		UZR6G+3q0gc+G5N/Zt9HrhOKlSU=
 		</data>
-		<key>Resources/closeImageWhite.imageset/closeImageWhite.png</key>
+		<key>Info.plist</key>
 		<data>
-		yfCqjBc58zx0OYCUVU721PcKzPk=
+		Eal9VpMQt2vPstKt75LwptiYFqs=
 		</data>
-		<key>Resources/momentoLogo.imageset/Contents.json</key>
+		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		z1efXTmZL35D4tVci/yXvYBblWw=
+		8Xsoq0Xfk0rxmwZIq+/IC4jSAcA=
 		</data>
-		<key>Resources/momentoLogo.imageset/momentoLogo.png</key>
+		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		JZ7ZgukEjejicjsID1dGnWyySu0=
+		jCe1qZfrccOQkDI2zkTYt8NyQnE=
 		</data>
-		<key>Resources/skipImageWhite.imageset/Contents.json</key>
+		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		D7Hg3O17LGvXnfwp2iDWEm8Xl/s=
+		HOvn08LRgQfZi35Yxocu8uxBIiQ=
 		</data>
-		<key>Resources/skipImageWhite.imageset/skipImageWhite.png</key>
+		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		0NLmU5HRSutPxd1j83NkiQ7Z8I4=
+		jCe1qZfrccOQkDI2zkTYt8NyQnE=
 		</data>
-		<key>Resources/speakerOffImageWhite.imageset/Contents.json</key>
+		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Vk69l4FspLEKfKbZ4Tl4wERmxdg=
+		ZvDb4lzjWZ/KfBrMTyjyGU1Dvbw=
 		</data>
-		<key>Resources/speakerOffImageWhite.imageset/speakerOffImageWhite.png</key>
+		<key>Modules/module.modulemap</key>
 		<data>
-		fV488/fU7h4yvXz9lBvh9OlYt1s=
+		TygDjCmFsyXERe42CuKeie6dC0k=
 		</data>
-		<key>Resources/speakerOnImageWhite.imageset/Contents.json</key>
+		<key>closeImageWhite.png</key>
 		<data>
-		o5fl/ROrVaambavtt0IeUFaBqcE=
+		fCafUVwhCuUvbS6ceViVMynOp6Q=
 		</data>
-		<key>Resources/speakerOnImageWhite.imageset/speakerOnImageWhite.png</key>
+		<key>momentoLogo.png</key>
 		<data>
-		HgIPqxIVhTcGDMYKP5EiXVx+ghs=
+		bWaysjaHwDZoHrRBFVAHgmkQFqE=
+		</data>
+		<key>skipImageWhite.png</key>
+		<data>
+		2Z0XaVTjaGR94LyCmdIF477/Pqo=
+		</data>
+		<key>speakerOffImageWhite.png</key>
+		<data>
+		CozynjyI4+CvEJX3pkjg4KjS0dg=
+		</data>
+		<key>speakerOnImageWhite.png</key>
+		<data>
+		0wFQKYlF7H/ARJxvIix6g3Ib7cw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -69,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kZ9cNJnS5bzLp4Ys0XqvZljohAI7+HWTnKMw08FVOYQ=
+			brbx3ckG84pbQP7SgPfyFLb3TChExWS92oYts0UIjpE=
 			</data>
 		</dict>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -97,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ciqDciuMWVrgJNDItTibZ8ew7PI3VEGULscX1xrZ6Fs=
+			8mu4SzmE3wTOHFFra0CzSYZyUO84R53Dl6UNEsWW/Lg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -107,103 +119,61 @@
 			C7PO2z6+p4eLWXcL3xWLRx/Cm0I1vE0+ViI2bl3IsF0=
 			</data>
 		</dict>
-		<key>Resources/Contents.json</key>
+		<key>closeImageWhite.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D9Sbo8NYXHCWeOAEaoIcPGBoXscGNyDTDTo0SL46IIs=
+			4QWa0OfXDiGMu572uwc6DVSnpTv2gmEV5Dr4mmLaxf4=
 			</data>
 		</dict>
-		<key>Resources/closeImageWhite.imageset/Contents.json</key>
+		<key>momentoLogo.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bTo1+f7tIPoXhgnb2LO2OvpVZM3e26EvbY7az4JcvBs=
+			YVal6W2o+k7kkR2e5TMRF43q6b82a9DpSMfDjUWR32o=
 			</data>
 		</dict>
-		<key>Resources/closeImageWhite.imageset/closeImageWhite.png</key>
+		<key>skipImageWhite.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zf8/A8HFfkf+oXLTRs3Bq21oBzeuZIEh4WPnBDeJfxA=
+			4ZMIWnscoGs7Bad5Q7xq4lmSKgSQHNbRtAYEEodNWj4=
 			</data>
 		</dict>
-		<key>Resources/momentoLogo.imageset/Contents.json</key>
+		<key>speakerOffImageWhite.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ggppTTa0qHfEQzR0lgDbMXdV3K1zq+olP/rcuIU9XDw=
+			rPPLXeJpAA+Cd+3Xe+uGhQVV024Iwty2o21SdrOqUes=
 			</data>
 		</dict>
-		<key>Resources/momentoLogo.imageset/momentoLogo.png</key>
+		<key>speakerOnImageWhite.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PUrDHXWWfQfXjnfKQXKXRQaULk1Gnoh68/6nZs4RnoA=
-			</data>
-		</dict>
-		<key>Resources/skipImageWhite.imageset/Contents.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KB2Du6SNBGiuNVl4TC2znBS5hfRJbji+vTzR0juEUMg=
-			</data>
-		</dict>
-		<key>Resources/skipImageWhite.imageset/skipImageWhite.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WmYIWZVIqiuONlMXKD4JmNH/wcz6rUfPFjNFkxqe5J4=
-			</data>
-		</dict>
-		<key>Resources/speakerOffImageWhite.imageset/Contents.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ay2wraKk+0HMpDYqcg1R5MUNzGo6hi4OnGKi8Gt+Wp4=
-			</data>
-		</dict>
-		<key>Resources/speakerOffImageWhite.imageset/speakerOffImageWhite.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Cs6foRTuixr6xeigclqHSnd5oaJRudZxHM+XgqmB0NU=
-			</data>
-		</dict>
-		<key>Resources/speakerOnImageWhite.imageset/Contents.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QL8/0V199HLzEfQFKzOrXXTOVBrtlTWWQgLeCPJcUCA=
-			</data>
-		</dict>
-		<key>Resources/speakerOnImageWhite.imageset/speakerOnImageWhite.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9KXseCV0LLoygR1QUC1iOmKjGCFKMTsww4VuIPWgGv0=
+			omOTi+Lk7Ug1PhJO/57h9bIGP1Wy3yzuAw4a1/qaCME=
 			</data>
 		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^Resources/</key>
+		<key>^.*</key>
 		<true/>
-		<key>^Resources/.*\.lproj/</key>
+		<key>^.*\.lproj/</key>
 		<dict>
 			<key>optional</key>
 			<true/>
 			<key>weight</key>
 			<real>1000</real>
 		</dict>
-		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<key>^.*\.lproj/locversion.plist$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
 		</dict>
-		<key>^Resources/Base\.lproj/</key>
+		<key>^Base\.lproj/</key>
 		<dict>
 			<key>weight</key>
 			<real>1010</real>
@@ -225,15 +195,27 @@
 			<key>weight</key>
 			<real>2000</real>
 		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
-		</dict>
 		<key>^.*</key>
 		<true/>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
 		<key>^Info\.plist$</key>
 		<dict>
 			<key>omit</key>
@@ -247,37 +229,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^Resources/</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
-		<key>^Resources/.*\.lproj/</key>
-		<dict>
-			<key>optional</key>
-			<true/>
-			<key>weight</key>
-			<real>1000</real>
-		</dict>
-		<key>^Resources/.*\.lproj/locversion.plist$</key>
-		<dict>
-			<key>omit</key>
-			<true/>
-			<key>weight</key>
-			<real>1100</real>
-		</dict>
-		<key>^Resources/Base\.lproj/</key>
-		<dict>
-			<key>weight</key>
-			<real>1010</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>
