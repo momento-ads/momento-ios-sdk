@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		tBuNJTyy9VPOL4M404bikMR+g6E=
+		</data>
 		<key>Headers/Momento_iOS-Swift.h</key>
 		<data>
 		3e67tB+MYMEnOPOK9+AwkMW3MkY=
@@ -18,7 +22,7 @@
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		kXeKE9wNMyyqDKq2HpF7vwdipXI=
+		kxoF28HfIMa5qbSTwF/Am+OOtjM=
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +38,7 @@
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		nLe3WjQyWoAGIvtdaBqJZ4vkB50=
+		PLHzGhj5qtiV6lLqrEjE6pdUOro=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,6 +107,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xiM8LXhYNTBLNRe8VL0C3wup2fROvazG5r9n/15U4xA=
+			</data>
+		</dict>
 		<key>Headers/Momento_iOS-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -121,7 +132,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GuVBl1F/eYJq12FyKXuHCvLBqkGKx7y6Z6UZt6jWccw=
+			wk04eA9+y2IesQ9gyd0ZZOPy3g7OE1uTONfhB/+aV8o=
 			</data>
 		</dict>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -149,7 +160,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DST+DSb+Nz4xw6R33miS+dmOlXLApLxhVSf0uM+OPkw=
+			S3YfOstC3uKtZQF2ebCFM7CXRBsJXv4rbhXnQusRBNI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
