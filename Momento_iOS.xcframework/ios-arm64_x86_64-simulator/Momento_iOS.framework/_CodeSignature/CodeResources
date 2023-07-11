@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		8Xsoq0Xfk0rxmwZIq+/IC4jSAcA=
+		kXeKE9wNMyyqDKq2HpF7vwdipXI=
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+PnxM9mrX7pGVtlXVqRhbCYAV4A=
+		Xl1wWfzTn0we7K+060tV5Sr5mxc=
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+PnxM9mrX7pGVtlXVqRhbCYAV4A=
+		Xl1wWfzTn0we7K+060tV5Sr5mxc=
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BvLzNEAWWWSEElgVvCGt2tHgyY4=
+		3qbmV71igSRpN6pjp33RAVFMllE=
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		8Xsoq0Xfk0rxmwZIq+/IC4jSAcA=
+		kXeKE9wNMyyqDKq2HpF7vwdipXI=
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		F37BMGNfBOpDnN4BsyZ3S8bBa8g=
+		6X7b7EPQlKvLOowHjibR/GyISHA=
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		F37BMGNfBOpDnN4BsyZ3S8bBa8g=
+		6X7b7EPQlKvLOowHjibR/GyISHA=
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		s+ig4Ux7g1wYUzQPbgQJI0Sc7Bk=
+		nE4eJa4k2LD3ePlJ0uT3xQpFxwc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,23 +62,63 @@
 		</data>
 		<key>closeImageWhite.png</key>
 		<data>
-		fCafUVwhCuUvbS6ceViVMynOp6Q=
+		W3OLvNe8d6T++SQ66/5y4CKI9gU=
+		</data>
+		<key>closeImageWhite@2x.png</key>
+		<data>
+		Ud8n3PW7TU4NuhbVl3Xp2EPqQGU=
+		</data>
+		<key>closeImageWhite@3x.png</key>
+		<data>
+		I7xMkCndUxAlBlQCXyd1kYSydZQ=
 		</data>
 		<key>momentoLogo.png</key>
 		<data>
-		bWaysjaHwDZoHrRBFVAHgmkQFqE=
+		Tk6yJ7THlrRj7TzVfUCSh+ijvj0=
+		</data>
+		<key>momentoLogo@2x.png</key>
+		<data>
+		XJBnp65UchaR/BjX7zYgaDc00xs=
+		</data>
+		<key>momentoLogo@3x.png</key>
+		<data>
+		I51mBQgXViOJoBfCFaECSbsoeE8=
 		</data>
 		<key>skipImageWhite.png</key>
 		<data>
-		2Z0XaVTjaGR94LyCmdIF477/Pqo=
+		iFbhBq7WvKKuOg3MYRYK6nNy/Gs=
+		</data>
+		<key>skipImageWhite@2x.png</key>
+		<data>
+		5Jy0fGr2M4bxHxVCS9HBQwtSA+Y=
+		</data>
+		<key>skipImageWhite@3x.png</key>
+		<data>
+		ZB1PieFPmf5FlpEytM6T8cvoEPA=
 		</data>
 		<key>speakerOffImageWhite.png</key>
 		<data>
-		CozynjyI4+CvEJX3pkjg4KjS0dg=
+		1Ku//2FMlBfCSapIzwszBlIL3OQ=
+		</data>
+		<key>speakerOffImageWhite@2x.png</key>
+		<data>
+		bPxF7GTloAsI7im4dhs2iuwmG2c=
+		</data>
+		<key>speakerOffImageWhite@3x.png</key>
+		<data>
+		1EM9VHvZjx7ZT1+jvppH1rp+jfw=
 		</data>
 		<key>speakerOnImageWhite.png</key>
 		<data>
-		0wFQKYlF7H/ARJxvIix6g3Ib7cw=
+		Ws3hqBJoTtnIf5lzMevxW9x7bYs=
+		</data>
+		<key>speakerOnImageWhite@2x.png</key>
+		<data>
+		THQ89c/ogZxmXInUICk2T6In7Zk=
+		</data>
+		<key>speakerOnImageWhite@3x.png</key>
+		<data>
+		psz/m/32BhVUarnlM4+oJlq4g3k=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -101,14 +141,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			brbx3ckG84pbQP7SgPfyFLb3TChExWS92oYts0UIjpE=
+			GuVBl1F/eYJq12FyKXuHCvLBqkGKx7y6Z6UZt6jWccw=
 			</data>
 		</dict>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sR1pF41vyNZ39pC59x9j/WXqKnbQ7EN+8JzAU4Nb7Ig=
+			P//vD5vJaBbFoj754DaWJddgJr6z+iGnRR8bfZNJimM=
 			</data>
 		</dict>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -122,28 +162,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sR1pF41vyNZ39pC59x9j/WXqKnbQ7EN+8JzAU4Nb7Ig=
+			P//vD5vJaBbFoj754DaWJddgJr6z+iGnRR8bfZNJimM=
 			</data>
 		</dict>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CB+GQ46IzdnyUuoMrK4VzHU/xwkVkeValDhqNgIEX04=
+			hXEzjHF5ru2u4Dh+JdvN9Z1GYYAXhMt3rXue5lk95UA=
 			</data>
 		</dict>
 		<key>Modules/Momento_iOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			brbx3ckG84pbQP7SgPfyFLb3TChExWS92oYts0UIjpE=
+			GuVBl1F/eYJq12FyKXuHCvLBqkGKx7y6Z6UZt6jWccw=
 			</data>
 		</dict>
 		<key>Modules/Momento_iOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			esu5ScD18jcavgiLLL9DLMgP1rMXBapf4GsKQ2ojoDg=
+			uQ3MgaQ3X7WZUGR4is5jFbQVhW90OEbO+N5N++rAQd4=
 			</data>
 		</dict>
 		<key>Modules/Momento_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -157,14 +197,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			esu5ScD18jcavgiLLL9DLMgP1rMXBapf4GsKQ2ojoDg=
+			uQ3MgaQ3X7WZUGR4is5jFbQVhW90OEbO+N5N++rAQd4=
 			</data>
 		</dict>
 		<key>Modules/Momento_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8TO03xSfofuH+TdKlM0VZcvxqo1FZBl+7IAOZc34ib8=
+			F8woIaFMIN9J9F3R4O8kJPLKv6MRlIhB269U9JIhnHE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -178,35 +218,105 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4QWa0OfXDiGMu572uwc6DVSnpTv2gmEV5Dr4mmLaxf4=
+			bgmjyJi3Bhd694/wb8sieI/RnvmweB/yP4FdFXgiUgk=
+			</data>
+		</dict>
+		<key>closeImageWhite@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XGbfL1kWYGUXqh3W/tCVNIHU7+yHV6DKKfcdan3AZiA=
+			</data>
+		</dict>
+		<key>closeImageWhite@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HkfewmEA6QhyzaOu3TsPua9ZT29mAz88v7849M9Lo4k=
 			</data>
 		</dict>
 		<key>momentoLogo.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YVal6W2o+k7kkR2e5TMRF43q6b82a9DpSMfDjUWR32o=
+			4u8WwFWDBQqdsfjS4KRJaAPSKZ5EH2VYxpB/JjlFnl0=
+			</data>
+		</dict>
+		<key>momentoLogo@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AA1V9h050HzT3NasCZUtK/wVG0KLF9e7GZ/nVBnt+fI=
+			</data>
+		</dict>
+		<key>momentoLogo@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FPADUroKJkb3Bysxmi15jKOkgqEmDbF7NBZJR8EsZpY=
 			</data>
 		</dict>
 		<key>skipImageWhite.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4ZMIWnscoGs7Bad5Q7xq4lmSKgSQHNbRtAYEEodNWj4=
+			BYZ+AragMIY5zWw849VTmccJr+1FGgLJdEcvuAjqoQc=
+			</data>
+		</dict>
+		<key>skipImageWhite@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EuxOrJ5EdIjOYeE5HQ9z8r8HMZTxSfIMfIcE691lkN4=
+			</data>
+		</dict>
+		<key>skipImageWhite@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DQXcCgbR/fnaPd3D5Uu28AmLhjnsA3pUaff3NIJcbgc=
 			</data>
 		</dict>
 		<key>speakerOffImageWhite.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rPPLXeJpAA+Cd+3Xe+uGhQVV024Iwty2o21SdrOqUes=
+			FagYNuIX2YcdNEHZjN6rJ5lauWuA7i72kLEdrqSGky0=
+			</data>
+		</dict>
+		<key>speakerOffImageWhite@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F3oUiumBIf6qf88JQppNSY4XgQPWtw+tY9FKT2u49Ho=
+			</data>
+		</dict>
+		<key>speakerOffImageWhite@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5Ap8bezuuMLc78JpY3exR2GBGIhqkjN9fdBKg9+FHGM=
 			</data>
 		</dict>
 		<key>speakerOnImageWhite.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			omOTi+Lk7Ug1PhJO/57h9bIGP1Wy3yzuAw4a1/qaCME=
+			AFgovPNwO9xuJDEVflVwRKYldNCffQVgZHoCKvjKBDo=
+			</data>
+		</dict>
+		<key>speakerOnImageWhite@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6KEUhA/W0N1QKIY4tnnbqZJoWZNxlB5N46p/q58H5w0=
+			</data>
+		</dict>
+		<key>speakerOnImageWhite@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LKTxYaGHtKs3GREkLW7CJxm/DpYKfQ2OMsjluplQ9g0=
 			</data>
 		</dict>
 	</dict>

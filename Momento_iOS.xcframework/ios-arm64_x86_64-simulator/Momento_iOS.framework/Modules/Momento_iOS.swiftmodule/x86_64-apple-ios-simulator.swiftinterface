@@ -27,27 +27,6 @@ import _StringProcessing
   @objc func onVideoLoadFailed(description: Swift.String)
   @objc func onVideoShowFailed(description: Swift.String)
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MomentVideoManager : UIKit.UIViewController {
-  @objc @_Concurrency.MainActor(unsafe) weak public var videoDelegate: (any Momento_iOS.MomentVideoDelegate)?
-  @objc @_Concurrency.MainActor(unsafe) public init(unitID: Swift.String)
-  @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @objc @_Concurrency.MainActor(unsafe) public func loadVideo()
-  @objc @_Concurrency.MainActor(unsafe) public func showVideo()
-  @objc @_Concurrency.MainActor(unsafe) public func hasVideoAd() -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) public func destroy()
-}
-extension Momento_iOS.MomentVideoManager : StoreKit.SKStoreProductViewControllerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func productViewControllerDidFinish(_ viewController: StoreKit.SKStoreProductViewController)
-}
-extension Momento_iOS.MomentVideoManager : Momento_iOS.VastTrackerDelegate {
-  @_Concurrency.MainActor(unsafe) public func adFirstQuartile(vastTracker: Momento_iOS.VastTracker, ad: Momento_iOS.VastAd)
-  @_Concurrency.MainActor(unsafe) public func adMidpoint(vastTracker: Momento_iOS.VastTracker, ad: Momento_iOS.VastAd)
-  @_Concurrency.MainActor(unsafe) public func adThirdQuartile(vastTracker: Momento_iOS.VastTracker, ad: Momento_iOS.VastAd)
-}
-extension Momento_iOS.MomentVideoManager : WebKit.WKNavigationDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
-}
 public struct VMAPExtension {
 }
 public struct VastMediaFile : Swift.Codable {
@@ -72,6 +51,34 @@ extension Momento_iOS.VastMediaFile {
 }
 extension Momento_iOS.VastMediaFile : Swift.Equatable {
   public static func == (a: Momento_iOS.VastMediaFile, b: Momento_iOS.VastMediaFile) -> Swift.Bool
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MomentNativeManager : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any Momento_iOS.MomentAdsDelegate)?
+  @objc @_Concurrency.MainActor(unsafe) public init(unitId: Swift.String)
+  @objc deinit
+  @objc @_Concurrency.MainActor(unsafe) public func loadWithRendering(mainImageView: UIKit.UIImageView?, logoImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, button: UIKit.UIButton, optionalButton: UIKit.UIButton?, timeOut: Swift.Double = 15)
+  @objc @_Concurrency.MainActor(unsafe) public func destory()
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MomentVideoManager : UIKit.UIViewController {
+  @objc @_Concurrency.MainActor(unsafe) weak public var videoDelegate: (any Momento_iOS.MomentVideoDelegate)?
+  @objc @_Concurrency.MainActor(unsafe) public init(unitID: Swift.String)
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @objc @_Concurrency.MainActor(unsafe) public func loadVideo()
+  @objc @_Concurrency.MainActor(unsafe) public func showVideo()
+  @objc @_Concurrency.MainActor(unsafe) public func hasVideoAd() -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func destroy()
+}
+extension Momento_iOS.MomentVideoManager : StoreKit.SKStoreProductViewControllerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func productViewControllerDidFinish(_ viewController: StoreKit.SKStoreProductViewController)
+}
+extension Momento_iOS.MomentVideoManager : Momento_iOS.VastTrackerDelegate {
+  @_Concurrency.MainActor(unsafe) public func adFirstQuartile(vastTracker: Momento_iOS.VastTracker, ad: Momento_iOS.VastAd)
+  @_Concurrency.MainActor(unsafe) public func adMidpoint(vastTracker: Momento_iOS.VastTracker, ad: Momento_iOS.VastAd)
+  @_Concurrency.MainActor(unsafe) public func adThirdQuartile(vastTracker: Momento_iOS.VastTracker, ad: Momento_iOS.VastAd)
+}
+extension Momento_iOS.MomentVideoManager : WebKit.WKNavigationDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping (WebKit.WKNavigationActionPolicy) -> Swift.Void)
 }
 public enum TrackingError : Swift.Error {
   case MissingAdBreak
@@ -721,13 +728,6 @@ public enum VMAPErrorCodes : Swift.Int {
   public var rawValue: Swift.Int {
     get
   }
-}
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MomentNativeManager : UIKit.UIView {
-  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any Momento_iOS.MomentAdsDelegate)?
-  @objc @_Concurrency.MainActor(unsafe) public init(unitId: Swift.String)
-  @objc deinit
-  @objc @_Concurrency.MainActor(unsafe) public func loadWithRendering(mainImageView: UIKit.UIImageView?, logoImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, button: UIKit.UIButton, optionalButton: UIKit.UIButton?, timeOut: Swift.Double = 15)
-  @objc @_Concurrency.MainActor(unsafe) public func destory()
 }
 public enum VastError : Swift.Error {
   case invalidXMLDocument
