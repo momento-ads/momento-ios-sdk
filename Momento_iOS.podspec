@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Momento_iOS'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'Momento_iOS.xcframework'
   s.homepage         = 'https://github.com/momento-ads/momento-ios-sdk'
 
