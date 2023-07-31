@@ -301,7 +301,7 @@ SWIFT_PROTOCOL("_TtP11Momento_iOS17MomentAdsDelegate_")
 - (void)onAdRemoved;
 /// 광고의 Load중 타임아웃이 발생한 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
 - (void)onAdTimedout;
-/// 광고이미지 로드이후에 사이즈값을 보내주기
+/// 광고의 이미지 로드 이후에 호출되며, 원한다면 이미지의 사이즈값을 전달받아 사용할 수 있습니다.
 - (void)onImageLoadedWithImgSize:(CGSize)imgSize;
 @end
 
@@ -369,6 +369,7 @@ SWIFT_CLASS("_TtC11Momento_iOS19MomentNativeManager")
 - (void)loadWithRenderingWithMainImageView:(UIImageView * _Nullable)mainImageView logoImageView:(UIImageView * _Nullable)logoImageView titleLabel:(UILabel * _Nullable)titleLabel descriptionLabel:(UILabel * _Nullable)descriptionLabel button:(UIButton * _Nonnull)button optionalButton:(UIButton * _Nullable)optionalButton timeOut:(double)timeOut;
 /// 광고 제거
 - (void)destory;
+- (void)cancelRequest;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 

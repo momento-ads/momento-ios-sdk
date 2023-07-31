@@ -58,6 +58,7 @@ extension Momento_iOS.VastMediaFile : Swift.Equatable {
   @objc deinit
   @objc @_Concurrency.MainActor(unsafe) public func loadWithRendering(mainImageView: UIKit.UIImageView?, logoImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, button: UIKit.UIButton, optionalButton: UIKit.UIButton?, timeOut: Swift.Double = 15)
   @objc @_Concurrency.MainActor(unsafe) public func destory()
+  @objc @_Concurrency.MainActor(unsafe) public func cancelRequest()
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MomentVideoManager : UIKit.UIViewController {
   @objc @_Concurrency.MainActor(unsafe) weak public var videoDelegate: (any Momento_iOS.MomentVideoDelegate)?
