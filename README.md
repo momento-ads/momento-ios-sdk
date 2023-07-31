@@ -1,6 +1,6 @@
 # Momento iOS Guide
 
-Guide Document Update date → **2023.07.10**        SDK version → **0.0.2**
+Guide Document Update date → **2023.07.31**        SDK version → **1.0.0**
 
 Minimum iOS Development Target → **Ver.11.0**
 
@@ -38,6 +38,8 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     - 광고의 Load중 타임아웃이 발생한 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
 - onAdRemoved()
     - 광고가 제거된 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
+- onImageLoaded(imgSize: CGSize)
+    - 광고의 이미지 로드 이후에 호출되며, 원한다면 이미지의 사이즈값을 전달받아 사용할 수 있습니다.
 
 ## MomentVideoDelegate
 
@@ -104,6 +106,8 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
             moBanner?.loadAd()
         }
         ```
+- setBannerWidth(value: CGFloat) { }
+    - 배너의 width값을 변경하고 싶다면, 해당 함수를 사용하여 변경할 수 있습니다.
         
 
 ## Native
@@ -488,6 +492,9 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     
 - MomentVideoDelegate
     - 상단에 설명된 Delegate의 함수들이 상황에 맞게 호출됩니다. 따라서 MomentVideoDelegate를 상속한 후 해당하는 메서드를 원하는 동작과 함께 구현하여 사용할 수 있습니다.
+
+- MomentSDK.shared.rewardVideoSkippable(_: Bool)
+    - 모멘토의 리워드 비디오는 사용자가 스킵버튼을 누를 수 있으며, 스킵버튼을 누를 시 `계속 시청하여 보상받기` 혹은 `보상을 포기하고 시청 종료하기` 중 하나를 선택하도록 되어있습니다. 하지만 이와같은 기능이 필요 없고, 리워드 비디오를 무조건 끝까지 시청하도록 원하는 경우 위 함수의 값을 `false`로 변경하여 해당 기능을 사용하지 않을 수 있습니다. `default value`는 `true`입니다.
 
 # GDPR 준수 가이드
 
