@@ -1,6 +1,6 @@
 # Momento iOS Guide
 
-Guide Document Update date → **2023.07.31**        SDK version → **1.0.0**
+Guide Document Update date → **2023.08.31**        SDK version → **1.0.1**
 
 Minimum iOS Development Target → **Ver.11.0**
 
@@ -45,14 +45,12 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 - onVideoLoaded(dspName: String)
     - 광고 비디오가 Load에 성공한 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
-- onVideoStoped()
+- ~~onVideoStoped()~~ → **Duplicated(1.0.1)**
     - 광고 비디오가 중간에 Stop된 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
 - onVideoComplete()
     - 광고 비디오를 끝까지 모두 시청한 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
 - onVideoRewarded(state: Bool)
     - 리워드형 광고 비디오를 중간에 종료한 호출되며, 인터스티셜 광고 비디오의 경우 해당 delegate function이 불리지 않습니다. 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
-- ~~onVideoError(description: String)~~ → **Duplicated(0.1.36)**
-    - ~~광고가 모종의 이유로 실패한 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.~~
 - onVideoTimedout()
     - 광고의 request가 타임아웃된 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
 - onVideoShown()
