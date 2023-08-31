@@ -16,7 +16,6 @@ import _Concurrency
 import _StringProcessing
 @objc public protocol MomentVideoDelegate {
   @objc func onVideoLoaded(dspName: Swift.String)
-  @objc func onVideoStoped()
   @objc func onVideoComplete()
   @objc func onVideoRewarded(state: Swift.Bool)
   @objc func onVideoTimedout()

@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/Momento_iOS-Swift.h</key>
 		<data>
-		VosxqYf01CvpFJc6Zch1zvsmWNM=
+		9T8cvYfyCdVmazlQn1to1TWYSoE=
 		</data>
 		<key>Headers/Momento_iOS.h</key>
 		<data>
@@ -22,23 +22,23 @@
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		nykhSDotNamshlmH4smQp3xPN/o=
+		Yx7sD3MPCneL4YDHMcIf2fpx3gs=
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		duddwq2e1OBgwcJZ6UgA0o74RoM=
+		H1buDmQ8PGLh9A8Z8ba/M99Rqsc=
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		OU1aMBP+/fYc1vCQhYOD43o5mkk=
+		Mvk9nNZ6aH5RPoe2+JURHpzE3Xo=
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		duddwq2e1OBgwcJZ6UgA0o74RoM=
+		H1buDmQ8PGLh9A8Z8ba/M99Rqsc=
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		eDmON+NuzenTAmCFgBJXb4Nm17A=
+		eRjmLWVcJZuIVgz0WOWW7kCo7Ek=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HJFnuQkQKevuftVgHrDO15GbWx5OaykEnkEW64e5CMc=
+			Xy7LUoXBrNyUKIKyGU9ewqnutzPodOZMGR56vV/BxY8=
 			</data>
 		</dict>
 		<key>Headers/Momento_iOS.h</key>
@@ -132,35 +132,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GAW0tNdrQobwR4cVoBGZts31GoWhAhA8TvjO4Php+9Q=
+			KfneoJo+lVqIP2HQ0wTLnEZtPLie9CMAf4kC1BITDcg=
 			</data>
 		</dict>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PUG8Iak4lha3IO59REWJLv4yln3J1o5/DhxVyP5tohE=
+			Gr+xqYRIobcICwfI+kzh6vt5e/PgPEqTb6f+WRrPx3M=
 			</data>
 		</dict>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jnPUnPTZghCqVOOxBUc0ryYF2V8+FEcYFBzBOVS9ucM=
+			Cp7biqwgJXJg1LmA5xcGCFf1Cx2Mlv37VsXuXRYVFqs=
 			</data>
 		</dict>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PUG8Iak4lha3IO59REWJLv4yln3J1o5/DhxVyP5tohE=
+			Gr+xqYRIobcICwfI+kzh6vt5e/PgPEqTb6f+WRrPx3M=
 			</data>
 		</dict>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jgj/iIvqFM6IkBqVk3k2XQqGeH4L9rNMavTWDYz80BU=
+			EPo3D7GygmJRFyLZs14yRyJbbbZsiegG7/8zfpc1sJY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -399,8 +399,6 @@ SWIFT_PROTOCOL("_TtP11Momento_iOS19MomentVideoDelegate_")
 @protocol MomentVideoDelegate
 /// 광고 비디오가 Load에 성공한 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
 - (void)onVideoLoadedWithDspName:(NSString * _Nonnull)dspName;
-/// 광고 비디오가 중간에 Stop된 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
-- (void)onVideoStoped;
 /// 광고 비디오를 끝까지 모두 시청한 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
 - (void)onVideoComplete;
 /// 리워드형 광고 비디오를 중간에 종료한 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
@@ -861,8 +859,6 @@ SWIFT_PROTOCOL("_TtP11Momento_iOS19MomentVideoDelegate_")
 @protocol MomentVideoDelegate
 /// 광고 비디오가 Load에 성공한 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
 - (void)onVideoLoadedWithDspName:(NSString * _Nonnull)dspName;
-/// 광고 비디오가 중간에 Stop된 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
-- (void)onVideoStoped;
 /// 광고 비디오를 끝까지 모두 시청한 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
 - (void)onVideoComplete;
 /// 리워드형 광고 비디오를 중간에 종료한 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
