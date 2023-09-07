@@ -31672,126 +31672,42 @@
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 5808,
+      "offset": 5799,
       "length": 35,
       "value": "\"adm_clickTrackers_send, \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 5842,
+      "offset": 5833,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 6223,
-      "length": 13,
-      "value": "\";\/?:@&=+$, \""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentNativeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6527,
-      "length": 9,
-      "value": "\"browser\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentNativeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6545,
-      "length": 39,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentNativeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6569,
-      "length": 13,
-      "value": "\"AppleWebKit\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentNativeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6583,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentNativeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6638,
-      "length": 17,
-      "value": "\"browser_version\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentNativeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6664,
-      "length": 35,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentNativeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6687,
-      "length": 10,
-      "value": "\"605.1.15\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentNativeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6698,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentNativeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6753,
+      "offset": 6132,
       "length": 5,
       "value": "\"uri\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 6767,
-      "length": 15,
+      "offset": 6146,
+      "length": 33,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 6781,
+      "offset": 6178,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 6836,
-      "length": 8,
-      "value": "\"reopen\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentNativeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6853,
-      "length": 3,
-      "value": "\"1\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentNativeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 7050,
-      "length": 33,
-      "value": "\"adm_redirectUrl_send, \""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentNativeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 7082,
+      "offset": 6292,
       "length": 2,
       "value": "\"\""
     },
@@ -32917,344 +32833,344 @@
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26158,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 26338,
+      "offset": 26448,
       "length": 3,
       "value": "600"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 26386,
+      "offset": 26496,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 26419,
+      "offset": 26529,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 26818,
+      "offset": 26928,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 26862,
+      "offset": 26972,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 26897,
+      "offset": 27007,
       "length": 22,
       "value": "\"speakerOffImageWhite\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 26997,
+      "offset": 27107,
       "length": 22,
       "value": "\"speakerOffImageWhite\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 27177,
+      "offset": 27287,
       "length": 22,
       "value": "\"speakerOffImageWhite\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 27270,
+      "offset": 27380,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 27330,
+      "offset": 27440,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 27366,
+      "offset": 27476,
       "length": 21,
       "value": "\"speakerOnImageWhite\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 27465,
+      "offset": 27575,
       "length": 21,
       "value": "\"speakerOnImageWhite\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 27644,
+      "offset": 27754,
       "length": 21,
       "value": "\"speakerOnImageWhite\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 27736,
+      "offset": 27846,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 28171,
+      "offset": 28281,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 28252,
+      "offset": 28362,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 28368,
+      "offset": 28478,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 28450,
+      "offset": 28560,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 28523,
+      "offset": 28633,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 28605,
+      "offset": 28715,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 29072,
+      "offset": 29182,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 29247,
+      "offset": 29357,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 29272,
+      "offset": 29382,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 29469,
+      "offset": 29579,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 29546,
+      "offset": 29656,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 29618,
+      "offset": 29728,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 29721,
+      "offset": 29831,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 29751,
+      "offset": 29889,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 29810,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 29857,
+      "offset": 29936,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 30120,
+      "offset": 30199,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 30159,
+      "offset": 30238,
       "length": 41,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 30178,
+      "offset": 30257,
       "length": 3,
       "value": "\"초 후 소리 재생\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 30227,
+      "offset": 30306,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 30266,
+      "offset": 30345,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 30315,
+      "offset": 30394,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 30448,
+      "offset": 30527,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 30494,
+      "offset": 30573,
       "length": 21,
       "value": "\"speakerOnImageWhite\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 30593,
+      "offset": 30672,
       "length": 21,
       "value": "\"speakerOnImageWhite\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 30772,
+      "offset": 30851,
       "length": 21,
       "value": "\"speakerOnImageWhite\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 30861,
+      "offset": 30940,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 31129,
+      "offset": 31208,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 31229,
+      "offset": 31308,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 31272,
+      "offset": 31351,
       "length": 4,
       "value": "0.10"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 31366,
+      "offset": 31445,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 31420,
+      "offset": 31499,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 31468,
+      "offset": 31547,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 31585,
+      "offset": 31664,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 31627,
+      "offset": 31706,
       "length": 4,
       "value": "true"
     },
@@ -33268,324 +33184,310 @@
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 32355,
+      "offset": 32434,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 32750,
+      "offset": 32829,
       "length": 39,
       "value": "\"Video_ext_trackers_firstQuartile_send\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 33025,
+      "offset": 33104,
       "length": 34,
       "value": "\"Video_ext_trackers_midpoint_send\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 33310,
+      "offset": 33389,
       "length": 39,
       "value": "\"Video_ext_trackers_thireQuartile_send\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 34273,
+      "offset": 34352,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 34354,
+      "offset": 34433,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 34369,
+      "offset": 34448,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 34459,
+      "offset": 34538,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 34551,
+      "offset": 34630,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 34638,
+      "offset": 34717,
       "length": 3,
       "value": "-50"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 34654,
+      "offset": 34733,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 34729,
+      "offset": 34808,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 34744,
+      "offset": 34823,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 34809,
+      "offset": 34888,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 34824,
+      "offset": 34903,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 34930,
+      "offset": 35009,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 34945,
+      "offset": 35024,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 35036,
+      "offset": 35115,
       "length": 3,
       "value": "-18"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 35052,
+      "offset": 35131,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 35174,
+      "offset": 35253,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 35189,
+      "offset": 35268,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 35287,
+      "offset": 35366,
       "length": 3,
       "value": "-18"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 35303,
+      "offset": 35382,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 35375,
+      "offset": 35454,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 35390,
+      "offset": 35469,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 35463,
+      "offset": 35542,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 35478,
+      "offset": 35557,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 35554,
+      "offset": 35633,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 35569,
+      "offset": 35648,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 35635,
+      "offset": 35714,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 35650,
+      "offset": 35729,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 35757,
+      "offset": 35836,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 35772,
+      "offset": 35851,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 35862,
+      "offset": 35941,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 35877,
+      "offset": 35956,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 35991,
+      "offset": 36070,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 36091,
+      "offset": 36170,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 36106,
+      "offset": 36185,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 36224,
+      "offset": 36303,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 36318,
+      "offset": 36397,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 36414,
+      "offset": 36493,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 36517,
+      "offset": 36596,
       "length": 3,
       "value": "-12"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 36533,
+      "offset": 36612,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 36623,
+      "offset": 36702,
       "length": 3,
       "value": "-20"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 36639,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 36703,
-      "length": 2,
-      "value": "96"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
@@ -33597,84 +33499,98 @@
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 36783,
+      "offset": 36782,
+      "length": 2,
+      "value": "96"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 36797,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 36862,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 36798,
+      "offset": 36877,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 36878,
+      "offset": 36957,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 36893,
+      "offset": 36972,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 36963,
+      "offset": 37042,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 36978,
+      "offset": 37057,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 37078,
+      "offset": 37157,
       "length": 3,
       "value": "-12"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 37094,
+      "offset": 37173,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 37188,
+      "offset": 37267,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 37203,
+      "offset": 37282,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 37307,
+      "offset": 37386,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 37398,
+      "offset": 37477,
       "length": 4,
       "value": "true"
     },
@@ -34079,358 +33995,232 @@
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 290,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 531,
+      "offset": 499,
       "length": 44,
       "value": "\"var meta = document.createElement('meta');\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 586,
+      "offset": 554,
       "length": 25,
       "value": "\"meta.name = 'viewport';\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 622,
+      "offset": 590,
       "length": 95,
       "value": "\"meta.content = 'width=device-width, initial-scale=1.0, maximum- scale=1.0, user-scalable=no';\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 728,
+      "offset": 696,
       "length": 54,
       "value": "\"var head = document.getElementsByTagName('head')[0];\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 785,
+      "offset": 753,
       "length": 25,
       "value": "\"head.appendChild(meta);\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 999,
+      "offset": 967,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1305,
+      "offset": 1273,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1459,
+      "offset": 1427,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1542,
+      "offset": 1510,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 1713,
+      "offset": 1681,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1836,
+      "offset": 1804,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1953,
+      "offset": 1921,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 2223,
+      "offset": 2191,
       "length": 101,
       "value": "\"createWebViewWith : \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 2295,
+      "offset": 2263,
       "length": 1,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 2323,
+      "offset": 2291,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 2583,
+      "offset": 2551,
       "length": 20,
       "value": "\"finishload webview\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2648,
+      "offset": 2616,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 2775,
+      "offset": 2743,
       "length": 26,
       "value": "\"trackers_impression_send\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 2955,
+      "offset": 2923,
       "length": 63,
       "value": "\"redirect : \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3017,
+      "offset": 2985,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3262,
+      "offset": 3230,
       "length": 70,
       "value": "\"MomentoBannerWebView - decidePolicyFor : \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3331,
+      "offset": 3299,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3465,
+      "offset": 3433,
       "length": 13,
       "value": "\"about:blank\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3508,
+      "offset": 3476,
       "length": 14,
       "value": "\"about:srcdoc\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3543,
+      "offset": 3511,
       "length": 18,
       "value": "\"open targetFrame\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3746,
+      "offset": 3714,
       "length": 11,
       "value": "\"itms-apps\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4031,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 4212,
+      "offset": 4084,
       "length": 32,
       "value": "\"trackers_click_send, \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 4243,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
-      "kind": "FloatLiteral",
-      "offset": 4530,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 4565,
-      "length": 47,
-      "value": "\"redirect URL : \""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 4611,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4649,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 5013,
-      "length": 13,
-      "value": "\";\/?:@&=+$, \""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 5313,
+      "offset": 4115,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 5374,
-      "length": 9,
-      "value": "\"browser\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 5392,
-      "length": 39,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 5416,
-      "length": 13,
-      "value": "\"AppleWebKit\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 5430,
+      "offset": 4219,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 5489,
-      "length": 17,
-      "value": "\"browser_version\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 5515,
-      "length": 35,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 5538,
-      "length": 10,
-      "value": "\"605.1.15\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 5549,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 5608,
+      "offset": 4271,
       "length": 5,
       "value": "\"uri\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 5622,
-      "length": 15,
+      "offset": 4285,
+      "length": 26,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 5636,
+      "offset": 4310,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 5695,
-      "length": 8,
-      "value": "\"reopen\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 5712,
-      "length": 3,
-      "value": "\"1\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 5941,
-      "length": 33,
-      "value": "\"adm_redirectUrl_send, \""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentBannerWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 5973,
+      "offset": 4416,
       "length": 2,
       "value": "\"\""
     },
@@ -34620,111 +34410,111 @@
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentSDK.swift",
       "kind": "StringLiteral",
       "offset": 358,
-      "length": 8,
-      "value": "\"0.1.37\""
+      "length": 7,
+      "value": "\"1.0.2\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 404,
+      "offset": 403,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 483,
+      "offset": 482,
       "length": 25,
       "value": "\"debug set :\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 507,
+      "offset": 506,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 639,
+      "offset": 638,
       "length": 11,
       "value": "\"userAgent\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 687,
+      "offset": 686,
       "length": 19,
       "value": "\"UserAgent : \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 705,
+      "offset": 704,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 847,
+      "offset": 846,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 876,
+      "offset": 875,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 986,
+      "offset": 985,
       "length": 10,
       "value": "\"linearAd\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1035,
+      "offset": 1034,
       "length": 13,
       "value": "\"companionAd\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 847,
+      "offset": 846,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 876,
+      "offset": 875,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1264,
+      "offset": 1263,
       "length": 14,
       "value": "\"IAB_TCString\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1795,
+      "offset": 1794,
       "length": 19,
       "value": "\"stats : \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoFrameworkBuilder\/Momento_iOS\/Momento_iOS\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1813,
+      "offset": 1812,
       "length": 2,
       "value": "\"\""
     },
