@@ -1,6 +1,6 @@
 # Momento iOS Guide
 
-Guide Document Update date → **2023.08.31**        SDK version → **1.0.2**
+Guide Document Update date → **2023.09.18**        SDK version → **1.0.3**
 
 Minimum iOS Development Target → **Ver.11.0**
 
@@ -123,7 +123,6 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
         @IBOutlet weak var titleLabel: UILabel!
         @IBOutlet weak var descriptionLabel: UILabel!
         @IBOutlet weak var logoImageView: UIImageView!
-    		@IBOutlet weak var optionalButton: UIButton!
         
         private var getUnitId = ""
         
@@ -147,7 +146,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
         }
         
         @objc public func loadAd() {
-            manager.loadWithRendering(mainImageView: imageView, logoImageView: logoImageView, titleLabel: titleLabel, descriptionLabel: descriptionLabel, button: button, optionalButton: optionalButton, timeOut: 10)
+            manager.loadWithRendering(mainImageView: imageView, logoImageView: logoImageView, titleLabel: titleLabel, descriptionLabel: descriptionLabel, button: button, timeOut: 10)
         }
         
         required init?(coder: NSCoder) {
@@ -172,7 +171,6 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
         var titleLabel = UILabel()
         var descriptionLabel = UILabel()
         var button = UIButton()
-        var optionalButton = UIButton()
         
         /* SnapKit과 Then을 사용하여 View를 구성하는 경우, 아래의 With SnapKit + Then 주석을 참고하여 적용할 수 있습니다. */
         var mainImageView: UIImageView!
@@ -182,7 +180,6 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
         var titleLabel: UILabel!
         var descriptionLabel: UILabel!
         var button: UIButton!
-        var optionalButton: UIButton!
         
         private var getUnitId = ""
         
@@ -203,7 +200,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
         
         @objc public func loadAd() {
     				if mainImageView == nil { setupWithLayout() } // With SnapKit + Then
-            manager.loadWithRendering(mainImageView: mainImageView, logoImageView: logoImageView, titleLabel: titleLabel, descriptionLabel: descriptionLabel, button: button, optionalButton: optionalButton, timeOut: 10)
+            manager.loadWithRendering(mainImageView: mainImageView, logoImageView: logoImageView, titleLabel: titleLabel, descriptionLabel: descriptionLabel, button: button, timeOut: 10)
             setupView() // Without SnapKit + Then
             layout() // Without SnapKit + Then
         }
@@ -296,17 +293,6 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
                     $0.top.equalTo(stackH.snp.bottom).offset(25)
                 }
             }
-    
-            optionalButton = UIButton().then {
-                $0.translatesAutoresizingMaskIntoConstraints = false
-                $0.backgroundColor = .clear
-                $0.clipsToBounds = true
-                self.addSubview($0)
-                $0.snp.makeConstraints {
-                    $0.top.bottom.equalTo(self.safeAreaLayoutGuide)
-                    $0.leading.trailing.equalTo(mainImageView)
-                }
-            }
         }
         
     //MARK: - Using Swift Constraints
@@ -352,15 +338,10 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
             button.clipsToBounds = true
             button.backgroundColor = .blue
             self.addSubview(button)
-    
-    				optionalButton.translatesAutoresizingMaskIntoConstraints = false
-            optionalButton.backgroundColor = .clear
-            optionalButton.clipsToBounds = true
-            self.addSubview(optionalButton)
         }
         
         func layout() {
-    				guard let superview = self.superview else { return }
+            guard let superview = self.superview else { return }
             mainImageView.widthAnchor.constraint(equalToConstant: 300).isActive = true
             mainImageView.heightAnchor.constraint(equalToConstant: 115).isActive = true
             mainImageView.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
@@ -376,11 +357,6 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
             button.widthAnchor.constraint(equalTo: mainImageView.widthAnchor).isActive = true
             button.heightAnchor.constraint(equalToConstant: 42).isActive = true
             button.topAnchor.constraint(equalTo: stackH.bottomAnchor, constant: 25).isActive = true
-    
-    				optionalButton.topAnchor.constraint(equalTo: superview.safeAreaLayoutGuide.topAnchor).isActive = true
-            optionalButton.leadingAnchor.constraint(equalTo: mainImageView.leadingAnchor).isActive = true
-            optionalButton.trailingAnchor.constraint(equalTo: mainImageView.trailingAnchor).isActive = true
-            optionalButton.bottomAnchor.constraint(equalTo: superview.safeAreaLayoutGuide.bottomAnchor).isActive = true
         }
     }
     ```
