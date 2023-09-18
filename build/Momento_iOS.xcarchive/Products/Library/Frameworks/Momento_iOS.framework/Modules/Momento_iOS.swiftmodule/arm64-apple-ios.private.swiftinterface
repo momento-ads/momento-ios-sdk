@@ -1,0 +1,895 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Momento_iOS
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AVKit
+import AdSupport
+import AppTrackingTransparency
+import CoreTelephony
+import Foundation
+@_exported import Momento_iOS
+import StoreKit
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+@objc public protocol MomentVideoDelegate {
+  @objc func onVideoLoaded(dspName: Swift.String)
+  @objc func onVideoComplete()
+  @objc func onVideoRewarded(state: Swift.Bool)
+  @objc func onVideoTimedout()
+  @objc func onVideoShown()
+  @objc func onVideoClosed()
+  @objc func onVideoRemoved()
+  @objc func onVideoClicked(type: Momento_iOS.MomentSDK.videoClickType)
+  @objc func onVideoLoadFailed(description: Swift.String)
+  @objc func onVideoShowFailed(description: Swift.String)
+}
+public struct VMAPExtension {
+}
+public struct VastMediaFile : Swift.Codable {
+  public let delivery: Swift.String
+  public let type: Swift.String
+  public let width: Swift.String
+  public let height: Swift.String
+  public let codec: Swift.String?
+  public let id: Swift.String?
+  public let bitrate: Swift.Int?
+  public let minBitrate: Swift.Int?
+  public let maxBitrate: Swift.Int?
+  public let scalable: Swift.Bool?
+  public let maintainAspectRatio: Swift.Bool?
+  public let apiFramework: Swift.String?
+  public var url: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastMediaFile {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension Momento_iOS.VastMediaFile : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastMediaFile, b: Momento_iOS.VastMediaFile) -> Swift.Bool
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MomentNativeManager : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any Momento_iOS.MomentAdsDelegate)?
+  @objc @_Concurrency.MainActor(unsafe) public init(unitId: Swift.String)
+  @objc deinit
+  @objc @_Concurrency.MainActor(unsafe) public func loadWithRendering(mainImageView: UIKit.UIImageView?, logoImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, button: UIKit.UIButton?, timeOut: Swift.Double = 15)
+  @objc @_Concurrency.MainActor(unsafe) public func destory()
+  @objc @_Concurrency.MainActor(unsafe) public func cancelRequest()
+}
+@objc public class MomentVideoManager : ObjectiveC.NSObject {
+  @objc weak public var videoDelegate: (any Momento_iOS.MomentVideoDelegate)?
+  public init(unitID: Swift.String)
+  @objc deinit
+  public func destroy()
+  @objc public func loadVideo()
+  @objc public func showVideo()
+  @objc public func hasVideoAd() -> Swift.Bool
+}
+extension Momento_iOS.MomentVideoManager : StoreKit.SKStoreProductViewControllerDelegate {
+  @objc dynamic public func productViewControllerDidFinish(_ viewController: StoreKit.SKStoreProductViewController)
+}
+extension Momento_iOS.MomentVideoManager : Momento_iOS.VastTrackerDelegate {
+  public func adFirstQuartile(vastTracker: Momento_iOS.VastTracker, ad: Momento_iOS.VastAd)
+  public func adMidpoint(vastTracker: Momento_iOS.VastTracker, ad: Momento_iOS.VastAd)
+  public func adThirdQuartile(vastTracker: Momento_iOS.VastTracker, ad: Momento_iOS.VastAd)
+}
+public enum TrackingError : Swift.Error {
+  case MissingAdBreak
+  case unableToUpdateProgressTrackingComplete
+  case unableToUpdateProgress(msg: Swift.String)
+  case unableToProvideCreativeClickThroughUrls
+  case internalError(msg: Swift.String)
+  case unableToSkipAdAtThisTime
+  case noAdFound(withId: Swift.String)
+}
+public struct VastCreative : Swift.Codable {
+  public let id: Swift.String?
+  public let adId: Swift.String?
+  public let sequence: Swift.Int?
+  public let apiFramework: Swift.String?
+  public var universalAdId: Momento_iOS.VastUniversalAdId?
+  public var creativeExtensions: [Momento_iOS.VastCreativeExtension]
+  public var linear: Momento_iOS.VastLinearCreative?
+  public var nonLinearAds: Momento_iOS.VastNonLinearAdsCreative?
+  public var companionAds: Momento_iOS.VastCompanionAds?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastCreative {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension Momento_iOS.VastCreative : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastCreative, b: Momento_iOS.VastCreative) -> Swift.Bool
+}
+public struct VastIconClickTracking : Swift.Codable {
+  public let id: Swift.String?
+  public var url: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastIconClickTracking : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastIconClickTracking, b: Momento_iOS.VastIconClickTracking) -> Swift.Bool
+}
+public struct VastAdVerificationParameters : Swift.Codable {
+  public var data: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastAdVerificationParameters : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastAdVerificationParameters, b: Momento_iOS.VastAdVerificationParameters) -> Swift.Bool
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MomentBannerView : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any Momento_iOS.MomentAdsDelegate)? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public init(size: Swift.Int, unitId: Swift.String)
+  @objc deinit
+  @objc @_Concurrency.MainActor(unsafe) public func loadAd()
+  @objc @_Concurrency.MainActor(unsafe) public func destory()
+  @_Concurrency.MainActor(unsafe) public func setBannerWidth(value: CoreFoundation.CGFloat)
+  @_Concurrency.MainActor(unsafe) public func reload()
+}
+public struct VastInteractiveCreativeFile : Swift.Codable {
+  public let type: Swift.String?
+  public let apiFramework: Swift.String?
+  public var url: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastInteractiveCreativeFile : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastInteractiveCreativeFile, b: Momento_iOS.VastInteractiveCreativeFile) -> Swift.Bool
+}
+public protocol VastTrackerNonLinearDelegate : AnyObject {
+  func adBreakStart(vastTracker: Momento_iOS.VastTrackerNonLinear)
+  func adBreakComplete(vastTracker: Momento_iOS.VastTrackerNonLinear)
+}
+public class VastTrackerNonLinear {
+  weak public var delegate: (any Momento_iOS.VastTrackerNonLinearDelegate)?
+  final public let id: Swift.String
+  final public let vastModel: Momento_iOS.VastModel
+  final public let totalAds: Swift.Int
+  final public let startTime: Swift.Double
+  @available(*, message: "do not use VastTracker for storing this model, it is not being used")
+  public var vmapModel: Momento_iOS.VMAPModel?
+  public init(id: Swift.String, vastModel: Momento_iOS.VastModel, startTime: Swift.Double = 0.0, supportAdBuffets: Swift.Bool = false, delegate: (any Momento_iOS.VastTrackerNonLinearDelegate)? = nil, trackProgressCumulatively: Swift.Bool = true)
+  @available(*, message: "Use init(id:,vastModel:) instead")
+  convenience public init(id: Swift.String, vmapModel: Momento_iOS.VMAPModel, breakId: Swift.String, startTime: Swift.Double, supportAdBuffets: Swift.Bool = false, delegate: (any Momento_iOS.VastTrackerNonLinearDelegate)? = nil) throws
+  public func updateProgress(time: Swift.Double) throws
+  public func adBreakCompleted() throws
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class MomentSDK : ObjectiveC.NSObject {
+  @objc public static var shared: Momento_iOS.MomentSDK
+  @objc public func isDebugMode(_ debugMode: Swift.Bool)
+  @objc public enum videoClickType : Swift.Int {
+    case linearAd = 1
+    case companionAd = 2
+    public var typeName: Swift.String {
+      get
+    }
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc public func setTCString(TCSTring: Swift.String)
+  @objc public func getMomentoVersion() -> Swift.String
+  @objc public func setRewardVideoSkipEnabled(_ state: Swift.Bool)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol MomentAdsDelegate {
+  @objc func onAdLoaded(dspName: Swift.String)
+  @objc func onAdFailed(error: any Swift.Error)
+  @objc func onAdClicked()
+  @objc func onAdShowed(isShown: Swift.Bool)
+  @objc func onAdRemoved()
+  @objc func onAdTimedout()
+  @objc func onImageLoaded(imgSize: CoreFoundation.CGSize)
+}
+public struct VastIcon : Swift.Codable {
+  public let program: Swift.String
+  public let width: Swift.Int
+  public let height: Swift.Int
+  public let xPosition: Swift.String
+  public let yPosition: Swift.String
+  public let duration: Swift.Double
+  public let offset: Swift.Double
+  public let apiFramework: Swift.String
+  public let pxratio: Swift.Double
+  public var iconViewTracking: [Foundation.URL]
+  public var iconClicks: Momento_iOS.IconClicks?
+  public var staticResource: [Momento_iOS.VastStaticResource]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastIcon {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension Momento_iOS.VastIcon : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastIcon, b: Momento_iOS.VastIcon) -> Swift.Bool
+}
+public struct VastModel : Swift.Codable {
+  public let version: Swift.String
+  public var ads: [Momento_iOS.VastAd]
+  public var errors: [Foundation.URL]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastModel {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension Momento_iOS.VastModel : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastModel, b: Momento_iOS.VastModel) -> Swift.Bool
+}
+public protocol VastTrackerDelegate : AnyObject {
+  func adFirstQuartile(vastTracker: Momento_iOS.VastTracker, ad: Momento_iOS.VastAd)
+  func adMidpoint(vastTracker: Momento_iOS.VastTracker, ad: Momento_iOS.VastAd)
+  func adThirdQuartile(vastTracker: Momento_iOS.VastTracker, ad: Momento_iOS.VastAd)
+}
+public struct TrackerModel {
+}
+public class VastTracker {
+  weak public var delegate: (any Momento_iOS.VastTrackerDelegate)?
+  final public let vastModel: Momento_iOS.VastModel
+  final public let totalAds: Swift.Int
+  final public let startTime: Swift.Double
+  public init(vastModel: Momento_iOS.VastModel, startTime: Swift.Double = 0.0, supportAdBuffets: Swift.Bool = false, delegate: (any Momento_iOS.VastTrackerDelegate)? = nil, trackProgressCumulatively: Swift.Bool = true)
+  @objc deinit
+}
+extension Momento_iOS.VastTracker {
+  public func updateProgress(time: Swift.Double) throws
+  public func trackAdBreakStart(for adBreak: Momento_iOS.VMAPAdBreak)
+  public func trackAdBreakEnd(for adBreak: Momento_iOS.VMAPAdBreak)
+  public func trackAdBreakEvents(for adBreak: Momento_iOS.VMAPAdBreak, withURLs urls: [Foundation.URL])
+  public func trackAdStart(withId id: Swift.String) throws
+  public func trackAdComplete() throws
+  public func trackSkippedAds(with ids: [Swift.String])
+  public func played() throws
+  public func paused() throws
+  public func resumed() throws
+  public func fullscreen(_ val: Swift.Bool) throws
+  public func rewind() throws
+  public func muted(_ val: Swift.Bool) throws
+  public func acceptedLinearInvitation() throws
+  public func closed() throws
+  public func creativeView(url: Foundation.URL) throws
+  public func companion(url: Foundation.URL) throws
+  public func skip(url: Foundation.URL) throws
+  public func clicked() throws -> Foundation.URL?
+  public func clickedWithCustomAction() throws -> [Foundation.URL]
+  public func error(withReason code: Momento_iOS.VastErrorCodes?) throws
+  public func trackViewability(type: Momento_iOS.VastViewableImpressionType) throws
+}
+extension Swift.String {
+  public var toSeconds: Swift.Double? {
+    get
+  }
+}
+public enum TrackingEventType : Swift.String, Swift.Codable {
+  case firstQuartile
+  case midpoint
+  case thirdQuartile
+  case complete
+  case creativeView
+  case start
+  case mute
+  case unmute
+  case pause
+  case rewind
+  case resume
+  case fullscreen
+  case exitFullscreen
+  case playerExpand
+  case playerCollapse
+  case acceptInvitationLinear
+  case closeLinear
+  case skip
+  case progress
+  case collapse
+  case expand
+  case acceptInvitation
+  case close
+  case unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VastTrackingEvent : Swift.Codable {
+  public let type: Momento_iOS.TrackingEventType
+  public let offset: Swift.Double?
+  public var url: Foundation.URL?
+  public var tracked: Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastTrackingEvent {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension Momento_iOS.VastTrackingEvent : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastTrackingEvent, b: Momento_iOS.VastTrackingEvent) -> Swift.Bool
+}
+public struct VastUniversalAdId : Swift.Codable {
+  public let idRegistry: Swift.String
+  public let idValue: Swift.String
+  public var uniqueCreativeId: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastUniversalAdId {
+  public init?(attrDict: [Swift.String : Swift.String])
+}
+extension Momento_iOS.VastUniversalAdId : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastUniversalAdId, b: Momento_iOS.VastUniversalAdId) -> Swift.Bool
+}
+public struct VastNonLinearAdsCreative : Swift.Codable {
+  public var trackingEvents: [Momento_iOS.VastTrackingEvent]
+  public var nonLinear: [Momento_iOS.VastNonLinear]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastNonLinearAdsCreative : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastNonLinearAdsCreative, b: Momento_iOS.VastNonLinearAdsCreative) -> Swift.Bool
+}
+public struct VastAdCategory : Swift.Codable {
+  public let authority: Foundation.URL?
+  public var category: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastAdCategory : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastAdCategory, b: Momento_iOS.VastAdCategory) -> Swift.Bool
+}
+public struct VastSurvey : Swift.Codable {
+  public let type: Swift.String?
+  public var survey: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastSurvey : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastSurvey, b: Momento_iOS.VastSurvey) -> Swift.Bool
+}
+public struct VMAPModel : Swift.Codable {
+  public let version: Swift.String
+  public var adBreaks: [Momento_iOS.VMAPAdBreak]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VMAPModel {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+public struct VastStaticResource : Swift.Codable {
+  public let creativeType: Swift.String
+  public var url: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastStaticResource : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastStaticResource, b: Momento_iOS.VastStaticResource) -> Swift.Bool
+}
+public enum ClickType : Swift.String, Swift.Codable {
+  case clickThrough
+  case clickTracking
+  case customClick
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VastVideoClick : Swift.Codable {
+  public let id: Swift.String?
+  public let type: Momento_iOS.ClickType
+  public var url: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastVideoClick {
+  public init(type: Momento_iOS.ClickType, attrDict: [Swift.String : Swift.String])
+}
+extension Momento_iOS.VastVideoClick : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastVideoClick, b: Momento_iOS.VastVideoClick) -> Swift.Bool
+}
+public struct VastClientOptions {
+  public let wrapperLimit: Swift.Int
+  public let singleWrapperTimeLimit: Foundation.TimeInterval
+  public let timeLimit: Foundation.TimeInterval
+  public let cachedVMAPModel: Momento_iOS.VMAPModel?
+  public init(wrapperLimit: Swift.Int = 5, singleWrapperTimeLimit: Foundation.TimeInterval = 5, timeLimit: Foundation.TimeInterval = 10, cachedVMAPModel: Momento_iOS.VMAPModel? = nil)
+}
+public class VastClient {
+  public static var trackingLogOutput: ((Swift.String, [Foundation.URL]) -> ())?
+  public init(options: Momento_iOS.VastClientOptions = VastClientOptions())
+  public func parseVast(withContentsOf url: Foundation.URL, completion: @escaping (Momento_iOS.VastModel?, (any Swift.Error)?) -> ())
+  public func parseVast(withDataOf data: Foundation.Data, completion: @escaping (Momento_iOS.VastModel?, (any Swift.Error)?) -> ())
+  public func parseVMAP(withContentsOf url: Foundation.URL) throws -> Momento_iOS.VMAPModel
+  @objc deinit
+}
+public struct VastWrapper : Swift.Codable {
+  public let followAdditionalWrappers: Swift.Bool?
+  public let allowMultipleAds: Swift.Bool?
+  public let fallbackOnNoAd: Swift.Bool?
+  public var adTagUri: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastWrapper : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastWrapper, b: Momento_iOS.VastWrapper) -> Swift.Bool
+}
+public enum VMAPError : Swift.Error {
+  case invalidXMLDocument
+  case invalidVMAPDocument
+  case unableToParseDocument
+  case unableToCreateXMLParser
+  case internalError
+  public static func == (a: Momento_iOS.VMAPError, b: Momento_iOS.VMAPError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct VastImpression : Swift.Codable {
+  public let id: Swift.String?
+  public var url: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastImpression {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension Momento_iOS.VastImpression : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastImpression, b: Momento_iOS.VastImpression) -> Swift.Bool
+}
+public struct VastLinearCreative : Swift.Codable {
+  public let skipOffset: Swift.String?
+  public var duration: Swift.Double?
+  public var adParameters: Momento_iOS.VastAdParameters?
+  public var videoClicks: [Momento_iOS.VastVideoClick]
+  public var trackingEvents: [Momento_iOS.VastTrackingEvent]
+  public var files: Momento_iOS.VastMediaFiles
+  public var icons: [Momento_iOS.VastIcon]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastLinearCreative {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension Momento_iOS.VastLinearCreative : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastLinearCreative, b: Momento_iOS.VastLinearCreative) -> Swift.Bool
+}
+public enum AdType : Swift.String, Swift.Codable {
+  case inline
+  case wrapper
+  case unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VastAd : Swift.Codable {
+  public var type: Momento_iOS.AdType
+  public let id: Swift.String
+  public let sequence: Swift.Int?
+  public let conditionalAd: Swift.Bool?
+  public var adSystem: Momento_iOS.VastAdSystem?
+  public var impressions: [Momento_iOS.VastImpression]
+  public var adVerifications: [Momento_iOS.VastVerification]
+  public var viewableImpression: Momento_iOS.VastViewableImpression?
+  public var pricing: Momento_iOS.VastPricing?
+  public var errors: [Foundation.URL]
+  public var creatives: [Momento_iOS.VastCreative]
+  public var extensions: [Momento_iOS.VastExtension]
+  public var adTitle: Swift.String?
+  public var adCategories: [Momento_iOS.VastAdCategory]
+  public var description: Swift.String?
+  public var advertiser: Swift.String?
+  public var surveys: [Momento_iOS.VastSurvey]
+  public var wrapper: Momento_iOS.VastWrapper?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastAd {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension Momento_iOS.VastAd : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastAd, b: Momento_iOS.VastAd) -> Swift.Bool
+}
+public enum VastErrorCodes : Swift.Int {
+  case xmlParsingError
+  case vastSchemaValidationError
+  case vastVersionOfResponseNotSupported
+  case traffickingError
+  case videoPlayerExpectingDifferentLinearity
+  case videoPlayerExpectingDifferentDuration
+  case videoPlayerExpectingDifferentSize
+  case adCategoryNotProvided
+  case generalWrapperError
+  case timeoutOfVastURI
+  case wrapperLimitReached
+  case noAdsVastResponse
+  case inlineResponseFailedToDisplayInTime
+  case generalLinearError
+  case fileNotFound
+  case timeoutOfMediaFile
+  case mediaFileNotSupported
+  case problemDisplayingMediaFile
+  case conditionalAdRejected
+  case interactiveUnitInNodeNotExecuted
+  case verificationUnitInNodeNotExecuted
+  case generalNonLinearAdsError
+  case creativeDimensionTooLarge
+  case unableToFetchResource
+  case nonLinearResourceNotSupported
+  case generalCompanionAdsError
+  case noAvailableSpace
+  case unableToDisplayCompanion
+  case unableToFetchCompanionResource
+  case companionResourceNotSupported
+  case undefinedError
+  case generalVPAIDError
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct VastCreativeParameter : Swift.Codable {
+  public var creativeId: Swift.String
+  public var name: Swift.String
+  public var type: Swift.String
+  public var content: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastCreativeParameter {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension Momento_iOS.VastCreativeParameter : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastCreativeParameter, b: Momento_iOS.VastCreativeParameter) -> Swift.Bool
+}
+public enum VastViewableImpressionType : Swift.String {
+  case viewable
+  case notViewable
+  case viewUndetermined
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VastViewableImpression : Swift.Codable {
+  public let id: Swift.String
+  public var url: Foundation.URL?
+  public var viewable: [Foundation.URL]
+  public var notViewable: [Foundation.URL]
+  public var viewUndetermined: [Foundation.URL]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastViewableImpression : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastViewableImpression, b: Momento_iOS.VastViewableImpression) -> Swift.Bool
+}
+public struct VastAdSystem : Swift.Codable {
+  public let version: Swift.String?
+  public var system: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastAdSystem : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastAdSystem, b: Momento_iOS.VastAdSystem) -> Swift.Bool
+}
+public enum VMAPAdSourceTemplate : Swift.String, Swift.Codable {
+  case vast
+  case vast1
+  case vast2
+  case vast3
+  case vast4
+  case unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VMAPAdSource : Swift.Codable {
+  public let allowMultipleAds: Swift.Bool
+  public let followRedirects: Swift.Bool
+  public let id: Swift.String
+  public var vastAdData: Momento_iOS.VastModel?
+  public var adTagURI: Foundation.URL?
+  public var customAdData: Swift.String?
+  public var templateType: Momento_iOS.VMAPAdSourceTemplate?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VMAPAdSource {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+public struct VastNonLinear : Swift.Codable {
+  public var height: Swift.String
+  public var id: Swift.String
+  public var width: Swift.String
+  public var staticResource: Momento_iOS.VastStaticResource?
+  public var nonLinearClickTracking: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastNonLinear {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension Momento_iOS.VastNonLinear : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastNonLinear, b: Momento_iOS.VastNonLinear) -> Swift.Bool
+}
+public struct VastAdParameters : Swift.Codable {
+  public let xmlEncoded: Swift.String?
+  public var content: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastAdParameters : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastAdParameters, b: Momento_iOS.VastAdParameters) -> Swift.Bool
+}
+public enum PricingModel : Swift.String, Swift.Codable {
+  case cpc
+  case cpm
+  case cpe
+  case cpv
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VastPricing : Swift.Codable {
+  public let model: Momento_iOS.PricingModel
+  public let currency: Swift.String
+  public var pricing: Swift.Double?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastPricing : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastPricing, b: Momento_iOS.VastPricing) -> Swift.Bool
+}
+public struct VastMediaFiles : Swift.Codable {
+  public var mediaFiles: [Momento_iOS.VastMediaFile]
+  public var interactiveCreativeFiles: [Momento_iOS.VastInteractiveCreativeFile]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastMediaFiles : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastMediaFiles, b: Momento_iOS.VastMediaFiles) -> Swift.Bool
+}
+public struct VastExtension : Swift.Codable {
+  public let type: Swift.String
+  public var creativeParameters: [Momento_iOS.VastCreativeParameter]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastExtension {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension Momento_iOS.VastExtension : Swift.Equatable {
+  public static func == (lhs: Momento_iOS.VastExtension, rhs: Momento_iOS.VastExtension) -> Swift.Bool
+}
+public enum VMAPTrackingEventType : Swift.String, Swift.Codable {
+  case breakStart
+  case breakEnd
+  case error
+  case unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VMAPTrackingEvent : Swift.Codable {
+  public let event: Momento_iOS.VMAPTrackingEventType
+  public var url: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VMAPTrackingEvent {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+public struct IconClicks : Swift.Codable {
+  public var iconClickThrough: Foundation.URL?
+  public var iconClickTracking: [Momento_iOS.VastIconClickTracking]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.IconClicks : Swift.Equatable {
+  public static func == (a: Momento_iOS.IconClicks, b: Momento_iOS.IconClicks) -> Swift.Bool
+}
+public enum VMAPErrorCodes : Swift.Int {
+  case undefined
+  case vmapSchemaError
+  case vmapResponesVersionNotSupported
+  case vmapParsingError
+  case adBreakTypeNotSupported
+  case generalAdResponseDocumentError
+  case adResponseTemplateTypeNotSupported
+  case adResponseDocumentExtractionOrParsingError
+  case adResponseDocumentRetrievalTimeout
+  case adResponseDocumentRetrievalError
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum VastError : Swift.Error {
+  case invalidXMLDocument
+  case invalidVASTDocument
+  case unableToParseDocument
+  case unableToCreateXMLParser
+  case wrapperLimitReached
+  case singleRequestTimeLimitReached
+  case wrapperTimeLimitReached
+  case internalError
+  public static func == (a: Momento_iOS.VastError, b: Momento_iOS.VastError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum VMAPAdBreakType : Swift.String, Swift.Codable {
+  case linear
+  case nonlinear
+  case display
+  case unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VMAPAdBreak : Swift.Codable {
+  public var breakId: Swift.String?
+  public var repeatAfter: Swift.String?
+  public let breakType: Momento_iOS.VMAPAdBreakType
+  public let timeOffset: Swift.String
+  public var adSource: Momento_iOS.VMAPAdSource?
+  public var trackingEvents: [Momento_iOS.VMAPTrackingEvent]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VMAPAdBreak {
+  public init(attrDict: [Swift.String : Swift.String])
+  public func trackEvent(withType type: Momento_iOS.VMAPTrackingEventType)
+  public func trackEvents(withUrls urls: [Foundation.URL])
+}
+public enum CompanionsRequirement : Swift.String, Swift.Codable {
+  case all
+  case any
+  case none
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct VastCompanionAds : Swift.Codable {
+  public let required: Momento_iOS.CompanionsRequirement
+  public var companions: [Momento_iOS.VastCompanionCreative]
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastCompanionAds {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension Momento_iOS.VastCompanionAds : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastCompanionAds, b: Momento_iOS.VastCompanionAds) -> Swift.Bool
+}
+public struct VastCreativeExtension : Swift.Codable {
+  public let mimeType: Swift.String?
+  public var content: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastCreativeExtension {
+  public init?(attrDict: [Swift.String : Swift.String])
+}
+extension Momento_iOS.VastCreativeExtension : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastCreativeExtension, b: Momento_iOS.VastCreativeExtension) -> Swift.Bool
+}
+public struct VastVerification : Swift.Codable {
+  public let vendor: Foundation.URL?
+  public var viewableImpression: Momento_iOS.VastViewableImpression?
+  public var javaScriptResource: [Momento_iOS.VastResource]
+  public var flashResources: [Momento_iOS.VastResource]
+  public var verificationParameters: Momento_iOS.VastAdVerificationParameters?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastVerification : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastVerification, b: Momento_iOS.VastVerification) -> Swift.Bool
+}
+public struct VastResource : Swift.Codable {
+  public let apiFramework: Swift.String?
+  public var url: Foundation.URL?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastResource : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastResource, b: Momento_iOS.VastResource) -> Swift.Bool
+}
+public struct VastCompanionClickTracking {
+  public let id: Swift.String?
+}
+public struct VastCompanionCreative : Swift.Codable {
+  public let width: Swift.Int
+  public let height: Swift.Int
+  public let id: Swift.String?
+  public let assetWidth: Swift.Int?
+  public let assetHeight: Swift.Int?
+  public let expandedWidth: Swift.Int?
+  public let expandedHeight: Swift.Int?
+  public let apiFramework: Swift.String?
+  public let adSlotId: Swift.String?
+  public let pxRatio: Swift.Double?
+  public var staticResource: [Momento_iOS.VastStaticResource]
+  public var iFrameResource: [Foundation.URL]
+  public var htmlResource: [Foundation.URL]
+  public var altText: Swift.String?
+  public var companionClickThrough: Foundation.URL?
+  public var companionClickTracking: [Foundation.URL]
+  public var trackingEvents: [Momento_iOS.VastTrackingEvent]
+  public var adParameters: Momento_iOS.VastAdParameters?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension Momento_iOS.VastCompanionCreative {
+  public init(attrDict: [Swift.String : Swift.String])
+}
+extension Momento_iOS.VastCompanionCreative : Swift.Equatable {
+  public static func == (a: Momento_iOS.VastCompanionCreative, b: Momento_iOS.VastCompanionCreative) -> Swift.Bool
+}
+extension Momento_iOS.MomentSDK.videoClickType : Swift.Equatable {}
+extension Momento_iOS.MomentSDK.videoClickType : Swift.Hashable {}
+extension Momento_iOS.MomentSDK.videoClickType : Swift.RawRepresentable {}
+extension Momento_iOS.TrackingEventType : Swift.Equatable {}
+extension Momento_iOS.TrackingEventType : Swift.Hashable {}
+extension Momento_iOS.TrackingEventType : Swift.RawRepresentable {}
+extension Momento_iOS.ClickType : Swift.Equatable {}
+extension Momento_iOS.ClickType : Swift.Hashable {}
+extension Momento_iOS.ClickType : Swift.RawRepresentable {}
+extension Momento_iOS.VMAPError : Swift.Equatable {}
+extension Momento_iOS.VMAPError : Swift.Hashable {}
+extension Momento_iOS.AdType : Swift.Equatable {}
+extension Momento_iOS.AdType : Swift.Hashable {}
+extension Momento_iOS.AdType : Swift.RawRepresentable {}
+extension Momento_iOS.VastErrorCodes : Swift.Equatable {}
+extension Momento_iOS.VastErrorCodes : Swift.Hashable {}
+extension Momento_iOS.VastErrorCodes : Swift.RawRepresentable {}
+extension Momento_iOS.VastViewableImpressionType : Swift.Equatable {}
+extension Momento_iOS.VastViewableImpressionType : Swift.Hashable {}
+extension Momento_iOS.VastViewableImpressionType : Swift.RawRepresentable {}
+extension Momento_iOS.VMAPAdSourceTemplate : Swift.Equatable {}
+extension Momento_iOS.VMAPAdSourceTemplate : Swift.Hashable {}
+extension Momento_iOS.VMAPAdSourceTemplate : Swift.RawRepresentable {}
+extension Momento_iOS.PricingModel : Swift.Equatable {}
+extension Momento_iOS.PricingModel : Swift.Hashable {}
+extension Momento_iOS.PricingModel : Swift.RawRepresentable {}
+extension Momento_iOS.VMAPTrackingEventType : Swift.Equatable {}
+extension Momento_iOS.VMAPTrackingEventType : Swift.Hashable {}
+extension Momento_iOS.VMAPTrackingEventType : Swift.RawRepresentable {}
+extension Momento_iOS.VMAPErrorCodes : Swift.Equatable {}
+extension Momento_iOS.VMAPErrorCodes : Swift.Hashable {}
+extension Momento_iOS.VMAPErrorCodes : Swift.RawRepresentable {}
+extension Momento_iOS.VastError : Swift.Equatable {}
+extension Momento_iOS.VastError : Swift.Hashable {}
+extension Momento_iOS.VMAPAdBreakType : Swift.Equatable {}
+extension Momento_iOS.VMAPAdBreakType : Swift.Hashable {}
+extension Momento_iOS.VMAPAdBreakType : Swift.RawRepresentable {}
+extension Momento_iOS.CompanionsRequirement : Swift.Equatable {}
+extension Momento_iOS.CompanionsRequirement : Swift.Hashable {}
+extension Momento_iOS.CompanionsRequirement : Swift.RawRepresentable {}

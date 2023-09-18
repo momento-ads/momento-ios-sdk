@@ -1,0 +1,11 @@
+framework module Momento_iOS {
+  umbrella header "Momento_iOS.h"
+
+  export *
+  module * { export * }
+}
+
+module Momento_iOS.Swift {
+  header "Momento_iOS-Swift.h"
+  requires objc
+}
