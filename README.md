@@ -1,6 +1,6 @@
 # Momento iOS Guide
 
-Guide Document Update date → **2023.09.18**        SDK version → **1.0.4**
+Guide Document Update date → **2023.10.19**        SDK version → **1.0.5**
 
 Minimum iOS Development Target → **Ver.11.0**
 
@@ -46,7 +46,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 - onVideoLoaded(dspName: String)
     - 광고 비디오가 Load에 성공한 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
 - ~~onVideoStoped()~~ → **Duplicated(1.0.1)**
-    - 광고 비디오가 중간에 Stop된 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
+    - ~~광고 비디오가 중간에 Stop된 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.~~
 - onVideoComplete()
     - 광고 비디오를 끝까지 모두 시청한 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
 - onVideoRewarded(state: Bool)
@@ -469,10 +469,13 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 - MomentSDK.shared.rewardVideoSkippable(_: Bool)
     - 모멘토의 리워드 비디오는 사용자가 스킵버튼을 누를 수 있으며, 스킵버튼을 누를 시 `계속 시청하여 보상받기` 혹은 `보상을 포기하고 시청 종료하기` 중 하나를 선택하도록 되어있습니다. 하지만 이와같은 기능이 필요 없고, 리워드 비디오를 무조건 끝까지 시청하도록 원하는 경우 위 함수의 값을 `false`로 변경하여 해당 기능을 사용하지 않을 수 있습니다. `default value`는 `true`입니다.
+    
+## SKAN
+
+- SKAdNetwork
+    - 모멘토 0.1.43버전(public 1.0.4)부터 SKAN을 지원합니다. SKAN 사용에 관해서는 contact@momento.team으로 연락 주시기 바랍니다.    
 
 # GDPR 준수 가이드
-
-MomentoiOS SDK GDPR준수 Minimum Version → **0.1.32**
 
 본 가이드는 GDPR을 준수해야하는 매체를 위해 제작되었습니다.
 
