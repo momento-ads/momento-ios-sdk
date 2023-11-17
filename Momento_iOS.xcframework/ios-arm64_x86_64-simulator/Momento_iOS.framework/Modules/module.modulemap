@@ -1,7 +1,7 @@
 framework module Momento_iOS {
   umbrella header "Momento_iOS.h"
-
   export *
+
   module * { export * }
 }
 
