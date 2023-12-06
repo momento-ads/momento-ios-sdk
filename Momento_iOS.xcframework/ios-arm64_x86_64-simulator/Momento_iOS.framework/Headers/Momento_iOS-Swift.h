@@ -453,6 +453,7 @@ SWIFT_CLASS("_TtC11Momento_iOS18MomentVideoManager")
 
 
 
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -912,6 +913,7 @@ SWIFT_CLASS("_TtC11Momento_iOS18MomentVideoManager")
 @interface MomentVideoManager (SWIFT_EXTENSION(Momento_iOS)) <SKStoreProductViewControllerDelegate>
 - (void)productViewControllerDidFinish:(SKStoreProductViewController * _Nonnull)viewController;
 @end
+
 
 
 

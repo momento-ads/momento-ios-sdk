@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Momento_iOS-Swift.h</key>
 		<data>
-		ULAXOMCysMqdaxkN4Z6+87WO/dk=
+		VRnohFKTYaAph24H8epa0lUmFe0=
 		</data>
 		<key>Headers/Momento_iOS.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		1zRz8E0q03+B74wN2gOdEr6BoPI=
+		N1Ner50zgx93iu+/4UdzDhebT7s=
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		t2Cx0n0tB4sfjsuWfwh65YqlPEk=
+		uQIQu58+3Z8K25qcsd9vBPajHP4=
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		1zRz8E0q03+B74wN2gOdEr6BoPI=
+		N1Ner50zgx93iu+/4UdzDhebT7s=
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Znk++D9Rt63KEKdOd4d3mQKublg=
+		Pm4J2sMMghny6HxKFVRk3fb8px0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,6 +83,18 @@
 		<key>momentoLogo@3x.png</key>
 		<data>
 		I51mBQgXViOJoBfCFaECSbsoeE8=
+		</data>
+		<key>optOutImage.png</key>
+		<data>
+		XqNslMWoGibcfYNIMlcJ57uygac=
+		</data>
+		<key>optOutImage@2x.png</key>
+		<data>
+		81aWavrFkvfWvlhbcSR4VPEkcd8=
+		</data>
+		<key>optOutImage@3x.png</key>
+		<data>
+		KbVEn2IHRo0mm8fxv+VE0KWOwBA=
 		</data>
 		<key>skipImageWhite.png</key>
 		<data>
@@ -127,7 +139,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PCjDSPFd1M+4dFyazO2vZ3CrOE4t6QzmrUXOMFxkWBI=
+			oaN/ap7Q6KX7bW5jVvUp7aEAuVYQ5+xmKyNtDpU+i9c=
 			</data>
 		</dict>
 		<key>Headers/Momento_iOS.h</key>
@@ -141,7 +153,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KIZ6ACDkHx0fA/3owwLjfpGnJu3CRTgTASJOVhDVqWo=
+			+3aN97u889AoyyYDmxawOAE8wbQflKEhB1MgmItNeio=
 			</data>
 		</dict>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -169,14 +181,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			meW2/fYz5z4zgW+AEkbZRwDd0p4qfqqCkDk+63uRrE4=
+			rJNoA81N4ADpFzNqyIFRnB/6cZgKgKnR8wgHBIC7cwk=
 			</data>
 		</dict>
 		<key>Modules/Momento_iOS.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KIZ6ACDkHx0fA/3owwLjfpGnJu3CRTgTASJOVhDVqWo=
+			+3aN97u889AoyyYDmxawOAE8wbQflKEhB1MgmItNeio=
 			</data>
 		</dict>
 		<key>Modules/Momento_iOS.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -204,7 +216,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gYhahGQ1l24IGSxV2o3XQEosOJdHDAgNUIpc/84g5Bc=
+			JFr4KbsW2SICvvp5VG9/fm//5nv7584FMPYwJBmB1S0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -254,6 +266,27 @@
 			<key>hash2</key>
 			<data>
 			FPADUroKJkb3Bysxmi15jKOkgqEmDbF7NBZJR8EsZpY=
+			</data>
+		</dict>
+		<key>optOutImage.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+tHk6DU54gLqNRbt+lzC6R3o/9jJPzxHfWz9r8gkLSY=
+			</data>
+		</dict>
+		<key>optOutImage@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MOWXZIP/bcAgh+rsdP7nyLID0d/+ZjLY11PbN6/HT0c=
+			</data>
+		</dict>
+		<key>optOutImage@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WdI1fRzHUFL4qAoj+jPnS+OqMyJIUIhhQGhFm0DCDsM=
 			</data>
 		</dict>
 		<key>skipImageWhite.png</key>

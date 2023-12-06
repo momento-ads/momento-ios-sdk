@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Momento_iOS-Swift.h</key>
 		<data>
-		VgzkmpdmAuGZu1l+HoROhAN7ZqA=
+		6YjkkQh5E4/oqatS8wlCJHrFONk=
 		</data>
 		<key>Headers/Momento_iOS.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		1zRz8E0q03+B74wN2gOdEr6BoPI=
+		N1Ner50zgx93iu+/4UdzDhebT7s=
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Kox/A++crjEqYjlGK/JnfBQOG/4=
+		+BPFSAoRGmSQ76ZkCUm1lpujo7o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,6 +63,18 @@
 		<key>momentoLogo@3x.png</key>
 		<data>
 		I51mBQgXViOJoBfCFaECSbsoeE8=
+		</data>
+		<key>optOutImage.png</key>
+		<data>
+		XqNslMWoGibcfYNIMlcJ57uygac=
+		</data>
+		<key>optOutImage@2x.png</key>
+		<data>
+		81aWavrFkvfWvlhbcSR4VPEkcd8=
+		</data>
+		<key>optOutImage@3x.png</key>
+		<data>
+		KbVEn2IHRo0mm8fxv+VE0KWOwBA=
 		</data>
 		<key>skipImageWhite.png</key>
 		<data>
@@ -107,7 +119,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PGLbpa2RAprnuQ7yzm3VhY7UfvNKNIIORmuvDfhxPhM=
+			SGZizku4UNuxbWM/OHJ6j0vqToRjZtTVeqfXORidQoY=
 			</data>
 		</dict>
 		<key>Headers/Momento_iOS.h</key>
@@ -121,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KIZ6ACDkHx0fA/3owwLjfpGnJu3CRTgTASJOVhDVqWo=
+			+3aN97u889AoyyYDmxawOAE8wbQflKEhB1MgmItNeio=
 			</data>
 		</dict>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -149,7 +161,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ivVqofm8SsnrUmdxnA+0c6ef1SaB0mZECC8stS+JOmg=
+			pSuSzRvTEpOfYupRoq06i2neHWr2IOUZcfEC7dThaes=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -199,6 +211,27 @@
 			<key>hash2</key>
 			<data>
 			FPADUroKJkb3Bysxmi15jKOkgqEmDbF7NBZJR8EsZpY=
+			</data>
+		</dict>
+		<key>optOutImage.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+tHk6DU54gLqNRbt+lzC6R3o/9jJPzxHfWz9r8gkLSY=
+			</data>
+		</dict>
+		<key>optOutImage@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MOWXZIP/bcAgh+rsdP7nyLID0d/+ZjLY11PbN6/HT0c=
+			</data>
+		</dict>
+		<key>optOutImage@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WdI1fRzHUFL4qAoj+jPnS+OqMyJIUIhhQGhFm0DCDsM=
 			</data>
 		</dict>
 		<key>skipImageWhite.png</key>
