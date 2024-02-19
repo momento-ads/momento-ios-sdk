@@ -32903,7 +32903,7 @@
       "kind": "StringLiteral",
       "offset": 358,
       "length": 7,
-      "value": "\"1.0.7\""
+      "value": "\"1.0.8\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
@@ -37535,35 +37535,49 @@
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
       "kind": "StringLiteral",
-      "offset": 1081,
+      "offset": 480,
+      "length": 28,
+      "value": "\"MOMENTO SKAN SOURCEAPP :: \""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 529,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
       "kind": "StringLiteral",
-      "offset": 2184,
+      "offset": 1157,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2354,
       "length": 54,
       "value": "\"Error loading product: \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
       "kind": "StringLiteral",
-      "offset": 2237,
+      "offset": 2407,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2485,
+      "offset": 2655,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2571,
+      "offset": 2741,
       "length": 4,
       "value": "true"
     },
