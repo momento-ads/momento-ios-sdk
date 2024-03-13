@@ -32903,7 +32903,7 @@
       "kind": "StringLiteral",
       "offset": 358,
       "length": 7,
-      "value": "\"1.0.8\""
+      "value": "\"1.0.9\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
@@ -34252,77 +34252,84 @@
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 7074,
+      "offset": 6813,
+      "length": 24,
+      "value": "\"MOMENTO_SKAN_MODEL -> \""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7168,
       "length": 22,
       "value": "\"adm_impTrackers_send\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 7240,
+      "offset": 7334,
       "length": 28,
       "value": "\"MomentNativeManagerBinding\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7276,
+      "offset": 7370,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 7307,
+      "offset": 7401,
       "length": 31,
       "value": "\"Failed to binding some reason\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 8501,
+      "offset": 8595,
       "length": 35,
       "value": "\"adm_clickTrackers_send, \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 8535,
+      "offset": 8629,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8673,
+      "offset": 8767,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 9078,
+      "offset": 9172,
       "length": 5,
       "value": "\"uri\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 9092,
+      "offset": 9186,
       "length": 33,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 9124,
+      "offset": 9218,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 9246,
+      "offset": 9340,
       "length": 2,
       "value": "\"\""
     },
@@ -37534,50 +37541,78 @@
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
-      "kind": "StringLiteral",
-      "offset": 480,
-      "length": 28,
-      "value": "\"MOMENTO SKAN SOURCEAPP :: \""
+      "kind": "Dictionary",
+      "offset": 501,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
       "kind": "StringLiteral",
-      "offset": 529,
+      "offset": 818,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
       "kind": "StringLiteral",
-      "offset": 1157,
+      "offset": 967,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
       "kind": "StringLiteral",
-      "offset": 2354,
+      "offset": 1272,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1586,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1982,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2100,
+      "length": 29,
+      "value": "\"MOMENTO_SKAN_PARAMETERS -> \""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2396,
       "length": 54,
       "value": "\"Error loading product: \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
       "kind": "StringLiteral",
-      "offset": 2407,
+      "offset": 2449,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2655,
+      "offset": 2697,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2741,
+      "offset": 2783,
       "length": 4,
       "value": "true"
     },
