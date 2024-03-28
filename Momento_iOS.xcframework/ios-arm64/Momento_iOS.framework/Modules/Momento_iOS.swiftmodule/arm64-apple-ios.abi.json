@@ -32902,111 +32902,111 @@
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
       "kind": "StringLiteral",
       "offset": 358,
-      "length": 7,
-      "value": "\"1.0.9\""
+      "length": 8,
+      "value": "\"1.0.10\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 403,
+      "offset": 404,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 482,
+      "offset": 483,
       "length": 25,
       "value": "\"debug set :\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 506,
+      "offset": 507,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 638,
+      "offset": 639,
       "length": 11,
       "value": "\"userAgent\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 686,
+      "offset": 687,
       "length": 19,
       "value": "\"UserAgent : \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 704,
+      "offset": 705,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 846,
+      "offset": 847,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 875,
+      "offset": 876,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 985,
+      "offset": 986,
       "length": 10,
       "value": "\"linearAd\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1034,
+      "offset": 1035,
       "length": 13,
       "value": "\"companionAd\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 846,
+      "offset": 847,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 875,
+      "offset": 876,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1262,
+      "offset": 1263,
       "length": 14,
       "value": "\"IAB_TCString\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1793,
+      "offset": 1794,
       "length": 19,
       "value": "\"stats : \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1811,
+      "offset": 1812,
       "length": 2,
       "value": "\"\""
     },
@@ -33370,595 +33370,595 @@
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 5425,
+      "offset": 5618,
       "length": 31,
       "value": "\"Tracker Error, trackAdStart()\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 5626,
+      "offset": 5819,
       "length": 31,
       "value": "\"Video_ext_trackers_start_send\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 6005,
+      "offset": 6198,
       "length": 23,
       "value": "\"Tracker Error, skip()\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 6230,
+      "offset": 6423,
       "length": 34,
       "value": "\"Tracker Error, trackAdComplete()\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 6429,
+      "offset": 6622,
       "length": 34,
       "value": "\"Video_ext_trackers_complete_send\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 6894,
+      "offset": 7087,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 7244,
+      "offset": 7437,
       "length": 38,
       "value": "\"Tracker Error, click URL is invalid.\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 7352,
+      "offset": 7545,
       "length": 26,
       "value": "\"Tracker Error, clicked()\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 7541,
+      "offset": 7734,
       "length": 31,
       "value": "\"Video_ext_trackers_click_send\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 7758,
+      "offset": 7951,
       "length": 33,
       "value": "\"Tracker Error, updateProgress()\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 7928,
+      "offset": 8121,
       "length": 25,
       "value": "\"Tracker Error, paused()\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 8091,
+      "offset": 8284,
       "length": 25,
       "value": "\"Tracker Error, resume()\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 8253,
+      "offset": 8637,
       "length": 25,
       "value": "\"Tracker Error, closed()\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 8428,
+      "offset": 8812,
       "length": 23,
       "value": "\"Tracker Error, mute()\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 8612,
+      "offset": 8996,
       "length": 29,
       "value": "\"Tracker Error, fullScreen()\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 9023,
+      "offset": 9407,
       "length": 31,
       "value": "\"Tracker Error, creativeView()\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 9385,
+      "offset": 9769,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 9678,
+      "offset": 10062,
       "length": 38,
       "value": "\"Tracker Error, click URL is invalid.\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 9954,
+      "offset": 10338,
       "length": 28,
       "value": "\"Tracker Error, companion()\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 10157,
+      "offset": 10541,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 10193,
+      "offset": 10577,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10224,
+      "offset": 10608,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 10361,
+      "offset": 10745,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 10460,
+      "offset": 10844,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 10595,
+      "offset": 10979,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11358,
+      "offset": 11742,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11402,
+      "offset": 11786,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11471,
+      "offset": 11855,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11518,
+      "offset": 11902,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11578,
+      "offset": 11962,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11648,
+      "offset": 12032,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 11696,
+      "offset": 12080,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 13281,
+      "offset": 13665,
       "length": 28,
       "value": "\"광고를 종료할까요?\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 13320,
+      "offset": 13704,
       "length": 49,
       "value": "\"지금 종료하면 보상을 잃게 됩니다.\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 13457,
+      "offset": 13841,
       "length": 21,
       "value": "\"계속 시청하기\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 13640,
+      "offset": 14024,
       "length": 8,
       "value": "\"종료\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13787,
+      "offset": 14171,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 14007,
+      "offset": 14391,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15265,
+      "offset": 15649,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 15523,
+      "offset": 15907,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 16167,
+      "offset": 16551,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16247,
+      "offset": 16631,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 16324,
+      "offset": 16708,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16406,
+      "offset": 16790,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 16536,
+      "offset": 16920,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16618,
+      "offset": 17002,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 17372,
+      "offset": 17756,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 17399,
+      "offset": 17783,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 17439,
+      "offset": 17823,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 17464,
+      "offset": 17848,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 17548,
+      "offset": 17932,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 17630,
+      "offset": 18014,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 17707,
+      "offset": 18091,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 17838,
+      "offset": 18222,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 18026,
+      "offset": 18410,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 18088,
+      "offset": 18472,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 18381,
+      "offset": 18765,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 18460,
+      "offset": 18844,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 18527,
+      "offset": 18911,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 18580,
+      "offset": 18964,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 18645,
+      "offset": 19029,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 18724,
+      "offset": 19108,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 18885,
+      "offset": 19269,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 19172,
+      "offset": 19556,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 19419,
+      "offset": 19803,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 19475,
+      "offset": 19859,
       "length": 4,
       "value": "0.10"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 19509,
+      "offset": 19893,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 19555,
+      "offset": 19939,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 19963,
+      "offset": 20347,
       "length": 7,
       "value": "\"Video\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 20230,
+      "offset": 20614,
       "length": 36,
       "value": "\"Failed to modelisation some respon\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 20463,
+      "offset": 20847,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 21240,
+      "offset": 21624,
       "length": 22,
       "value": "\"on Video Load Failed\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 21557,
+      "offset": 21941,
       "length": 18,
       "value": "\"VastModel is nil\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 21687,
+      "offset": 22071,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 21708,
+      "offset": 22092,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 21968,
+      "offset": 22352,
       "length": 4,
       "value": "0.99"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 22056,
+      "offset": 22440,
       "length": 4,
       "value": "0.99"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 23633,
+      "offset": 24017,
       "length": 36,
       "value": "\"Video_ext_trackers_impression_send\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 23745,
+      "offset": 24129,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 24138,
+      "offset": 24522,
       "length": 16,
       "value": "\"apps.apple.com\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 24222,
+      "offset": 24606,
       "length": 14,
       "value": "\"다운로드\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 24333,
+      "offset": 24717,
       "length": 15,
       "value": "\"보러 가기\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 24683,
+      "offset": 25067,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 24939,
+      "offset": 25323,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 24962,
+      "offset": 25346,
       "length": 4,
       "value": "true"
     },
@@ -33972,28 +33972,28 @@
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 25204,
+      "offset": 25588,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 25731,
+      "offset": 26115,
       "length": 39,
       "value": "\"Video_ext_trackers_firstQuartile_send\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 26014,
+      "offset": 26398,
       "length": 34,
       "value": "\"Video_ext_trackers_midpoint_send\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentVideoManager.swift",
       "kind": "StringLiteral",
-      "offset": 26307,
+      "offset": 26691,
       "length": 39,
       "value": "\"Video_ext_trackers_thireQuartile_send\""
     },
@@ -34070,266 +34070,252 @@
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 1058,
+      "offset": 1220,
       "length": 28,
       "value": "\"Deinit MomentNativeManager\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2420,
+      "offset": 2582,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 2496,
+      "offset": 2829,
       "length": 8,
       "value": "\"Native\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 2765,
+      "offset": 3098,
       "length": 33,
       "value": "\"MomentNativeManagerModelisation\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2806,
+      "offset": 3139,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 2837,
+      "offset": 3170,
       "length": 36,
       "value": "\"Failed to modelisation some respon\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 2968,
+      "offset": 3301,
       "length": 31,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 2998,
+      "offset": 3331,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3045,
+      "offset": 3378,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3072,
+      "offset": 3405,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3135,
+      "offset": 3468,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3162,
+      "offset": 3495,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3207,
+      "offset": 3540,
       "length": 27,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3233,
+      "offset": 3566,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3304,
+      "offset": 3637,
       "length": 38,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3341,
+      "offset": 3674,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3396,
+      "offset": 3729,
       "length": 38,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3433,
+      "offset": 3766,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3771,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4036,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4304,
+      "offset": 4115,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 5887,
+      "offset": 5676,
       "length": 13,
       "value": "\"optOutImage\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 5996,
+      "offset": 5785,
       "length": 13,
       "value": "\"optOutImage\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 6202,
+      "offset": 5991,
       "length": 13,
       "value": "\"optOutImage\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6502,
+      "offset": 6291,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 6764,
+      "offset": 6553,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 6813,
+      "offset": 6811,
       "length": 24,
       "value": "\"MOMENTO_SKAN_MODEL -> \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 7168,
+      "offset": 7166,
       "length": 22,
       "value": "\"adm_impTrackers_send\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 7334,
+      "offset": 7332,
       "length": 28,
       "value": "\"MomentNativeManagerBinding\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7370,
+      "offset": 7368,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 7401,
+      "offset": 7399,
       "length": 31,
       "value": "\"Failed to binding some reason\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 8595,
+      "offset": 8593,
       "length": 35,
       "value": "\"adm_clickTrackers_send, \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 8629,
+      "offset": 8627,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8767,
+      "offset": 8765,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 9172,
+      "offset": 9170,
       "length": 5,
       "value": "\"uri\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 9186,
+      "offset": 9184,
       "length": 33,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 9218,
+      "offset": 9216,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 9340,
+      "offset": 9338,
       "length": 2,
       "value": "\"\""
     },
@@ -36534,112 +36520,112 @@
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 2769,
+      "offset": 2939,
       "length": 26,
       "value": "\"trackers_impression_send\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 2949,
+      "offset": 3119,
       "length": 63,
       "value": "\"redirect : \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3011,
+      "offset": 3181,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3256,
+      "offset": 3426,
       "length": 70,
       "value": "\"MomentoBannerWebView - decidePolicyFor : \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3325,
+      "offset": 3495,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3459,
+      "offset": 3629,
       "length": 13,
       "value": "\"about:blank\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3502,
+      "offset": 3672,
       "length": 14,
       "value": "\"about:srcdoc\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 3702,
+      "offset": 3872,
       "length": 11,
       "value": "\"itms-apps\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 4072,
+      "offset": 4242,
       "length": 32,
       "value": "\"trackers_click_send, \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 4103,
+      "offset": 4273,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerWebView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4227,
+      "offset": 4397,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 4418,
+      "offset": 4588,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 4474,
+      "offset": 4644,
       "length": 5,
       "value": "\"uri\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 4488,
+      "offset": 4658,
       "length": 26,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 4513,
+      "offset": 4683,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerWebView.swift",
       "kind": "StringLiteral",
-      "offset": 4627,
+      "offset": 4797,
       "length": 2,
       "value": "\"\""
     },
@@ -37542,79 +37528,212 @@
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
       "kind": "Dictionary",
-      "offset": 501,
+      "offset": 337,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "Dictionary",
+      "offset": 1153,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
       "kind": "StringLiteral",
-      "offset": 818,
+      "offset": 1707,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
       "kind": "StringLiteral",
-      "offset": 967,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1272,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1586,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1982,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2100,
+      "offset": 2436,
       "length": 29,
       "value": "\"MOMENTO_SKAN_PARAMETERS -> \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
       "kind": "StringLiteral",
-      "offset": 2396,
+      "offset": 2732,
       "length": 54,
       "value": "\"Error loading product: \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
       "kind": "StringLiteral",
-      "offset": 2449,
+      "offset": 2785,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2697,
+      "offset": 3033,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2783,
+      "offset": 3119,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3329,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3466,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3557,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3666,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3760,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3870,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3974,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4075,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4179,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4318,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4475,
+      "length": 38,
+      "value": "\"SKImpression Start Error -> \""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4512,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4558,
+      "length": 79,
+      "value": "\"SKImpression Start with this nonce -> \""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4633,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4636,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4744,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4938,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5165,
+      "length": 36,
+      "value": "\"SKImpression End Error -> \""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5200,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5254,
+      "length": 79,
+      "value": "\"SKImpression Ended with this nonce -> \""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5329,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentoSKANManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5332,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/VastClient\/parsers\/VastParser.swift",
@@ -37776,6 +37895,111 @@
       "offset": 740,
       "length": 2,
       "value": "60"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2846,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2890,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2934,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2979,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3032,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3079,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 3129,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4046,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4088,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4134,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4739,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4845,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5203,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5313,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5322,
+      "length": 9,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/VastClient\/models\/VastCreativeParameter.swift",
@@ -38354,98 +38578,98 @@
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 1282,
+      "offset": 1463,
       "length": 39,
       "value": "\"30초마다 한번 리로드해주기\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 1518,
+      "offset": 1699,
       "length": 20,
       "value": "\"광고불러오기\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 1631,
+      "offset": 1812,
       "length": 8,
       "value": "\"Banner\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 1814,
+      "offset": 1995,
       "length": 34,
       "value": "\"Failed to modelisation to respon\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1995,
+      "offset": 2176,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 2454,
+      "offset": 2635,
       "length": 14,
       "value": "\"광고제거\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2607,
+      "offset": 2788,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2613,
+      "offset": 2794,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2693,
+      "offset": 2874,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2699,
+      "offset": 2880,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 2800,
+      "offset": 2981,
       "length": 17,
       "value": "\"광고리로드\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 3314,
+      "offset": 3495,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 3340,
+      "offset": 3521,
       "length": 25817,
       "value": "\">\n(function () {\n  var isIOS = \/iphone|ipad|ipod\/i.test(\n    window.navigator.userAgent.toLowerCase()\n  );\n  if (isIOS) {\n    console = {};\n    console.log = function (log) {\n      var iframe = document.createElement('iframe');\n      iframe.setAttribute('src', 'ios-log: ' + log);\n      document.documentElement.appendChild(iframe);\n      iframe.parentNode.removeChild(iframe);\n      iframe = null;\n    };\n    console.debug = console.info = console.warn = console.error = console.log;\n  }\n})();\n\n(function () {\n  var mraid = (window.mraid = {});\n\n  \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\n\n  \/\/ Bridge interface to SDK\n\n  var bridge = (window.mraidbridge = {\n    nativeSDKFiredReady: false,\n    nativeCallQueue: [],\n    nativeCallInFlight: false,\n    lastSizeChangeProperties: null,\n  });\n\n  bridge.fireChangeEvent = function (properties) {\n    for (var p in properties) {\n      if (properties.hasOwnProperty(p)) {\n        \/\/ Change handlers defined by MRAID below\n        var handler = changeHandlers[p];\n        handler(properties[p]);\n      }\n    }\n  };\n\n  bridge.nativeCallComplete = function (command) {\n    if (this.nativeCallQueue.length === 0) {\n      this.nativeCallInFlight = false;\n      return;\n    }\n\n    var nextCall = this.nativeCallQueue.pop();\n    window.location = nextCall;\n  };\n\n  bridge.executeNativeCall = function (args) {\n    var command = args.shift();\n\n    if (!this.nativeSDKFiredReady) {\n      console.log('rejecting ' + command + ' because mraid is not ready');\n      bridge.notifyErrorEvent('mraid is not ready', command);\n      return;\n    }\n\n    var call = 'mraid:\/\/' + command;\n\n    var key, value;\n    var isFirstArgument = true;\n\n    for (var i = 0; i < args.length; i += 2) {\n      key = args[i];\n      value = args[i + 1];\n\n      if (value === null) continue;\n\n      if (isFirstArgument) {\n        call += '?';\n        isFirstArgument = false;\n      } else {\n        call += '&';\n      }\n\n      call += encodeURIComponent(key) + '=' + encodeURIComponent(value);\n    }\n\n    if (this.nativeCallInFlight) {\n      this.nativeCallQueue.push(call);\n    } else {\n      this.nativeCallInFlight = true;\n      window.location = call;\n    }\n  };\n\n  bridge.setCurrentPosition = function (x, y, width, height) {\n    currentPosition = {\n      x: x,\n      y: y,\n      width: width,\n      height: height,\n    };\n    broadcastEvent(\n      EVENTS.INFO,\n      'Set current position to ' + stringify(currentPosition)\n    );\n  };\n\n  bridge.setDefaultPosition = function (x, y, width, height) {\n    defaultPosition = {\n      x: x,\n      y: y,\n      width: width,\n      height: height,\n    };\n    broadcastEvent(\n      EVENTS.INFO,\n      'Set default position to ' + stringify(defaultPosition)\n    );\n  };\n\n  bridge.setMaxSize = function (width, height) {\n    maxSize = {\n      width: width,\n      height: height,\n    };\n\n    expandProperties.width = width;\n    expandProperties.height = height;\n\n    broadcastEvent(EVENTS.INFO, 'Set max size to ' + stringify(maxSize));\n  };\n\n  bridge.setPlacementType = function (_placementType) {\n    placementType = _placementType;\n    broadcastEvent(\n      EVENTS.INFO,\n      'Set placement type to ' + stringify(placementType)\n    );\n  };\n\n  bridge.setScreenSize = function (width, height) {\n    screenSize = {\n      width: width,\n      height: height,\n    };\n    broadcastEvent(EVENTS.INFO, 'Set screen size to ' + stringify(screenSize));\n  };\n\n  bridge.setState = function (_state) {\n    state = _state;\n    broadcastEvent(EVENTS.INFO, 'Set state to ' + stringify(state));\n    broadcastEvent(EVENTS.STATECHANGE, state);\n  };\n\n  bridge.setIsViewable = function (_isViewable) {\n    isViewable = _isViewable;\n    broadcastEvent(EVENTS.INFO, 'Set isViewable to ' + stringify(isViewable));\n    broadcastEvent(EVENTS.VIEWABLECHANGE, isViewable);\n  };\n\n  bridge.setSupports = function (\n    sms,\n    tel,\n    calendar,\n    storePicture,\n    inlineVideo\n  ) {\n    supportProperties = {\n      sms: sms,\n      tel: tel,\n      calendar: calendar,\n      storePicture: storePicture,\n      inlineVideo: inlineVideo,\n    };\n  };\n\n  bridge.notifyReadyEvent = function () {\n    this.nativeSDKFiredReady = true;\n    broadcastEvent(EVENTS.READY);\n  };\n\n  bridge.notifyErrorEvent = function (message, action) {\n    broadcastEvent(EVENTS.ERROR, message, action);\n  };\n\n  \/\/ Temporary aliases while we migrate to the new API\n  bridge.fireReadyEvent = bridge.notifyReadyEvent;\n  bridge.fireErrorEvent = bridge.notifyErrorEvent;\n\n  bridge.notifySizeChangeEvent = function (width, height) {\n    if (\n      this.lastSizeChangeProperties &&\n      width == this.lastSizeChangeProperties.width &&\n      height == this.lastSizeChangeProperties.height\n    ) {\n      return;\n    }\n\n    this.lastSizeChangeProperties = {\n      width: width,\n      height: height,\n    };\n    broadcastEvent(EVENTS.SIZECHANGE, width, height);\n  };\n\n  bridge.notifyStateChangeEvent = function () {\n    if (state === STATES.LOADING) {\n      broadcastEvent(EVENTS.INFO, 'Native SDK initialized.');\n    }\n\n    broadcastEvent(EVENTS.INFO, 'Set state to ' + stringify(state));\n    broadcastEvent(EVENTS.STATECHANGE, state);\n  };\n\n  bridge.notifyViewableChangeEvent = function () {\n    broadcastEvent(EVENTS.INFO, 'Set isViewable to ' + stringify(isViewable));\n    broadcastEvent(EVENTS.VIEWABLECHANGE, isViewable);\n  };\n\n  \/\/ Constants. \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\n\n  var VERSION = (mraid.VERSION = '2.0');\n\n  var STATES = (mraid.STATES = {\n    LOADING: 'loading',\n    DEFAULT: 'default',\n    EXPANDED: 'expanded',\n    HIDDEN: 'hidden',\n    RESIZED: 'resized',\n  });\n\n  var EVENTS = (mraid.EVENTS = {\n    ERROR: 'error',\n    INFO: 'info',\n    READY: 'ready',\n    STATECHANGE: 'stateChange',\n    VIEWABLECHANGE: 'viewableChange',\n    SIZECHANGE: 'sizeChange',\n  });\n\n  var PLACEMENT_TYPES = (mraid.PLACEMENT_TYPES = {\n    UNKNOWN: 'unknown',\n    INLINE: 'inline',\n    INTERSTITIAL: 'interstitial',\n  });\n\n  \/\/ External MRAID state: may be directly or indirectly modified by the ad JS. \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\n\n  \/\/ Properties which define the behavior of an expandable ad.\n  var expandProperties = {\n    width: false,\n    height: false,\n    useCustomClose: false,\n    isModal: true,\n  };\n\n  var resizeProperties = {\n    width: false,\n    height: false,\n    offsetX: false,\n    offsetY: false,\n    customClosePosition: 'top-right',\n    allowOffscreen: true,\n  };\n\n  var orientationProperties = {\n    allowOrientationChange: true,\n    forceOrientation: 'none',\n  };\n\n  var supportProperties = {\n    sms: false,\n    tel: false,\n    calendar: false,\n    storePicture: false,\n    inlineVideo: false,\n  };\n\n  \/\/ default is undefined so that notifySizeChangeEvent can track changes\n  var lastSizeChangeProperties;\n\n  var maxSize = {};\n\n  var currentPosition = {};\n\n  var defaultPosition = {};\n\n  var screenSize = {};\n\n  var hasSetCustomClose = false;\n\n  var listeners = {};\n\n  \/\/ Internal MRAID state. Modified by the native SDK. \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\n\n  var state = STATES.LOADING;\n\n  var isViewable = false;\n\n  var placementType = PLACEMENT_TYPES.UNKNOWN;\n\n  \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\n\n  var EventListeners = function (event) {\n    this.event = event;\n    this.count = 0;\n    var listeners = {};\n\n    this.add = function (func) {\n      var id = String(func);\n      if (!listeners[id]) {\n        listeners[id] = func;\n        this.count++;\n      }\n    };\n\n    this.remove = function (func) {\n      var id = String(func);\n      if (listeners[id]) {\n        listeners[id] = null;\n        delete listeners[id];\n        this.count--;\n        return true;\n      } else {\n        return false;\n      }\n    };\n\n    this.removeAll = function () {\n      for (var id in listeners) {\n        if (listeners.hasOwnProperty(id)) this.remove(listeners[id]);\n      }\n    };\n\n    this.broadcast = function (args) {\n      for (var id in listeners) {\n        if (listeners.hasOwnProperty(id)) listeners[id].apply(mraid, args);\n      }\n    };\n\n    this.toString = function () {\n      var out = [event, ':'];\n      for (var id in listeners) {\n        if (listeners.hasOwnProperty(id)) out.push('|', id, '|');\n      }\n      return out.join('');\n    };\n  };\n\n  var broadcastEvent = function () {\n    var args = new Array(arguments.length);\n    var l = arguments.length;\n    for (var i = 0; i < l; i++) args[i] = arguments[i];\n    var event = args.shift();\n    if (listeners[event]) listeners[event].broadcast(args);\n  };\n\n  var contains = function (value, array) {\n    for (var i in array) {\n      if (array[i] === value) return true;\n    }\n    return false;\n  };\n\n  var clone = function (obj) {\n    if (obj === null) return null;\n    var f = function () {};\n    f.prototype = obj;\n    return new f();\n  };\n\n  var stringify = function (obj) {\n    if (typeof obj === 'object') {\n      var out = [];\n      if (obj.push) {\n        \/\/ Array.\n        for (var p in obj) out.push(obj[p]);\n        return '[' + out.join(',') + ']';\n      } else {\n        \/\/ Other object.\n        for (var p in obj) out.push(\"'\" + p + \"': \" + obj[p]);\n        return '{' + out.join(',') + '}';\n      }\n    } else return String(obj);\n  };\n\n  var trim = function (str) {\n    return str.replace(\/^\\s+|\\s+$\/g, '');\n  };\n\n  \/\/ Functions that will be invoked by the native SDK whenever a \"change\" event occurs.\n  var changeHandlers = {\n    state: function (val) {\n      if (state === STATES.LOADING) {\n        broadcastEvent(EVENTS.INFO, 'Native SDK initialized.');\n      }\n      state = val;\n      broadcastEvent(EVENTS.INFO, 'Set state to ' + stringify(val));\n      broadcastEvent(EVENTS.STATECHANGE, state);\n    },\n\n    viewable: function (val) {\n      isViewable = val;\n      broadcastEvent(EVENTS.INFO, 'Set isViewable to ' + stringify(val));\n      broadcastEvent(EVENTS.VIEWABLECHANGE, isViewable);\n    },\n\n    placementType: function (val) {\n      broadcastEvent(EVENTS.INFO, 'Set placementType to ' + stringify(val));\n      placementType = val;\n    },\n\n    sizeChange: function (val) {\n      broadcastEvent(EVENTS.INFO, 'Set screenSize to ' + stringify(val));\n      for (var key in val) {\n        if (val.hasOwnProperty(key)) screenSize[key] = val[key];\n      }\n    },\n\n    supports: function (val) {\n      broadcastEvent(EVENTS.INFO, 'Set supports to ' + stringify(val));\n      supportProperties = val;\n    },\n  };\n\n  var validate = function (obj, validators, action, merge) {\n    if (!merge) {\n      \/\/ Check to see if any required properties are missing.\n      if (obj === null) {\n        broadcastEvent(EVENTS.ERROR, 'Required object not provided.', action);\n        return false;\n      } else {\n        for (var i in validators) {\n          if (validators.hasOwnProperty(i) && obj[i] === undefined) {\n            broadcastEvent(\n              EVENTS.ERROR,\n              'Object is missing required property: ' + i,\n              action\n            );\n            return false;\n          }\n        }\n      }\n    }\n\n    for (var prop in obj) {\n      var validator = validators[prop];\n      var value = obj[prop];\n      if (validator && !validator(value)) {\n        \/\/ Failed validation.\n        broadcastEvent(\n          EVENTS.ERROR,\n          'Value of property ' + prop + ' is invalid: ' + value,\n          action\n        );\n        return false;\n      }\n    }\n    return true;\n  };\n\n  var expandPropertyValidators = {\n    useCustomClose: function (v) {\n      return typeof v === 'boolean';\n    },\n  };\n\n  \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\n\n  mraid.addEventListener = function (event, listener) {\n    if (!event || !listener) {\n      broadcastEvent(\n        EVENTS.ERROR,\n        'Both event and listener are required.',\n        'addEventListener'\n      );\n    } else if (!contains(event, EVENTS)) {\n      broadcastEvent(\n        EVENTS.ERROR,\n        'Unknown MRAID event: ' + event,\n        'addEventListener'\n      );\n    } else {\n      if (!listeners[event]) {\n        listeners[event] = new EventListeners(event);\n      }\n      listeners[event].add(listener);\n    }\n  };\n\n  mraid.close = function () {\n    if (state === STATES.HIDDEN) {\n      broadcastEvent(\n        EVENTS.ERROR,\n        'Ad cannot be closed when it is already hidden.',\n        'close'\n      );\n    } else bridge.executeNativeCall(['close']);\n  };\n\n  mraid.expand = function (URL) {\n    if (\n      !(\n        this.getState() === STATES.DEFAULT || this.getState() === STATES.RESIZED\n      )\n    ) {\n      broadcastEvent(\n        EVENTS.ERROR,\n        'Ad can only be expanded from the default or resized state.',\n        'expand'\n      );\n    } else {\n      var args = [\n        'expand',\n        'shouldUseCustomClose',\n        expandProperties.useCustomClose,\n      ];\n\n      if (URL) {\n        args = args.concat(['url', URL]);\n      }\n\n      bridge.executeNativeCall(args);\n    }\n  };\n\n  mraid.getExpandProperties = function () {\n    var properties = {\n      width: expandProperties.width,\n      height: expandProperties.height,\n      useCustomClose: expandProperties.useCustomClose,\n      isModal: expandProperties.isModal,\n    };\n    return properties;\n  };\n\n  mraid.getCurrentPosition = function () {\n    return {\n      x: currentPosition.x,\n      y: currentPosition.y,\n      width: currentPosition.width,\n      height: currentPosition.height,\n    };\n  };\n\n  mraid.getDefaultPosition = function () {\n    return {\n      x: defaultPosition.x,\n      y: defaultPosition.y,\n      width: defaultPosition.width,\n      height: defaultPosition.height,\n    };\n  };\n\n  mraid.getMaxSize = function () {\n    return {\n      width: maxSize.width,\n      height: maxSize.height,\n    };\n  };\n\n  mraid.getPlacementType = function () {\n    return placementType;\n  };\n\n  mraid.getScreenSize = function () {\n    return {\n      width: screenSize.width,\n      height: screenSize.height,\n    };\n  };\n\n  mraid.getState = function () {\n    return state;\n  };\n\n  mraid.isViewable = function () {\n    return isViewable;\n  };\n\n  mraid.getVersion = function () {\n    return mraid.VERSION;\n  };\n\n  mraid.open = function (URL) {\n    if (!URL) broadcastEvent(EVENTS.ERROR, 'URL is required.', 'open');\n    else bridge.executeNativeCall(['open', 'url', URL]);\n  };\n\n  mraid.removeEventListener = function (event, listener) {\n    if (!event) {\n      broadcastEvent(EVENTS.ERROR, 'Event is required.', 'removeEventListener');\n      return;\n    }\n\n    if (listener) {\n      \/\/ If we have a valid event, we'll try to remove the listener from it.\n      var success = false;\n      if (listeners[event]) {\n        success = listeners[event].remove(listener);\n      }\n\n      \/\/ If we didn't have a valid event or couldn't remove the listener from the event, broadcast an error and return early.\n      if (!success) {\n        broadcastEvent(\n          EVENTS.ERROR,\n          'Listener not currently registered for event.',\n          'removeEventListener'\n        );\n        return;\n      }\n    } else if (!listener && listeners[event]) {\n      listeners[event].removeAll();\n    }\n\n    if (listeners[event] && listeners[event].count === 0) {\n      listeners[event] = null;\n      delete listeners[event];\n    }\n  };\n\n  mraid.setExpandProperties = function (properties) {\n    if (\n      validate(\n        properties,\n        expandPropertyValidators,\n        'setExpandProperties',\n        true\n      )\n    ) {\n      if (properties.hasOwnProperty('useCustomClose')) {\n        expandProperties.useCustomClose = properties.useCustomClose;\n      }\n    }\n  };\n\n  mraid.useCustomClose = function (shouldUseCustomClose) {\n    expandProperties.useCustomClose = shouldUseCustomClose;\n    hasSetCustomClose = true;\n    bridge.executeNativeCall([\n      'usecustomclose',\n      'shouldUseCustomClose',\n      shouldUseCustomClose,\n    ]);\n  };\n\n  \/\/ MRAID 2.0 APIs \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\n\n  mraid.createCalendarEvent = function (parameters) {\n    CalendarEventParser.initialize(parameters);\n    if (CalendarEventParser.parse()) {\n      bridge.executeNativeCall(CalendarEventParser.arguments);\n    } else {\n      broadcastEvent(\n        EVENTS.ERROR,\n        CalendarEventParser.errors[0],\n        'createCalendarEvent'\n      );\n    }\n  };\n\n  mraid.supports = function (feature) {\n    return supportProperties[feature];\n  };\n\n  mraid.playVideo = function (uri) {\n    if (!mraid.isViewable()) {\n      broadcastEvent(\n        EVENTS.ERROR,\n        'playVideo cannot be called until the ad is viewable',\n        'playVideo'\n      );\n      return;\n    }\n\n    if (!uri) {\n      broadcastEvent(\n        EVENTS.ERROR,\n        'playVideo must be called with a valid URI',\n        'playVideo'\n      );\n    } else {\n      bridge.executeNativeCall(['playVideo', 'uri', uri]);\n    }\n  };\n\n  mraid.storePicture = function (uri) {\n    if (!mraid.isViewable()) {\n      broadcastEvent(\n        EVENTS.ERROR,\n        'storePicture cannot be called until the ad is viewable',\n        'storePicture'\n      );\n      return;\n    }\n\n    if (!uri) {\n      broadcastEvent(\n        EVENTS.ERROR,\n        'storePicture must be called with a valid URI',\n        'storePicture'\n      );\n    } else {\n      bridge.executeNativeCall(['storePicture', 'uri', uri]);\n    }\n  };\n\n  var resizePropertyValidators = {\n    width: function (v) {\n      return !isNaN(v) && v > 0;\n    },\n    height: function (v) {\n      return !isNaN(v) && v > 0;\n    },\n    offsetX: function (v) {\n      return !isNaN(v);\n    },\n    offsetY: function (v) {\n      return !isNaN(v);\n    },\n    customClosePosition: function (v) {\n      return (\n        typeof v === 'string' &&\n        [\n          'top-right',\n          'bottom-right',\n          'top-left',\n          'bottom-left',\n          'center',\n          'top-center',\n          'bottom-center',\n        ].indexOf(v) > -1\n      );\n    },\n    allowOffscreen: function (v) {\n      return typeof v === 'boolean';\n    },\n  };\n\n  mraid.setOrientationProperties = function (properties) {\n    if (properties.hasOwnProperty('allowOrientationChange')) {\n      orientationProperties.allowOrientationChange =\n        properties.allowOrientationChange;\n    }\n\n    if (properties.hasOwnProperty('forceOrientation')) {\n      orientationProperties.forceOrientation = properties.forceOrientation;\n    }\n\n    var args = [\n      'setOrientationProperties',\n      'allowOrientationChange',\n      orientationProperties.allowOrientationChange,\n      'forceOrientation',\n      orientationProperties.forceOrientation,\n    ];\n    bridge.executeNativeCall(args);\n  };\n\n  mraid.getOrientationProperties = function () {\n    return {\n      allowOrientationChange: orientationProperties.allowOrientationChange,\n      forceOrientation: orientationProperties.forceOrientation,\n    };\n  };\n\n  mraid.resize = function () {\n    if (\n      !(\n        this.getState() === STATES.DEFAULT || this.getState() === STATES.RESIZED\n      )\n    ) {\n      broadcastEvent(\n        EVENTS.ERROR,\n        'Ad can only be resized from the default or resized state.',\n        'resize'\n      );\n    } else if (!resizeProperties.width || !resizeProperties.height) {\n      broadcastEvent(\n        EVENTS.ERROR,\n        'Must set resize properties before calling resize()',\n        'resize'\n      );\n    } else {\n      var args = [\n        'resize',\n        'width',\n        resizeProperties.width,\n        'height',\n        resizeProperties.height,\n        'offsetX',\n        resizeProperties.offsetX || 0,\n        'offsetY',\n        resizeProperties.offsetY || 0,\n        'customClosePosition',\n        resizeProperties.customClosePosition,\n        'allowOffscreen',\n        !!resizeProperties.allowOffscreen,\n      ];\n\n      bridge.executeNativeCall(args);\n    }\n  };\n\n  mraid.getResizeProperties = function () {\n    var properties = {\n      width: resizeProperties.width,\n      height: resizeProperties.height,\n      offsetX: resizeProperties.offsetX,\n      offsetY: resizeProperties.offsetY,\n      customClosePosition: resizeProperties.customClosePosition,\n      allowOffscreen: resizeProperties.allowOffscreen,\n    };\n    return properties;\n  };\n\n  mraid.setResizeProperties = function (properties) {\n    if (\n      validate(\n        properties,\n        resizePropertyValidators,\n        'setResizeProperties',\n        true\n      )\n    ) {\n      var desiredProperties = [\n        'width',\n        'height',\n        'offsetX',\n        'offsetY',\n        'customClosePosition',\n        'allowOffscreen',\n      ];\n\n      var length = desiredProperties.length;\n\n      for (var i = 0; i < length; i++) {\n        var propname = desiredProperties[i];\n        if (properties.hasOwnProperty(propname)) {\n          resizeProperties[propname] = properties[propname];\n        }\n      }\n    }\n  };\n\n  var CalendarEventParser = {\n    initialize: function (parameters) {\n      this.parameters = parameters;\n      this.errors = [];\n      this.arguments = ['createCalendarEvent'];\n    },\n\n    parse: function () {\n      if (!this.parameters) {\n        this.errors.push(\n          'The object passed to createCalendarEvent cannot be null.'\n        );\n      } else {\n        this.parseDescription();\n        this.parseLocation();\n        this.parseSummary();\n        this.parseStartAndEndDates();\n        this.parseReminder();\n        this.parseRecurrence();\n        this.parseTransparency();\n      }\n\n      var errorCount = this.errors.length;\n      if (errorCount) {\n        this.arguments.length = 0;\n      }\n\n      return errorCount === 0;\n    },\n\n    parseDescription: function () {\n      this._processStringValue('description');\n    },\n\n    parseLocation: function () {\n      this._processStringValue('location');\n    },\n\n    parseSummary: function () {\n      this._processStringValue('summary');\n    },\n\n    parseStartAndEndDates: function () {\n      this._processDateValue('start');\n      this._processDateValue('end');\n    },\n\n    parseReminder: function () {\n      var reminder = this._getParameter('reminder');\n      if (!reminder) {\n        return;\n      }\n\n      if (reminder < 0) {\n        this.arguments.push('relativeReminder');\n        this.arguments.push(parseInt(reminder) \/ 1000);\n      } else {\n        this.arguments.push('absoluteReminder');\n        this.arguments.push(reminder);\n      }\n    },\n\n    parseRecurrence: function () {\n      var recurrenceDict = this._getParameter('recurrence');\n      if (!recurrenceDict) {\n        return;\n      }\n\n      this.parseRecurrenceInterval(recurrenceDict);\n      this.parseRecurrenceFrequency(recurrenceDict);\n      this.parseRecurrenceEndDate(recurrenceDict);\n      this.parseRecurrenceArrayValue(recurrenceDict, 'daysInWeek');\n      this.parseRecurrenceArrayValue(recurrenceDict, 'daysInMonth');\n      this.parseRecurrenceArrayValue(recurrenceDict, 'daysInYear');\n      this.parseRecurrenceArrayValue(recurrenceDict, 'monthsInYear');\n    },\n\n    parseTransparency: function () {\n      var validValues = ['opaque', 'transparent'];\n\n      if (this.parameters.hasOwnProperty('transparency')) {\n        var transparency = this.parameters.transparency;\n        if (contains(transparency, validValues)) {\n          this.arguments.push('transparency');\n          this.arguments.push(transparency);\n        } else {\n          this.errors.push('transparency must be opaque or transparent');\n        }\n      }\n    },\n\n    parseRecurrenceArrayValue: function (recurrenceDict, kind) {\n      if (recurrenceDict.hasOwnProperty(kind)) {\n        var array = recurrenceDict[kind];\n        if (!array || !(array instanceof Array)) {\n          this.errors.push(kind + ' must be an array.');\n        } else {\n          var arrayStr = array.join(',');\n          this.arguments.push(kind);\n          this.arguments.push(arrayStr);\n        }\n      }\n    },\n\n    parseRecurrenceInterval: function (recurrenceDict) {\n      if (recurrenceDict.hasOwnProperty('interval')) {\n        var interval = recurrenceDict.interval;\n        if (!interval) {\n          this.errors.push('Recurrence interval cannot be null.');\n        } else {\n          this.arguments.push('interval');\n          this.arguments.push(interval);\n        }\n      } else {\n        \/\/ If a recurrence rule was specified without an interval, use a default value of 1.\n        this.arguments.push('interval');\n        this.arguments.push(1);\n      }\n    },\n\n    parseRecurrenceFrequency: function (recurrenceDict) {\n      if (recurrenceDict.hasOwnProperty('frequency')) {\n        var frequency = recurrenceDict.frequency;\n        var validFrequencies = ['daily', 'weekly', 'monthly', 'yearly'];\n        if (contains(frequency, validFrequencies)) {\n          this.arguments.push('frequency');\n          this.arguments.push(frequency);\n        } else {\n          this.errors.push(\n            'Recurrence frequency must be one of: \"daily\", \"weekly\", \"monthly\", \"yearly\".'\n          );\n        }\n      }\n    },\n\n    parseRecurrenceEndDate: function (recurrenceDict) {\n      var expires = recurrenceDict.expires;\n\n      if (!expires) {\n        return;\n      }\n\n      this.arguments.push('expires');\n      this.arguments.push(expires);\n    },\n\n    _getParameter: function (key) {\n      if (this.parameters.hasOwnProperty(key)) {\n        return this.parameters[key];\n      }\n\n      return null;\n    },\n\n    _processStringValue: function (kind) {\n      if (this.parameters.hasOwnProperty(kind)) {\n        var value = this.parameters[kind];\n        this.arguments.push(kind);\n        this.arguments.push(value);\n      }\n    },\n\n    _processDateValue: function (kind) {\n      if (this.parameters.hasOwnProperty(kind)) {\n        var dateString = this._getParameter(kind);\n        this.arguments.push(kind);\n        this.arguments.push(dateString);\n      }\n    },\n  };\n})();\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerView.swift",
       "kind": "StringLiteral",
-      "offset": 29211,
+      "offset": 29392,
       "length": 20,
       "value": "\" src=\"mraid.js\">\""
     },
