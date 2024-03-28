@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		j/o1A6eOgUHFC73KqQT9ZiOichM=
+		L5y+CQG2f16GSeNuux0bDlk9wEA=
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		/yUjGAEhSMUkp0nMYh/IinWerg4=
+		2HSCiN5QTHd2x1ueg3rymr6Srck=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HKdVl0Owcbkwm7e9Joh/pQG4158pbSW8HMdEBOReUAE=
+			EN8O9ul9U9gJmJ+O31nclEUTTuQlMhZ/dqWzJXSmdMg=
 			</data>
 		</dict>
 		<key>Modules/Momento_iOS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -161,7 +161,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YiYNeBwlyjZYcCGVXxEgSDJegA6EDxQc9D5aORgBhTY=
+			/Ot3zjM11QXJZbIe0gxUaclVbg0gHKD7UZipRvKciqA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
