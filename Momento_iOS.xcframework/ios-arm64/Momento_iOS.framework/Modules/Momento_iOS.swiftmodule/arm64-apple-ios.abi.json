@@ -6696,7 +6696,7 @@
           {
             "kind": "Function",
             "name": "loadWithRendering",
-            "printedName": "loadWithRendering(mainImageView:logoImageView:titleLabel:descriptionLabel:button:timeOut:)",
+            "printedName": "loadWithRendering(mainImageView:logoImageView:titleLabel:descriptionLabel:button:adButton:timeOut:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6775,6 +6775,21 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Double",
                 "printedName": "Swift.Double",
                 "hasDefaultArg": true,
@@ -6782,10 +6797,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@Momento_iOS@objc(cs)MomentNativeManager(im)loadWithRenderingWithMainImageView:logoImageView:titleLabel:descriptionLabel:button:timeOut:",
-            "mangledName": "$s11Momento_iOS19MomentNativeManagerC17loadWithRendering13mainImageView04logojK010titleLabel011descriptionN06button7timeOutySo07UIImageK0CSg_AMSo7UILabelCSgAPSo8UIButtonCSgSdtF",
+            "usr": "c:@M@Momento_iOS@objc(cs)MomentNativeManager(im)loadWithRenderingWithMainImageView:logoImageView:titleLabel:descriptionLabel:button:adButton:timeOut:",
+            "mangledName": "$s11Momento_iOS19MomentNativeManagerC17loadWithRendering13mainImageView04logojK010titleLabel011descriptionN06button8adButton7timeOutySo07UIImageK0CSg_ANSo7UILabelCSgAQSo8UIButtonCSgATSdtF",
             "moduleName": "Momento_iOS",
-            "objc_name": "loadWithRenderingWithMainImageView:logoImageView:titleLabel:descriptionLabel:button:timeOut:",
+            "objc_name": "loadWithRenderingWithMainImageView:logoImageView:titleLabel:descriptionLabel:button:adButton:timeOut:",
             "declAttributes": [
               "Custom",
               "AccessControl",
@@ -32903,7 +32918,7 @@
       "kind": "StringLiteral",
       "offset": 358,
       "length": 8,
-      "value": "\"1.0.10\""
+      "value": "\"1.0.11\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
@@ -34070,252 +34085,252 @@
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 1220,
+      "offset": 1249,
       "length": 28,
       "value": "\"Deinit MomentNativeManager\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1565,
+      "length": 13,
+      "value": "\"optOutImage\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1645,
+      "length": 13,
+      "value": "\"optOutImage\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1806,
+      "length": 13,
+      "value": "\"optOutImage\""
+    },
+    {
+      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2582,
+      "offset": 3316,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 2829,
+      "offset": 3563,
       "length": 8,
       "value": "\"Native\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3098,
+      "offset": 3832,
       "length": 33,
       "value": "\"MomentNativeManagerModelisation\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3139,
+      "offset": 3873,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3170,
+      "offset": 3904,
       "length": 36,
       "value": "\"Failed to modelisation some respon\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3301,
+      "offset": 4082,
       "length": 31,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3331,
+      "offset": 4112,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3378,
+      "offset": 4159,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3405,
+      "offset": 4186,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3468,
+      "offset": 4249,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3495,
+      "offset": 4276,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3540,
+      "offset": 4321,
       "length": 27,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3566,
+      "offset": 4347,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3637,
+      "offset": 4418,
       "length": 38,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3674,
+      "offset": 4455,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3729,
+      "offset": 4510,
       "length": 38,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 3766,
+      "offset": 4547,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4115,
+      "offset": 4896,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5676,
-      "length": 13,
-      "value": "\"optOutImage\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5785,
-      "length": 13,
-      "value": "\"optOutImage\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5991,
-      "length": 13,
-      "value": "\"optOutImage\""
-    },
-    {
-      "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 6291,
+      "offset": 6505,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 6553,
+      "offset": 6919,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 6811,
+      "offset": 7177,
       "length": 24,
       "value": "\"MOMENTO_SKAN_MODEL -> \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 7166,
+      "offset": 7532,
       "length": 22,
       "value": "\"adm_impTrackers_send\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 7332,
+      "offset": 7698,
       "length": 28,
       "value": "\"MomentNativeManagerBinding\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 7368,
+      "offset": 7734,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 7399,
+      "offset": 7765,
       "length": 31,
       "value": "\"Failed to binding some reason\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 8593,
+      "offset": 8959,
       "length": 35,
       "value": "\"adm_clickTrackers_send, \""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 8627,
+      "offset": 8993,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8765,
+      "offset": 9131,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 9170,
+      "offset": 9536,
       "length": 5,
       "value": "\"uri\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 9184,
+      "offset": 9550,
       "length": 33,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 9216,
+      "offset": 9582,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minhyuncho\/Documents\/Xcode\/Main_Projects\/Momento\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "StringLiteral",
-      "offset": 9338,
+      "offset": 9704,
       "length": 2,
       "value": "\"\""
     },

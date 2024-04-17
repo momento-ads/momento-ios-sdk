@@ -212,7 +212,7 @@ extension Momento_iOS.VastMediaFile : Swift.Equatable {
   @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any Momento_iOS.MomentAdsDelegate)?
   @objc @_Concurrency.MainActor(unsafe) public init(unitId: Swift.String)
   @objc deinit
-  @objc @_Concurrency.MainActor(unsafe) public func loadWithRendering(mainImageView: UIKit.UIImageView?, logoImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, button: UIKit.UIButton?, timeOut: Swift.Double = 15)
+  @objc @_Concurrency.MainActor(unsafe) public func loadWithRendering(mainImageView: UIKit.UIImageView?, logoImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, button: UIKit.UIButton?, adButton: UIKit.UIButton? = nil, timeOut: Swift.Double = 15)
   @objc @_Concurrency.MainActor(unsafe) public func destory()
   @objc @_Concurrency.MainActor(unsafe) public func cancelRequest()
 }
