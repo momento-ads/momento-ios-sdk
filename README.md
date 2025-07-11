@@ -1,6 +1,6 @@
 # Momento iOS Guide
 
-Guide Document Update date → **2024.03.28**        SDK version → **1.0.12** 
+Guide Document Update date → **2024.07.11**        SDK version → **1.0.13** 
 
 Minimum iOS Development Target → **Ver.11.0**
 

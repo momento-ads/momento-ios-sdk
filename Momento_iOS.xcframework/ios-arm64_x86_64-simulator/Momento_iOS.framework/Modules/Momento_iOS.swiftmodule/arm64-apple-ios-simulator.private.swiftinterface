@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Momento_iOS
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Momento_iOS
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import AVKit
 import AdSupport
@@ -208,13 +208,13 @@ extension Momento_iOS.VastMediaFile {
 extension Momento_iOS.VastMediaFile : Swift.Equatable {
   public static func == (a: Momento_iOS.VastMediaFile, b: Momento_iOS.VastMediaFile) -> Swift.Bool
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MomentNativeManager : UIKit.UIView {
-  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any Momento_iOS.MomentAdsDelegate)?
-  @objc @_Concurrency.MainActor(unsafe) public init(unitId: Swift.String)
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class MomentNativeManager : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any Momento_iOS.MomentAdsDelegate)?
+  @objc @_Concurrency.MainActor @preconcurrency public init(unitId: Swift.String)
   @objc deinit
-  @objc @_Concurrency.MainActor(unsafe) public func loadWithRendering(mainImageView: UIKit.UIImageView?, logoImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, button: UIKit.UIButton?, adButton: UIKit.UIButton? = nil, timeOut: Swift.Double = 15)
-  @objc @_Concurrency.MainActor(unsafe) public func destory()
-  @objc @_Concurrency.MainActor(unsafe) public func cancelRequest()
+  @objc @_Concurrency.MainActor @preconcurrency public func loadWithRendering(mainImageView: UIKit.UIImageView?, logoImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, button: UIKit.UIButton?, adButton: UIKit.UIButton? = nil, timeOut: Swift.Double = 15)
+  @objc @_Concurrency.MainActor @preconcurrency public func destory()
+  @objc @_Concurrency.MainActor @preconcurrency public func cancelRequest()
 }
 public enum VMAPError : Swift.Error {
   case invalidXMLDocument
@@ -799,17 +799,17 @@ extension Momento_iOS.VMAPAdBreak {
   public func trackEvent(withType type: Momento_iOS.VMAPTrackingEventType)
   public func trackEvents(withUrls urls: [Foundation.URL])
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class MomentBannerView : UIKit.UIView {
-  @objc @_Concurrency.MainActor(unsafe) weak public var delegate: (any Momento_iOS.MomentAdsDelegate)? {
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class MomentBannerView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any Momento_iOS.MomentAdsDelegate)? {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) public init(size: Swift.Int, unitId: Swift.String)
+  @objc @_Concurrency.MainActor @preconcurrency public init(size: Swift.Int, unitId: Swift.String)
   @objc deinit
-  @objc @_Concurrency.MainActor(unsafe) public func loadAd()
-  @objc @_Concurrency.MainActor(unsafe) public func destory()
-  @_Concurrency.MainActor(unsafe) public func setBannerWidth(value: CoreFoundation.CGFloat)
-  @_Concurrency.MainActor(unsafe) public func reload()
+  @objc @_Concurrency.MainActor @preconcurrency public func loadAd()
+  @objc @_Concurrency.MainActor @preconcurrency public func destory()
+  @_Concurrency.MainActor @preconcurrency public func setBannerWidth(value: CoreFoundation.CGFloat)
+  @_Concurrency.MainActor @preconcurrency public func reload()
 }
 public struct VastAdCategory : Swift.Codable {
   public let authority: Foundation.URL?
