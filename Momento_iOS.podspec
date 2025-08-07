@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name             = 'Momento_iOS'
-  s.version          = '1.0.14'
+  s.name             = 'MomentoSDK'
+  s.version          = '1.0.15'
   s.summary          = 'Momento_iOS.xcframework'
   s.homepage         = 'https://github.com/momento-ads/momento-ios-sdk'
 
@@ -15,7 +15,7 @@ https://github.com/momento-ads/momento-ios-sdk
 LICENSE
 }
 
-  s.author           = { 'cho.minhyun@cashwalk.io' => 'cho.minhyun@cashwalk.io' }
+  s.author           = { 'dev@cashwalk.io' => 'dev@cashwalk.io' }
   s.source           = { :git => 'https://github.com/momento-ads/momento-ios-sdk.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '11.0'

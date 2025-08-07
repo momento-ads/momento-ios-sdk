@@ -1,8 +1,24 @@
-# Momento iOS Guide
+# MomentoSDK Guide
 
-Guide Document Update date → **2025.07.21**        SDK version → **1.0.14** 
+Guide Document Update date → **2025.08.07**        SDK version → **1.0.15** 
 
 Minimum iOS Development Target → **Ver.11.0**
+
+## Pod 마이그레이션 안내
+
+기존 `Momento_iOS` pod에서 `MomentoSDK`로 변경되었습니다.
+
+**기존 사용자 마이그레이션:**
+```ruby
+# Podfile에서 변경
+# 기존
+pod 'Momento_iOS'
+
+# 새로운 버전
+pod 'MomentoSDK'
+```
+
+변경 후 `pod install`을 실행하세요.
 
 # 공통 설정 사항 가이드
 
