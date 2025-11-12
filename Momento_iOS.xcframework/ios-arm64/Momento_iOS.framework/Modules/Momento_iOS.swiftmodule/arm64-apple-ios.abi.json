@@ -6851,7 +6851,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(unitId:)",
+            "printedName": "init(unitId:inventoryId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6864,13 +6864,28 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@Momento_iOS@objc(cs)MomentNativeManager(im)initWithUnitId:",
-            "mangledName": "$s11Momento_iOS19MomentNativeManagerC6unitIdACSS_tcfc",
+            "usr": "c:@M@Momento_iOS@objc(cs)MomentNativeManager(im)initWithUnitId:inventoryId:",
+            "mangledName": "$s11Momento_iOS19MomentNativeManagerC6unitId09inventoryG0ACSS_So8NSNumberCSgtcfc",
             "moduleName": "Momento_iOS",
-            "objc_name": "initWithUnitId:",
+            "objc_name": "initWithUnitId:inventoryId:",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -29705,7 +29720,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(size:unitId:)",
+            "printedName": "init(height:unitId:inventoryId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -29715,22 +29730,37 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
               },
               {
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@Momento_iOS@objc(cs)MomentBannerView(im)initWithSize:unitId:",
-            "mangledName": "$s11Momento_iOS16MomentBannerViewC4size6unitIdACSi_SStcfc",
+            "usr": "c:@M@Momento_iOS@objc(cs)MomentBannerView(im)initWithHeight:unitId:inventoryId:",
+            "mangledName": "$s11Momento_iOS16MomentBannerViewC6height6unitId09inventoryH0AC12CoreGraphics7CGFloatV_SSSo8NSNumberCSgtcfc",
             "moduleName": "Momento_iOS",
-            "objc_name": "initWithSize:unitId:",
+            "objc_name": "initWithHeight:unitId:inventoryId:",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -32621,7 +32651,7 @@
       "kind": "StringLiteral",
       "offset": 358,
       "length": 8,
-      "value": "\"1.0.16\""
+      "value": "\"1.0.17\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
@@ -32870,29 +32900,22 @@
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
-      "kind": "StringLiteral",
-      "offset": 353,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 391,
+      "offset": 430,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 592,
+      "offset": 631,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentNativeManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3487,
+      "offset": 3610,
       "length": 2,
       "value": "15"
     },
@@ -34607,16 +34630,9 @@
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 257,
+      "offset": 330,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentBannerView.swift",
-      "kind": "StringLiteral",
-      "offset": 287,
-      "length": 2,
-      "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/VastClient\/constants\/VMAPErrorCodes.swift",

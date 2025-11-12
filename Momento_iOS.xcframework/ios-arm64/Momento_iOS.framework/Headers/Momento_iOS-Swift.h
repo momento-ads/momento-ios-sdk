@@ -325,12 +325,13 @@ SWIFT_PROTOCOL("_TtP11Momento_iOS17MomentAdsDelegate_")
 - (void)onImageLoadedWithImgSize:(CGSize)imgSize;
 @end
 
+@class NSNumber;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC11Momento_iOS16MomentBannerView")
 @interface MomentBannerView : UIView
 @property (nonatomic, weak) id <MomentAdsDelegate> _Nullable delegate;
-- (nonnull instancetype)initWithSize:(NSInteger)size unitId:(NSString * _Nonnull)unitId OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithHeight:(CGFloat)height unitId:(NSString * _Nonnull)unitId inventoryId:(NSNumber * _Nullable)inventoryId OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 /// <ul>
 ///   <li>
@@ -361,7 +362,7 @@ SWIFT_CLASS("_TtC11Momento_iOS16MomentBannerView")
 SWIFT_CLASS("_TtC11Momento_iOS19MomentNativeManager")
 @interface MomentNativeManager : UIView
 @property (nonatomic, weak) id <MomentAdsDelegate> _Nullable delegate;
-- (nonnull instancetype)initWithUnitId:(NSString * _Nonnull)unitId OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithUnitId:(NSString * _Nonnull)unitId inventoryId:(NSNumber * _Nullable)inventoryId OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 /// API를 통해 데이터를 로드하고, 뷰를 랜더링하는 메서드
 /// <ul>

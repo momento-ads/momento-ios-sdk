@@ -210,7 +210,7 @@ extension Momento_iOS.VastMediaFile : Swift.Equatable {
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class MomentNativeManager : UIKit.UIView {
   @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any Momento_iOS.MomentAdsDelegate)?
-  @objc @_Concurrency.MainActor @preconcurrency public init(unitId: Swift.String)
+  @objc @_Concurrency.MainActor @preconcurrency public init(unitId: Swift.String, inventoryId: Foundation.NSNumber? = nil)
   @objc deinit
   @objc @_Concurrency.MainActor @preconcurrency public func loadWithRendering(mainImageView: UIKit.UIImageView?, logoImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, button: UIKit.UIButton?, adButton: UIKit.UIButton? = nil, timeOut: Swift.Double = 15)
   @objc @_Concurrency.MainActor @preconcurrency public func destory()
@@ -804,7 +804,7 @@ extension Momento_iOS.VMAPAdBreak {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor @preconcurrency public init(size: Swift.Int, unitId: Swift.String)
+  @objc @_Concurrency.MainActor @preconcurrency public init(height: CoreFoundation.CGFloat, unitId: Swift.String, inventoryId: Foundation.NSNumber? = nil)
   @objc deinit
   @objc @_Concurrency.MainActor @preconcurrency public func loadAd()
   @objc @_Concurrency.MainActor @preconcurrency public func destory()
