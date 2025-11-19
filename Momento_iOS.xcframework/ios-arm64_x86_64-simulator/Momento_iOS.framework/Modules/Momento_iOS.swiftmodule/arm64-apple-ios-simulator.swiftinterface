@@ -43,6 +43,17 @@ extension Momento_iOS.VastNonLinear {
 extension Momento_iOS.VastNonLinear : Swift.Equatable {
   public static func == (a: Momento_iOS.VastNonLinear, b: Momento_iOS.VastNonLinear) -> Swift.Bool
 }
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class BannerView : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any Momento_iOS.MomentAdsDelegate)? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor @preconcurrency public init(height: CoreFoundation.CGFloat, unitId: Swift.String, provider: Momento_iOS.AdProvider, inventoryId: Swift.Int? = nil)
+  @objc @_Concurrency.MainActor @preconcurrency public func loadAd()
+  @objc @_Concurrency.MainActor @preconcurrency public func destory()
+  @_Concurrency.MainActor @preconcurrency public func setBannerWidth(value: CoreFoundation.CGFloat)
+  @objc deinit
+}
 public struct VastAdSystem : Swift.Codable {
   public let version: Swift.String?
   public var system: Swift.String?
@@ -63,6 +74,10 @@ extension Momento_iOS.VastExtension {
 }
 extension Momento_iOS.VastExtension : Swift.Equatable {
   public static func == (lhs: Momento_iOS.VastExtension, rhs: Momento_iOS.VastExtension) -> Swift.Bool
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class PerformentoBannerView : Momento_iOS.BannerView {
+  @_Concurrency.MainActor @preconcurrency public init(height: CoreFoundation.CGFloat, unitId: Swift.String, inventoryId: Swift.Int? = nil)
+  @objc deinit
 }
 @objc public protocol MomentAdsDelegate {
   @objc func onAdLoaded(dspName: Swift.String)
@@ -208,13 +223,9 @@ extension Momento_iOS.VastMediaFile {
 extension Momento_iOS.VastMediaFile : Swift.Equatable {
   public static func == (a: Momento_iOS.VastMediaFile, b: Momento_iOS.VastMediaFile) -> Swift.Bool
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class MomentNativeManager : UIKit.UIView {
-  @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any Momento_iOS.MomentAdsDelegate)?
-  @objc @_Concurrency.MainActor @preconcurrency public init(unitId: Swift.String, inventoryId: Foundation.NSNumber? = nil)
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class MomentNativeManager : Momento_iOS.NativeManager {
+  @_Concurrency.MainActor @preconcurrency public init(unitId: Swift.String, inventoryId: Swift.Int? = nil)
   @objc deinit
-  @objc @_Concurrency.MainActor @preconcurrency public func loadWithRendering(mainImageView: UIKit.UIImageView?, logoImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, button: UIKit.UIButton?, adButton: UIKit.UIButton? = nil, timeOut: Swift.Double = 15)
-  @objc @_Concurrency.MainActor @preconcurrency public func destory()
-  @objc @_Concurrency.MainActor @preconcurrency public func cancelRequest()
 }
 public enum VMAPError : Swift.Error {
   case invalidXMLDocument
@@ -397,6 +408,14 @@ public struct VastWrapper : Swift.Codable {
 extension Momento_iOS.VastWrapper : Swift.Equatable {
   public static func == (a: Momento_iOS.VastWrapper, b: Momento_iOS.VastWrapper) -> Swift.Bool
 }
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class NativeManager : UIKit.UIView {
+  @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any Momento_iOS.MomentAdsDelegate)?
+  @_Concurrency.MainActor @preconcurrency public init(unitId: Swift.String, provider: Momento_iOS.AdProvider, inventoryId: Swift.Int? = nil, hashedID: Swift.String? = nil)
+  @objc deinit
+  @objc @_Concurrency.MainActor @preconcurrency public func loadWithRendering(mainImageView: UIKit.UIImageView?, logoImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, button: UIKit.UIButton?, adButton: UIKit.UIButton? = nil, timeOut: Swift.Double = 15)
+  @objc @_Concurrency.MainActor @preconcurrency public func destory()
+  @objc @_Concurrency.MainActor @preconcurrency public func cancelRequest()
+}
 public enum VastViewableImpressionType : Swift.String {
   case viewable
   case notViewable
@@ -418,6 +437,25 @@ public struct VastViewableImpression : Swift.Codable {
 }
 extension Momento_iOS.VastViewableImpression : Swift.Equatable {
   public static func == (a: Momento_iOS.VastViewableImpression, b: Momento_iOS.VastViewableImpression) -> Swift.Bool
+}
+public enum AdProvider {
+  public enum AdType : Swift.String {
+    case banner
+    case native
+    case video
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  case momento
+  case performento
+  public static func == (a: Momento_iOS.AdProvider, b: Momento_iOS.AdProvider) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public struct VastCreative : Swift.Codable {
   public let id: Swift.String?
@@ -729,6 +767,10 @@ public struct VastAdVerificationParameters : Swift.Codable {
 extension Momento_iOS.VastAdVerificationParameters : Swift.Equatable {
   public static func == (a: Momento_iOS.VastAdVerificationParameters, b: Momento_iOS.VastAdVerificationParameters) -> Swift.Bool
 }
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class PerfomentoNativeManager : Momento_iOS.NativeManager {
+  @_Concurrency.MainActor @preconcurrency public init(unitId: Swift.String, hashedID: Swift.String, inventoryId: Swift.Int? = nil)
+  @objc deinit
+}
 public enum CompanionsRequirement : Swift.String, Swift.Codable {
   case all
   case any
@@ -799,17 +841,9 @@ extension Momento_iOS.VMAPAdBreak {
   public func trackEvent(withType type: Momento_iOS.VMAPTrackingEventType)
   public func trackEvents(withUrls urls: [Foundation.URL])
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class MomentBannerView : UIKit.UIView {
-  @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any Momento_iOS.MomentAdsDelegate)? {
-    @objc get
-    @objc set
-  }
-  @objc @_Concurrency.MainActor @preconcurrency public init(height: CoreFoundation.CGFloat, unitId: Swift.String, inventoryId: Foundation.NSNumber? = nil)
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class MomentBannerView : Momento_iOS.BannerView {
+  @_Concurrency.MainActor @preconcurrency public init(height: CoreFoundation.CGFloat, unitId: Swift.String, inventoryId: Swift.Int? = nil)
   @objc deinit
-  @objc @_Concurrency.MainActor @preconcurrency public func loadAd()
-  @objc @_Concurrency.MainActor @preconcurrency public func destory()
-  @_Concurrency.MainActor @preconcurrency public func setBannerWidth(value: CoreFoundation.CGFloat)
-  @_Concurrency.MainActor @preconcurrency public func reload()
 }
 public struct VastAdCategory : Swift.Codable {
   public let authority: Foundation.URL?
@@ -871,6 +905,11 @@ extension Momento_iOS.TrackingEventType : Swift.RawRepresentable {}
 extension Momento_iOS.VastViewableImpressionType : Swift.Equatable {}
 extension Momento_iOS.VastViewableImpressionType : Swift.Hashable {}
 extension Momento_iOS.VastViewableImpressionType : Swift.RawRepresentable {}
+extension Momento_iOS.AdProvider : Swift.Equatable {}
+extension Momento_iOS.AdProvider : Swift.Hashable {}
+extension Momento_iOS.AdProvider.AdType : Swift.Equatable {}
+extension Momento_iOS.AdProvider.AdType : Swift.Hashable {}
+extension Momento_iOS.AdProvider.AdType : Swift.RawRepresentable {}
 extension Momento_iOS.VastError : Swift.Equatable {}
 extension Momento_iOS.VastError : Swift.Hashable {}
 extension Momento_iOS.VMAPTrackingEventType : Swift.Equatable {}
