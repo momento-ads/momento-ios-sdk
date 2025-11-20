@@ -767,7 +767,7 @@ public struct VastAdVerificationParameters : Swift.Codable {
 extension Momento_iOS.VastAdVerificationParameters : Swift.Equatable {
   public static func == (a: Momento_iOS.VastAdVerificationParameters, b: Momento_iOS.VastAdVerificationParameters) -> Swift.Bool
 }
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class PerfomentoNativeManager : Momento_iOS.NativeManager {
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class PerformentoNativeManager : Momento_iOS.NativeManager {
   @_Concurrency.MainActor @preconcurrency public init(unitId: Swift.String, hashedID: Swift.String, inventoryId: Swift.Int? = nil)
   @objc deinit
 }

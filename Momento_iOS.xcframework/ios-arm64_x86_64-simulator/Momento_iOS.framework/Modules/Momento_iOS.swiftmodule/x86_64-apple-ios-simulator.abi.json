@@ -28572,8 +28572,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PerfomentoNativeManager",
-        "printedName": "PerfomentoNativeManager",
+        "name": "PerformentoNativeManager",
+        "printedName": "PerformentoNativeManager",
         "children": [
           {
             "kind": "Constructor",
@@ -28582,9 +28582,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "PerfomentoNativeManager",
-                "printedName": "Momento_iOS.PerfomentoNativeManager",
-                "usr": "c:@M@Momento_iOS@objc(cs)PerfomentoNativeManager"
+                "name": "PerformentoNativeManager",
+                "printedName": "Momento_iOS.PerformentoNativeManager",
+                "usr": "c:@M@Momento_iOS@objc(cs)PerformentoNativeManager"
               },
               {
                 "kind": "TypeNominal",
@@ -28615,8 +28615,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11Momento_iOS23PerfomentoNativeManagerC6unitId8hashedID09inventoryG0ACSS_SSSiSgtcfc",
-            "mangledName": "$s11Momento_iOS23PerfomentoNativeManagerC6unitId8hashedID09inventoryG0ACSS_SSSiSgtcfc",
+            "usr": "s:11Momento_iOS24PerformentoNativeManagerC6unitId8hashedID09inventoryG0ACSS_SSSiSgtcfc",
+            "mangledName": "$s11Momento_iOS24PerformentoNativeManagerC6unitId8hashedID09inventoryG0ACSS_SSSiSgtcfc",
             "moduleName": "Momento_iOS",
             "declAttributes": [
               "Preconcurrency",
@@ -28632,9 +28632,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "PerfomentoNativeManager",
-                "printedName": "Momento_iOS.PerfomentoNativeManager",
-                "usr": "c:@M@Momento_iOS@objc(cs)PerfomentoNativeManager"
+                "name": "PerformentoNativeManager",
+                "printedName": "Momento_iOS.PerformentoNativeManager",
+                "usr": "c:@M@Momento_iOS@objc(cs)PerformentoNativeManager"
               },
               {
                 "kind": "TypeNominal",
@@ -28680,8 +28680,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11Momento_iOS23PerfomentoNativeManagerC6unitId8provider09inventoryG08hashedIDACSS_AA10AdProviderOSiSgSSSgtcfc",
-            "mangledName": "$s11Momento_iOS23PerfomentoNativeManagerC6unitId8provider09inventoryG08hashedIDACSS_AA10AdProviderOSiSgSSSgtcfc",
+            "usr": "s:11Momento_iOS24PerformentoNativeManagerC6unitId8provider09inventoryG08hashedIDACSS_AA10AdProviderOSiSgSSSgtcfc",
+            "mangledName": "$s11Momento_iOS24PerformentoNativeManagerC6unitId8provider09inventoryG08hashedIDACSS_AA10AdProviderOSiSgSSSgtcfc",
             "moduleName": "Momento_iOS",
             "overriding": true,
             "implicit": true,
@@ -28694,8 +28694,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@Momento_iOS@objc(cs)PerfomentoNativeManager",
-        "mangledName": "$s11Momento_iOS23PerfomentoNativeManagerC",
+        "usr": "c:@M@Momento_iOS@objc(cs)PerformentoNativeManager",
+        "mangledName": "$s11Momento_iOS24PerformentoNativeManagerC",
         "moduleName": "Momento_iOS",
         "declAttributes": [
           "Preconcurrency",
@@ -34968,21 +34968,21 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Nattive\/NativeManager.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Native\/NativeManager.swift",
       "kind": "IntegerLiteral",
       "offset": 382,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Nattive\/NativeManager.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Native\/NativeManager.swift",
       "kind": "BooleanLiteral",
       "offset": 583,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Nattive\/NativeManager.swift",
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Native\/NativeManager.swift",
       "kind": "IntegerLiteral",
       "offset": 3666,
       "length": 2,

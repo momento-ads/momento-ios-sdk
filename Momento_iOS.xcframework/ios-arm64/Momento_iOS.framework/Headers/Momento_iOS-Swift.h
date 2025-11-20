@@ -466,13 +466,13 @@ SWIFT_CLASS("_TtC11Momento_iOS18MomentVideoManager")
 
 
 
-SWIFT_CLASS("_TtC11Momento_iOS23PerfomentoNativeManager")
-@interface PerfomentoNativeManager : NativeManager
+SWIFT_CLASS("_TtC11Momento_iOS21PerformentoBannerView")
+@interface PerformentoBannerView : BannerView
 @end
 
 
-SWIFT_CLASS("_TtC11Momento_iOS21PerformentoBannerView")
-@interface PerformentoBannerView : BannerView
+SWIFT_CLASS("_TtC11Momento_iOS24PerformentoNativeManager")
+@interface PerformentoNativeManager : NativeManager
 @end
 
 
