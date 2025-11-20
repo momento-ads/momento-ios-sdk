@@ -438,7 +438,7 @@ public struct VastViewableImpression : Swift.Codable {
 extension Momento_iOS.VastViewableImpression : Swift.Equatable {
   public static func == (a: Momento_iOS.VastViewableImpression, b: Momento_iOS.VastViewableImpression) -> Swift.Bool
 }
-public enum AdProvider {
+@frozen public enum AdProvider {
   public enum AdType : Swift.String {
     case banner
     case native
@@ -907,6 +907,8 @@ extension Momento_iOS.VastViewableImpressionType : Swift.Hashable {}
 extension Momento_iOS.VastViewableImpressionType : Swift.RawRepresentable {}
 extension Momento_iOS.AdProvider : Swift.Equatable {}
 extension Momento_iOS.AdProvider : Swift.Hashable {}
+extension Momento_iOS.AdProvider : Swift.Sendable {}
+extension Momento_iOS.AdProvider : Swift.BitwiseCopyable {}
 extension Momento_iOS.AdProvider.AdType : Swift.Equatable {}
 extension Momento_iOS.AdProvider.AdType : Swift.Hashable {}
 extension Momento_iOS.AdProvider.AdType : Swift.RawRepresentable {}

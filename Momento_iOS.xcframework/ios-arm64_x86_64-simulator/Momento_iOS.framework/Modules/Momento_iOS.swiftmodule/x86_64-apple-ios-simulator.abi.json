@@ -15463,7 +15463,8 @@
             "declKind": "EnumElement",
             "usr": "s:11Momento_iOS10AdProviderO7momentoyA2CmF",
             "mangledName": "$s11Momento_iOS10AdProviderO7momentoyA2CmF",
-            "moduleName": "Momento_iOS"
+            "moduleName": "Momento_iOS",
+            "fixedbinaryorder": 0
           },
           {
             "kind": "Var",
@@ -15500,7 +15501,8 @@
             "declKind": "EnumElement",
             "usr": "s:11Momento_iOS10AdProviderO11performentoyA2CmF",
             "mangledName": "$s11Momento_iOS10AdProviderO11performentoyA2CmF",
-            "moduleName": "Momento_iOS"
+            "moduleName": "Momento_iOS",
+            "fixedbinaryorder": 1
           },
           {
             "kind": "Function",
@@ -15605,8 +15607,10 @@
         "moduleName": "Momento_iOS",
         "declAttributes": [
           "AccessControl",
+          "Frozen",
           "RawDocComment"
         ],
+        "isEnumExhaustive": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -15635,6 +15639,20 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
