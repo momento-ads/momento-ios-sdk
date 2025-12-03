@@ -82,7 +82,7 @@ extension Momento_iOS.VastExtension : Swift.Equatable {
   @_Concurrency.MainActor @preconcurrency public init(height: CoreFoundation.CGFloat, unitId: Swift.String, inventoryId: Swift.Int? = nil)
   @objc deinit
 }
-public protocol MomentAdsDelegate : ObjectiveC.NSObject {
+public protocol MomentAdsDelegate : AnyObject {
   func onAdLoaded(dspName: Swift.String)
   func onAdFailed(error: any Swift.Error)
   func onAdClicked()

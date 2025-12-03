@@ -2647,8 +2647,8 @@
         "usr": "s:11Momento_iOS17MomentAdsDelegateP",
         "mangledName": "$s11Momento_iOS17MomentAdsDelegateP",
         "moduleName": "Momento_iOS",
-        "genericSig": "<τ_0_0 : ObjectiveC.NSObject>",
-        "sugared_genericSig": "<Self : ObjectiveC.NSObject>",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
           "AccessControl"
         ],
