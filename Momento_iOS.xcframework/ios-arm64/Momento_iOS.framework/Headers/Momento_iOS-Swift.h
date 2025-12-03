@@ -443,6 +443,25 @@ SWIFT_CLASS("_TtC11Momento_iOS18MomentVideoManager")
 
 
 
+SWIFT_CLASS("_TtC11Momento_iOS14MultiAdManager")
+@interface MultiAdManager : NSObject
+/// Multi 포맷 광고를 로드합니다.
+/// <ul>
+///   <li>
+///     Banner 포맷: 자동으로 WebView에 렌더링됩니다.
+///   </li>
+///   <li>
+///     Native 포맷: 데이터만 로드하고 delegate를 통해 알립니다. 이후 renderNativeAd() 메서드로 렌더링할 수 있습니다.
+///   </li>
+/// </ul>
+- (void)loadAd;
+- (void)destroy;
+- (void)cancelRequest;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 
 SWIFT_CLASS("_TtC11Momento_iOS21PerformentoBannerView")
 @interface PerformentoBannerView : BannerView

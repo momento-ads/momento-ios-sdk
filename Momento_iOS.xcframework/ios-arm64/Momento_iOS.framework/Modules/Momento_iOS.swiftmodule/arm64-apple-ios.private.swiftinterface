@@ -623,6 +623,18 @@ extension Momento_iOS.VastAd {
 extension Momento_iOS.VastAd : Swift.Equatable {
   public static func == (a: Momento_iOS.VastAd, b: Momento_iOS.VastAd) -> Swift.Bool
 }
+@objc @_hasMissingDesignatedInitializers public class MultiAdManager : ObjectiveC.NSObject {
+  weak public var delegate: (any Momento_iOS.MomentAdsDelegate)? {
+    get
+    set
+  }
+  public init(bannerContainerView: UIKit.UIView, height: CoreFoundation.CGFloat, unitId: Swift.String, provider: Momento_iOS.AdProvider, inventoryId: Swift.Int? = nil)
+  @objc deinit
+  @objc public func loadAd()
+  @objc public func destroy()
+  @objc public func cancelRequest()
+  public func renderNativeWithComponents(model: Momento_iOS.NativeResponseAdModel, mainImageView: UIKit.UIImageView?, logoImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, button: UIKit.UIButton?, adButton: UIKit.UIButton? = nil)
+}
 public enum PricingModel : Swift.String, Swift.Codable {
   case cpc
   case cpm
