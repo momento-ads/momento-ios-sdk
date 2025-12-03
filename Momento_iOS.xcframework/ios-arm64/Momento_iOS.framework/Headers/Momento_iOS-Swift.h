@@ -305,12 +305,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-@protocol MomentAdsDelegate;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC11Momento_iOS10BannerView")
 @interface BannerView : UIView
-@property (nonatomic, weak) id <MomentAdsDelegate> _Nullable delegate;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 /// <ul>
 ///   <li>
@@ -334,26 +332,6 @@ SWIFT_CLASS("_TtC11Momento_iOS10BannerView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
-@class NSString;
-
-SWIFT_PROTOCOL("_TtP11Momento_iOS17MomentAdsDelegate_")
-@protocol MomentAdsDelegate
-/// 광고가 Load에 성공한 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
-- (void)onAdLoadedWithDspName:(NSString * _Nonnull)dspName;
-/// 광고가 Load에 실패한 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
-- (void)onAdFailedWithError:(NSError * _Nonnull)error;
-/// 광고를 클릭한 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
-- (void)onAdClicked;
-/// 광고가 Show에 성공한 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
-- (void)onAdShowedWithIsShown:(BOOL)isShown;
-/// 광고가 제거된 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
-- (void)onAdRemoved;
-/// 광고의 Load중 타임아웃이 발생한 경우 호출되며, 해당 function에 원하는 동작을 정의하여 사용할 수 있습니다.
-- (void)onAdTimedout;
-/// 광고의 이미지 로드 이후에 호출되며, 원한다면 이미지의 사이즈값을 전달받아 사용할 수 있습니다.
-- (void)onImageLoadedWithImgSize:(CGSize)imgSize;
-@end
-
 
 SWIFT_CLASS("_TtC11Momento_iOS16MomentBannerView")
 @interface MomentBannerView : BannerView
@@ -365,7 +343,6 @@ SWIFT_CLASS("_TtC11Momento_iOS16MomentBannerView")
 
 SWIFT_CLASS("_TtC11Momento_iOS13NativeManager")
 @interface NativeManager : UIView
-@property (nonatomic, weak) id <MomentAdsDelegate> _Nullable delegate;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 /// API를 통해 데이터를 로드하고, 뷰를 랜더링하는 메서드
 /// <ul>
@@ -400,6 +377,7 @@ SWIFT_CLASS("_TtC11Momento_iOS19MomentNativeManager")
 @interface MomentNativeManager : NativeManager
 @end
 
+@class NSString;
 
 SWIFT_CLASS("_TtC11Momento_iOS9MomentSDK")
 @interface MomentSDK : NSObject

@@ -1058,7 +1058,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@Momento_iOS@objc(cs)BannerView(py)delegate",
+            "usr": "s:11Momento_iOS10BannerViewC8delegateAA17MomentAdsDelegate_pSgvp",
             "mangledName": "$s11Momento_iOS10BannerViewC8delegateAA17MomentAdsDelegate_pSgvp",
             "moduleName": "Momento_iOS",
             "declAttributes": [
@@ -1067,8 +1067,7 @@
               "Custom",
               "HasStorage",
               "ReferenceOwnership",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "ownership": 1,
             "hasStorage": true,
@@ -1087,20 +1086,17 @@
                         "kind": "TypeNominal",
                         "name": "MomentAdsDelegate",
                         "printedName": "any Momento_iOS.MomentAdsDelegate",
-                        "usr": "c:@M@Momento_iOS@objc(pl)MomentAdsDelegate"
+                        "usr": "s:11Momento_iOS17MomentAdsDelegateP"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@Momento_iOS@objc(cs)BannerView(im)delegate",
+                "usr": "s:11Momento_iOS10BannerViewC8delegateAA17MomentAdsDelegate_pSgvg",
                 "mangledName": "$s11Momento_iOS10BannerViewC8delegateAA17MomentAdsDelegate_pSgvg",
                 "moduleName": "Momento_iOS",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -1122,20 +1118,17 @@
                         "kind": "TypeNominal",
                         "name": "MomentAdsDelegate",
                         "printedName": "any Momento_iOS.MomentAdsDelegate",
-                        "usr": "c:@M@Momento_iOS@objc(pl)MomentAdsDelegate"
+                        "usr": "s:11Momento_iOS17MomentAdsDelegateP"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@Momento_iOS@objc(cs)BannerView(im)setDelegate:",
+                "usr": "s:11Momento_iOS10BannerViewC8delegateAA17MomentAdsDelegate_pSgvs",
                 "mangledName": "$s11Momento_iOS10BannerViewC8delegateAA17MomentAdsDelegate_pSgvs",
                 "moduleName": "Momento_iOS",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -1776,6 +1769,36 @@
         "moduleName": "Momento_iOS"
       },
       {
+        "kind": "TypeDecl",
+        "name": "MomentNetworkManager",
+        "printedName": "MomentNetworkManager",
+        "declKind": "Class",
+        "usr": "s:11Momento_iOS20MomentNetworkManagerC",
+        "mangledName": "$s11Momento_iOS20MomentNetworkManagerC",
+        "moduleName": "Momento_iOS",
+        "declAttributes": [
+          "AccessControl",
+          "Final"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -2392,15 +2415,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@Momento_iOS@objc(pl)MomentAdsDelegate(im)onAdLoadedWithDspName:",
+            "usr": "s:11Momento_iOS17MomentAdsDelegateP10onAdLoaded7dspNameySS_tF",
             "mangledName": "$s11Momento_iOS17MomentAdsDelegateP10onAdLoaded7dspNameySS_tF",
             "moduleName": "Momento_iOS",
             "genericSig": "<τ_0_0 where τ_0_0 : Momento_iOS.MomentAdsDelegate>",
             "sugared_genericSig": "<Self where Self : Momento_iOS.MomentAdsDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -2423,15 +2445,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@Momento_iOS@objc(pl)MomentAdsDelegate(im)onAdFailedWithError:",
+            "usr": "s:11Momento_iOS17MomentAdsDelegateP10onAdFailed5errorys5Error_p_tF",
             "mangledName": "$s11Momento_iOS17MomentAdsDelegateP10onAdFailed5errorys5Error_p_tF",
             "moduleName": "Momento_iOS",
             "genericSig": "<τ_0_0 where τ_0_0 : Momento_iOS.MomentAdsDelegate>",
             "sugared_genericSig": "<Self where Self : Momento_iOS.MomentAdsDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -2448,15 +2469,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@Momento_iOS@objc(pl)MomentAdsDelegate(im)onAdClicked",
+            "usr": "s:11Momento_iOS17MomentAdsDelegateP11onAdClickedyyF",
             "mangledName": "$s11Momento_iOS17MomentAdsDelegateP11onAdClickedyyF",
             "moduleName": "Momento_iOS",
             "genericSig": "<τ_0_0 where τ_0_0 : Momento_iOS.MomentAdsDelegate>",
             "sugared_genericSig": "<Self where Self : Momento_iOS.MomentAdsDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -2479,15 +2499,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@Momento_iOS@objc(pl)MomentAdsDelegate(im)onAdShowedWithIsShown:",
+            "usr": "s:11Momento_iOS17MomentAdsDelegateP10onAdShowed7isShownySb_tF",
             "mangledName": "$s11Momento_iOS17MomentAdsDelegateP10onAdShowed7isShownySb_tF",
             "moduleName": "Momento_iOS",
             "genericSig": "<τ_0_0 where τ_0_0 : Momento_iOS.MomentAdsDelegate>",
             "sugared_genericSig": "<Self where Self : Momento_iOS.MomentAdsDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -2504,15 +2523,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@Momento_iOS@objc(pl)MomentAdsDelegate(im)onAdRemoved",
+            "usr": "s:11Momento_iOS17MomentAdsDelegateP11onAdRemovedyyF",
             "mangledName": "$s11Momento_iOS17MomentAdsDelegateP11onAdRemovedyyF",
             "moduleName": "Momento_iOS",
             "genericSig": "<τ_0_0 where τ_0_0 : Momento_iOS.MomentAdsDelegate>",
             "sugared_genericSig": "<Self where Self : Momento_iOS.MomentAdsDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -2529,15 +2547,14 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@Momento_iOS@objc(pl)MomentAdsDelegate(im)onAdTimedout",
+            "usr": "s:11Momento_iOS17MomentAdsDelegateP12onAdTimedoutyyF",
             "mangledName": "$s11Momento_iOS17MomentAdsDelegateP12onAdTimedoutyyF",
             "moduleName": "Momento_iOS",
             "genericSig": "<τ_0_0 where τ_0_0 : Momento_iOS.MomentAdsDelegate>",
             "sugared_genericSig": "<Self where Self : Momento_iOS.MomentAdsDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
@@ -2560,29 +2577,80 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@Momento_iOS@objc(pl)MomentAdsDelegate(im)onImageLoadedWithImgSize:",
+            "usr": "s:11Momento_iOS17MomentAdsDelegateP13onImageLoaded7imgSizeySo6CGSizeV_tF",
             "mangledName": "$s11Momento_iOS17MomentAdsDelegateP13onImageLoaded7imgSizeySo6CGSizeV_tF",
             "moduleName": "Momento_iOS",
             "genericSig": "<τ_0_0 where τ_0_0 : Momento_iOS.MomentAdsDelegate>",
             "sugared_genericSig": "<Self where Self : Momento_iOS.MomentAdsDelegate>",
             "protocolReq": true,
             "declAttributes": [
-              "RawDocComment",
-              "ObjC"
+              "RawDocComment"
             ],
             "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onNativeAdLoaded",
+            "printedName": "onNativeAdLoaded(model:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NativeResponseAdModel",
+                "printedName": "Momento_iOS.NativeResponseAdModel",
+                "usr": "s:11Momento_iOS21NativeResponseAdModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Momento_iOS17MomentAdsDelegateP16onNativeAdLoaded5modelyAA0g8ResponseH5ModelV_tF",
+            "mangledName": "$s11Momento_iOS17MomentAdsDelegateP16onNativeAdLoaded5modelyAA0g8ResponseH5ModelV_tF",
+            "moduleName": "Momento_iOS",
+            "genericSig": "<τ_0_0 where τ_0_0 : Momento_iOS.MomentAdsDelegate>",
+            "sugared_genericSig": "<Self where Self : Momento_iOS.MomentAdsDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onNativeAdLoaded",
+            "printedName": "onNativeAdLoaded(model:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NativeResponseAdModel",
+                "printedName": "Momento_iOS.NativeResponseAdModel",
+                "usr": "s:11Momento_iOS21NativeResponseAdModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Momento_iOS17MomentAdsDelegatePAAE16onNativeAdLoaded5modelyAA0g8ResponseH5ModelV_tF",
+            "mangledName": "$s11Momento_iOS17MomentAdsDelegatePAAE16onNativeAdLoaded5modelyAA0g8ResponseH5ModelV_tF",
+            "moduleName": "Momento_iOS",
+            "genericSig": "<τ_0_0 where τ_0_0 : Momento_iOS.MomentAdsDelegate>",
+            "sugared_genericSig": "<Self where Self : Momento_iOS.MomentAdsDelegate>",
+            "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
-        "usr": "c:@M@Momento_iOS@objc(pl)MomentAdsDelegate",
+        "usr": "s:11Momento_iOS17MomentAdsDelegateP",
         "mangledName": "$s11Momento_iOS17MomentAdsDelegateP",
         "moduleName": "Momento_iOS",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObject>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObject>",
         "declAttributes": [
-          "AccessControl",
-          "ObjC"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -13804,7 +13872,7 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@Momento_iOS@objc(cs)NativeManager(py)delegate",
+            "usr": "s:11Momento_iOS13NativeManagerC8delegateAA17MomentAdsDelegate_pSgvp",
             "mangledName": "$s11Momento_iOS13NativeManagerC8delegateAA17MomentAdsDelegate_pSgvp",
             "moduleName": "Momento_iOS",
             "declAttributes": [
@@ -13813,8 +13881,7 @@
               "Custom",
               "HasStorage",
               "ReferenceOwnership",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "ownership": 1,
             "hasStorage": true,
@@ -13833,20 +13900,17 @@
                         "kind": "TypeNominal",
                         "name": "MomentAdsDelegate",
                         "printedName": "any Momento_iOS.MomentAdsDelegate",
-                        "usr": "c:@M@Momento_iOS@objc(pl)MomentAdsDelegate"
+                        "usr": "s:11Momento_iOS17MomentAdsDelegateP"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@Momento_iOS@objc(cs)NativeManager(im)delegate",
+                "usr": "s:11Momento_iOS13NativeManagerC8delegateAA17MomentAdsDelegate_pSgvg",
                 "mangledName": "$s11Momento_iOS13NativeManagerC8delegateAA17MomentAdsDelegate_pSgvg",
                 "moduleName": "Momento_iOS",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "get"
               },
               {
@@ -13868,20 +13932,17 @@
                         "kind": "TypeNominal",
                         "name": "MomentAdsDelegate",
                         "printedName": "any Momento_iOS.MomentAdsDelegate",
-                        "usr": "c:@M@Momento_iOS@objc(pl)MomentAdsDelegate"
+                        "usr": "s:11Momento_iOS17MomentAdsDelegateP"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@Momento_iOS@objc(cs)NativeManager(im)setDelegate:",
+                "usr": "s:11Momento_iOS13NativeManagerC8delegateAA17MomentAdsDelegate_pSgvs",
                 "mangledName": "$s11Momento_iOS13NativeManagerC8delegateAA17MomentAdsDelegate_pSgvs",
                 "moduleName": "Momento_iOS",
                 "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
                 "accessorKind": "set"
               },
               {
@@ -15292,6 +15353,43 @@
                 "declKind": "EnumElement",
                 "usr": "s:11Momento_iOS10AdProviderO0C4TypeO5videoyA2EmF",
                 "mangledName": "$s11Momento_iOS10AdProviderO0C4TypeO5videoyA2EmF",
+                "moduleName": "Momento_iOS"
+              },
+              {
+                "kind": "Var",
+                "name": "multi",
+                "printedName": "multi",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Momento_iOS.AdProvider.AdType.Type) -> Momento_iOS.AdProvider.AdType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdType",
+                        "printedName": "Momento_iOS.AdProvider.AdType",
+                        "usr": "s:11Momento_iOS10AdProviderO0C4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Momento_iOS.AdProvider.AdType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdType",
+                            "printedName": "Momento_iOS.AdProvider.AdType",
+                            "usr": "s:11Momento_iOS10AdProviderO0C4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11Momento_iOS10AdProviderO0C4TypeO5multiyA2EmF",
+                "mangledName": "$s11Momento_iOS10AdProviderO0C4TypeO5multiyA2EmF",
                 "moduleName": "Momento_iOS"
               },
               {
@@ -25960,6 +26058,134 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "NativeResponseAdModel",
+        "printedName": "NativeResponseAdModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NativeResponseAdModel",
+                "printedName": "Momento_iOS.NativeResponseAdModel",
+                "usr": "s:11Momento_iOS21NativeResponseAdModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11Momento_iOS21NativeResponseAdModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11Momento_iOS21NativeResponseAdModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Momento_iOS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11Momento_iOS21NativeResponseAdModelV",
+        "mangledName": "$s11Momento_iOS21NativeResponseAdModelV",
+        "moduleName": "Momento_iOS",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MultiResponseAdModel",
+        "printedName": "MultiResponseAdModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MultiResponseAdModel",
+                "printedName": "Momento_iOS.MultiResponseAdModel",
+                "usr": "s:11Momento_iOS20MultiResponseAdModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11Momento_iOS20MultiResponseAdModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11Momento_iOS20MultiResponseAdModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Momento_iOS",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11Momento_iOS20MultiResponseAdModelV",
+        "mangledName": "$s11Momento_iOS20MultiResponseAdModelV",
+        "moduleName": "Momento_iOS",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -33805,7 +34031,7 @@
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentNetworkManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2165,
+      "offset": 2172,
       "length": 2,
       "value": "15"
     },
@@ -35002,7 +35228,7 @@
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Native\/NativeManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3666,
+      "offset": 3660,
       "length": 2,
       "value": "15"
     },
@@ -35702,79 +35928,93 @@
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2846,
+      "offset": 2853,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2890,
+      "offset": 2897,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2934,
+      "offset": 2941,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2979,
+      "offset": 2986,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3032,
+      "offset": 3039,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3079,
+      "offset": 3086,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3129,
+      "offset": 3136,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 4123,
+      "offset": 4130,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 4165,
+      "offset": 4172,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 4211,
+      "offset": 4218,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 4816,
+      "offset": 4823,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5785,
+      "length": 8,
+      "value": "\"BANNER\""
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
+      "kind": "StringLiteral",
+      "offset": 5812,
+      "length": 8,
+      "value": "\"NATIVE\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/VastClient\/models\/VastCreativeParameter.swift",

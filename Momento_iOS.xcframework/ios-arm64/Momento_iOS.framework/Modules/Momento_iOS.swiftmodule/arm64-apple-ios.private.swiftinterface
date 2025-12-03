@@ -44,9 +44,9 @@ extension Momento_iOS.VastNonLinear : Swift.Equatable {
   public static func == (a: Momento_iOS.VastNonLinear, b: Momento_iOS.VastNonLinear) -> Swift.Bool
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class BannerView : UIKit.UIView {
-  @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any Momento_iOS.MomentAdsDelegate)? {
-    @objc get
-    @objc set
+  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any Momento_iOS.MomentAdsDelegate)? {
+    get
+    set
   }
   @_Concurrency.MainActor @preconcurrency public init(height: CoreFoundation.CGFloat, unitId: Swift.String, provider: Momento_iOS.AdProvider, inventoryId: Swift.Int? = nil)
   @objc @_Concurrency.MainActor @preconcurrency public func loadAd()
@@ -62,6 +62,9 @@ public struct VastAdSystem : Swift.Codable {
 }
 extension Momento_iOS.VastAdSystem : Swift.Equatable {
   public static func == (a: Momento_iOS.VastAdSystem, b: Momento_iOS.VastAdSystem) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers final public class MomentNetworkManager {
+  @objc deinit
 }
 public struct VastExtension : Swift.Codable {
   public let type: Swift.String
@@ -79,14 +82,18 @@ extension Momento_iOS.VastExtension : Swift.Equatable {
   @_Concurrency.MainActor @preconcurrency public init(height: CoreFoundation.CGFloat, unitId: Swift.String, inventoryId: Swift.Int? = nil)
   @objc deinit
 }
-@objc public protocol MomentAdsDelegate {
-  @objc func onAdLoaded(dspName: Swift.String)
-  @objc func onAdFailed(error: any Swift.Error)
-  @objc func onAdClicked()
-  @objc func onAdShowed(isShown: Swift.Bool)
-  @objc func onAdRemoved()
-  @objc func onAdTimedout()
-  @objc func onImageLoaded(imgSize: CoreFoundation.CGSize)
+public protocol MomentAdsDelegate : ObjectiveC.NSObject {
+  func onAdLoaded(dspName: Swift.String)
+  func onAdFailed(error: any Swift.Error)
+  func onAdClicked()
+  func onAdShowed(isShown: Swift.Bool)
+  func onAdRemoved()
+  func onAdTimedout()
+  func onImageLoaded(imgSize: CoreFoundation.CGSize)
+  func onNativeAdLoaded(model: Momento_iOS.NativeResponseAdModel)
+}
+extension Momento_iOS.MomentAdsDelegate {
+  public func onNativeAdLoaded(model: Momento_iOS.NativeResponseAdModel)
 }
 public enum VastErrorCodes : Swift.Int {
   case xmlParsingError
@@ -409,7 +416,7 @@ extension Momento_iOS.VastWrapper : Swift.Equatable {
   public static func == (a: Momento_iOS.VastWrapper, b: Momento_iOS.VastWrapper) -> Swift.Bool
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class NativeManager : UIKit.UIView {
-  @objc @_Concurrency.MainActor @preconcurrency weak public var delegate: (any Momento_iOS.MomentAdsDelegate)?
+  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any Momento_iOS.MomentAdsDelegate)?
   @_Concurrency.MainActor @preconcurrency public init(unitId: Swift.String, provider: Momento_iOS.AdProvider, inventoryId: Swift.Int? = nil, hashedID: Swift.String? = nil)
   @objc deinit
   @objc @_Concurrency.MainActor @preconcurrency public func loadWithRendering(mainImageView: UIKit.UIImageView?, logoImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, button: UIKit.UIButton?, adButton: UIKit.UIButton? = nil, timeOut: Swift.Double = 15)
@@ -443,6 +450,7 @@ extension Momento_iOS.VastViewableImpression : Swift.Equatable {
     case banner
     case native
     case video
+    case multi
     public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
@@ -695,6 +703,12 @@ extension Swift.String {
   public var toSeconds: Swift.Double? {
     get
   }
+}
+public struct NativeResponseAdModel : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct MultiResponseAdModel : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct VastResource : Swift.Codable {
   public let apiFramework: Swift.String?
