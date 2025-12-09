@@ -365,7 +365,7 @@ SWIFT_CLASS("_TtC11Momento_iOS13NativeManager")
 ///
 /// \param timeOut 타임아웃의 기준 시간을 <em>sec</em> 단위로 입력 받습니다. Default로 15sec가 설정되어 값를 입력하지 않는다면 timeout의 기준은 15sec 입니다.
 ///
-- (void)loadWithRenderingWithMainImageView:(UIImageView * _Nullable)mainImageView logoImageView:(UIImageView * _Nullable)logoImageView titleLabel:(UILabel * _Nullable)titleLabel descriptionLabel:(UILabel * _Nullable)descriptionLabel button:(UIButton * _Nullable)button adButton:(UIButton * _Nullable)adButton timeOut:(double)timeOut;
+- (void)loadWithRenderingWithMainImageView:(UIImageView * _Nullable)mainImageView logoImageView:(UIImageView * _Nullable)logoImageView titleLabel:(UILabel * _Nullable)titleLabel descriptionLabel:(UILabel * _Nullable)descriptionLabel button:(UIButton * _Nullable)button adButton:(UIButton * _Nullable)adButton directGoLabel:(UILabel * _Nullable)directGoLabel timeOut:(double)timeOut;
 /// 광고 제거
 - (void)destory;
 - (void)cancelRequest;

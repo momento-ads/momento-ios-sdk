@@ -14033,7 +14033,7 @@
           {
             "kind": "Function",
             "name": "loadWithRendering",
-            "printedName": "loadWithRendering(mainImageView:logoImageView:titleLabel:descriptionLabel:button:adButton:timeOut:)",
+            "printedName": "loadWithRendering(mainImageView:logoImageView:titleLabel:descriptionLabel:button:adButton:directGoLabel:timeOut:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -14127,6 +14127,21 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Double",
                 "printedName": "Swift.Double",
                 "hasDefaultArg": true,
@@ -14134,10 +14149,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@Momento_iOS@objc(cs)NativeManager(im)loadWithRenderingWithMainImageView:logoImageView:titleLabel:descriptionLabel:button:adButton:timeOut:",
-            "mangledName": "$s11Momento_iOS13NativeManagerC17loadWithRendering13mainImageView04logoiJ010titleLabel011descriptionM06button8adButton7timeOutySo07UIImageJ0CSg_ANSo7UILabelCSgAQSo8UIButtonCSgATSdtF",
+            "usr": "c:@M@Momento_iOS@objc(cs)NativeManager(im)loadWithRenderingWithMainImageView:logoImageView:titleLabel:descriptionLabel:button:adButton:directGoLabel:timeOut:",
+            "mangledName": "$s11Momento_iOS13NativeManagerC17loadWithRendering13mainImageView04logoiJ010titleLabel011descriptionM06button8adButton08directGoM07timeOutySo07UIImageJ0CSg_AOSo7UILabelCSgARSo8UIButtonCSgAuRSdtF",
             "moduleName": "Momento_iOS",
-            "objc_name": "loadWithRenderingWithMainImageView:logoImageView:titleLabel:descriptionLabel:button:adButton:timeOut:",
+            "objc_name": "loadWithRenderingWithMainImageView:logoImageView:titleLabel:descriptionLabel:button:adButton:directGoLabel:timeOut:",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -23530,7 +23545,7 @@
           {
             "kind": "Function",
             "name": "renderNativeWithComponents",
-            "printedName": "renderNativeWithComponents(model:mainImageView:logoImageView:titleLabel:descriptionLabel:button:adButton:)",
+            "printedName": "renderNativeWithComponents(model:mainImageView:logoImageView:titleLabel:descriptionLabel:button:adButton:directGoLabel:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23627,11 +23642,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11Momento_iOS14MultiAdManagerC26renderNativeWithComponents5model13mainImageView04logolM010titleLabel011descriptionP06button8adButtonyAA0g8ResponseD5ModelV_So07UIImageM0CSgAPSo7UILabelCSgASSo8UIButtonCSgAVtF",
-            "mangledName": "$s11Momento_iOS14MultiAdManagerC26renderNativeWithComponents5model13mainImageView04logolM010titleLabel011descriptionP06button8adButtonyAA0g8ResponseD5ModelV_So07UIImageM0CSgAPSo7UILabelCSgASSo8UIButtonCSgAVtF",
+            "usr": "s:11Momento_iOS14MultiAdManagerC26renderNativeWithComponents5model13mainImageView04logolM010titleLabel011descriptionP06button8adButton08directGoP0yAA0g8ResponseD5ModelV_So07UIImageM0CSgAQSo7UILabelCSgATSo8UIButtonCSgAwTtF",
+            "mangledName": "$s11Momento_iOS14MultiAdManagerC26renderNativeWithComponents5model13mainImageView04logolM010titleLabel011descriptionP06button8adButton08directGoP0yAA0g8ResponseD5ModelV_So07UIImageM0CSgAQSo7UILabelCSgATSo8UIButtonCSgAwTtF",
             "moduleName": "Momento_iOS",
             "declAttributes": [
               "AccessControl"
@@ -35687,7 +35717,7 @@
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Native\/NativeManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3660,
+      "offset": 3752,
       "length": 2,
       "value": "15"
     },

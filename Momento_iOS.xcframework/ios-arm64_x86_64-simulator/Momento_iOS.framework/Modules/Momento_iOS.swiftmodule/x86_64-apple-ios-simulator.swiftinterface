@@ -419,7 +419,7 @@ extension Momento_iOS.VastWrapper : Swift.Equatable {
   @_Concurrency.MainActor @preconcurrency weak public var delegate: (any Momento_iOS.MomentAdsDelegate)?
   @_Concurrency.MainActor @preconcurrency public init(unitId: Swift.String, provider: Momento_iOS.AdProvider, inventoryId: Swift.Int? = nil, hashedID: Swift.String? = nil)
   @objc deinit
-  @objc @_Concurrency.MainActor @preconcurrency public func loadWithRendering(mainImageView: UIKit.UIImageView?, logoImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, button: UIKit.UIButton?, adButton: UIKit.UIButton? = nil, timeOut: Swift.Double = 15)
+  @objc @_Concurrency.MainActor @preconcurrency public func loadWithRendering(mainImageView: UIKit.UIImageView?, logoImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, button: UIKit.UIButton?, adButton: UIKit.UIButton? = nil, directGoLabel: UIKit.UILabel? = nil, timeOut: Swift.Double = 15)
   @objc @_Concurrency.MainActor @preconcurrency public func destory()
   @objc @_Concurrency.MainActor @preconcurrency public func cancelRequest()
 }
@@ -633,7 +633,7 @@ extension Momento_iOS.VastAd : Swift.Equatable {
   @objc public func loadAd()
   @objc public func destroy()
   @objc public func cancelRequest()
-  public func renderNativeWithComponents(model: Momento_iOS.NativeResponseAdModel, mainImageView: UIKit.UIImageView?, logoImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, button: UIKit.UIButton?, adButton: UIKit.UIButton? = nil)
+  public func renderNativeWithComponents(model: Momento_iOS.NativeResponseAdModel, mainImageView: UIKit.UIImageView?, logoImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, button: UIKit.UIButton?, adButton: UIKit.UIButton? = nil, directGoLabel: UIKit.UILabel? = nil)
 }
 public enum PricingModel : Swift.String, Swift.Codable {
   case cpc
