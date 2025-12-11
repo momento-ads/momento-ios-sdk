@@ -1,0 +1,24 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : "xcframework",
+        "packageRef" : {
+          "identity" : "momento-ios-sdk",
+          "kind" : "root",
+          "location" : "/Users/minseok/Desktop/ios/momento-ios-sdk",
+          "name" : "momento-ios-sdk"
+        },
+        "path" : "/Users/minseok/Desktop/ios/momento-ios-sdk/Momento_iOS.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "Momento_iOS"
+      }
+    ],
+    "dependencies" : [
+
+    ]
+  },
+  "version" : 6
+}

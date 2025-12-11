@@ -14360,6 +14360,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Momento_iOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -34968,70 +34978,70 @@
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 18352,
+      "offset": 18553,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 18379,
+      "offset": 18580,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18419,
+      "offset": 18620,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 18444,
+      "offset": 18645,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 18528,
+      "offset": 18729,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18610,
+      "offset": 18811,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 18687,
+      "offset": 18888,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 18818,
+      "offset": 19019,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 19006,
+      "offset": 19207,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 19068,
+      "offset": 19269,
       "length": 4,
       "value": "true"
     },
