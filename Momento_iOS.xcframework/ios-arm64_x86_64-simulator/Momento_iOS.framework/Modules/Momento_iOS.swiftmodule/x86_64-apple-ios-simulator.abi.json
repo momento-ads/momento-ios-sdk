@@ -23796,6 +23796,23 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Momento_iOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Momento_iOS"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -34978,70 +34995,70 @@
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 18553,
+      "offset": 18657,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 18580,
+      "offset": 18684,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18620,
+      "offset": 18724,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 18645,
+      "offset": 18749,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 18729,
+      "offset": 18833,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 18811,
+      "offset": 18915,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "FloatLiteral",
-      "offset": 18888,
+      "offset": 18992,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 19019,
+      "offset": 19123,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 19207,
+      "offset": 19311,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentVideoManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 19269,
+      "offset": 19373,
       "length": 4,
       "value": "true"
     },
@@ -36304,6 +36321,307 @@
       "offset": 748,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 427,
+      "length": 14,
+      "value": "\"icCloseBlack\""
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 641,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 790,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 940,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1144,
+      "length": 2,
+      "value": "46"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1147,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1159,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1211,
+      "length": 3,
+      "value": "235"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1215,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1227,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1291,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1481,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1560,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1747,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1813,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1984,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2046,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2154,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2257,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2590,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2693,
+      "length": 3,
+      "value": "-20"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2976,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3072,
+      "length": 69,
+      "value": "\"일시적 오류가 발생했습니다.\n다시 시도해주세요.\""
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3172,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3329,
+      "length": 19,
+      "value": "\"icRefreshDarkgray\""
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3554,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3619,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3671,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3722,
+      "length": 3,
+      "value": "236"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3726,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3738,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3888,
+      "length": 3,
+      "value": "236"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3892,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3904,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3964,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4510,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4655,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4700,
+      "length": 18,
+      "value": "\"icArrowLeftGray2\""
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4776,
+      "length": 18,
+      "value": "\"icArrowLeftBlack\""
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5039,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5084,
+      "length": 19,
+      "value": "\"icArrowRightGray2\""
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5161,
+      "length": 19,
+      "value": "\"icArrowRightBlack\""
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/WebView\/MomentoWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5440,
+      "length": 16,
+      "value": "\"icRefreshBlack\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/VastClient\/models\/VMAP\/VMAPAdSource.swift",
