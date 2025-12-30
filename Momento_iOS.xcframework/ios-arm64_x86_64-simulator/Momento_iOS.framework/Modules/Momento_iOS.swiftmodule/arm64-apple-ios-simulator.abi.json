@@ -4132,6 +4132,117 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "rewardVerificationConfig",
+            "printedName": "rewardVerificationConfig",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Momento_iOS.RewardVerificationConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RewardVerificationConfig",
+                    "printedName": "Momento_iOS.RewardVerificationConfig",
+                    "usr": "s:11Momento_iOS24RewardVerificationConfigV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11Momento_iOS9MomentSDKC24rewardVerificationConfigAA06RewardfG0VSgvp",
+            "mangledName": "$s11Momento_iOS9MomentSDKC24rewardVerificationConfigAA06RewardfG0VSgvp",
+            "moduleName": "Momento_iOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Momento_iOS.RewardVerificationConfig?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RewardVerificationConfig",
+                        "printedName": "Momento_iOS.RewardVerificationConfig",
+                        "usr": "s:11Momento_iOS24RewardVerificationConfigV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Momento_iOS9MomentSDKC24rewardVerificationConfigAA06RewardfG0VSgvg",
+                "mangledName": "$s11Momento_iOS9MomentSDKC24rewardVerificationConfigAA06RewardfG0VSgvg",
+                "moduleName": "Momento_iOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Momento_iOS.RewardVerificationConfig?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RewardVerificationConfig",
+                        "printedName": "Momento_iOS.RewardVerificationConfig",
+                        "usr": "s:11Momento_iOS24RewardVerificationConfigV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Momento_iOS9MomentSDKC24rewardVerificationConfigAA06RewardfG0VSgvs",
+                "mangledName": "$s11Momento_iOS9MomentSDKC24rewardVerificationConfigAA06RewardfG0VSgvs",
+                "moduleName": "Momento_iOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Momento_iOS9MomentSDKC24rewardVerificationConfigAA06RewardfG0VSgvM",
+                "mangledName": "$s11Momento_iOS9MomentSDKC24rewardVerificationConfigAA06RewardfG0VSgvM",
+                "moduleName": "Momento_iOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "isDebugMode",
             "printedName": "isDebugMode(_:)",
@@ -4496,6 +4607,33 @@
             "declAttributes": [
               "AccessControl",
               "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRewardVerification",
+            "printedName": "setRewardVerification(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RewardVerificationConfig",
+                "printedName": "Momento_iOS.RewardVerificationConfig",
+                "usr": "s:11Momento_iOS24RewardVerificationConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11Momento_iOS9MomentSDKC21setRewardVerification6configyAA0fG6ConfigV_tF",
+            "mangledName": "$s11Momento_iOS9MomentSDKC21setRewardVerification6configyAA0fG6ConfigV_tF",
+            "moduleName": "Momento_iOS",
+            "declAttributes": [
+              "AccessControl",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -15418,6 +15556,43 @@
                 "moduleName": "Momento_iOS"
               },
               {
+                "kind": "Var",
+                "name": "rewardedNative",
+                "printedName": "rewardedNative",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Momento_iOS.AdProvider.AdType.Type) -> Momento_iOS.AdProvider.AdType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdType",
+                        "printedName": "Momento_iOS.AdProvider.AdType",
+                        "usr": "s:11Momento_iOS10AdProviderO0C4TypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Momento_iOS.AdProvider.AdType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AdType",
+                            "printedName": "Momento_iOS.AdProvider.AdType",
+                            "usr": "s:11Momento_iOS10AdProviderO0C4TypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11Momento_iOS10AdProviderO0C4TypeO14rewardedNativeyA2EmF",
+                "mangledName": "$s11Momento_iOS10AdProviderO0C4TypeO14rewardedNativeyA2EmF",
+                "moduleName": "Momento_iOS"
+              },
+              {
                 "kind": "Constructor",
                 "name": "init",
                 "printedName": "init(rawValue:)",
@@ -17853,6 +18028,123 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Momento_iOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RewardVerificationConfig",
+        "printedName": "RewardVerificationConfig",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(verificationURL:onSuccess:onFailure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RewardVerificationConfig",
+                "printedName": "Momento_iOS.RewardVerificationConfig",
+                "usr": "s:11Momento_iOS24RewardVerificationConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(any Swift.Error) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11Momento_iOS24RewardVerificationConfigV15verificationURL9onSuccess0H7FailureACSS_ySi_SStcys5Error_pctcfc",
+            "mangledName": "$s11Momento_iOS24RewardVerificationConfigV15verificationURL9onSuccess0H7FailureACSS_ySi_SStcys5Error_pctcfc",
+            "moduleName": "Momento_iOS",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:11Momento_iOS24RewardVerificationConfigV",
+        "mangledName": "$s11Momento_iOS24RewardVerificationConfigV",
+        "moduleName": "Momento_iOS",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -34837,14 +35129,14 @@
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 847,
+      "offset": 950,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 876,
+      "offset": 979,
       "length": 1,
       "value": "2"
     },
@@ -35801,6 +36093,13 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Util\/AdProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 263,
+      "length": 17,
+      "value": "\"rewarded-native\""
+    },
+    {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/VastClient\/models\/XML schema\/VastCreative.swift",
       "kind": "StringLiteral",
       "offset": 169,
@@ -35890,6 +36189,13 @@
       "offset": 544,
       "length": 9,
       "value": "\"unknown\""
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/RewardLimitManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1624,
+      "length": 25,
+      "value": "\"MomentoDailyRewardLimit\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/VastClient\/models\/XML schema\/VastCompanionCreative.swift",
@@ -36762,91 +37068,91 @@
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2853,
+      "offset": 3016,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2897,
+      "offset": 3060,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2941,
+      "offset": 3104,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 2986,
+      "offset": 3149,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3039,
+      "offset": 3202,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3086,
+      "offset": 3249,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3136,
+      "offset": 3299,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 4130,
+      "offset": 4293,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 4172,
+      "offset": 4335,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 4218,
+      "offset": 4381,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 4823,
+      "offset": 4986,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 5785,
+      "offset": 5948,
       "length": 8,
       "value": "\"BANNER\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 5812,
+      "offset": 5975,
       "length": 8,
       "value": "\"NATIVE\""
     },

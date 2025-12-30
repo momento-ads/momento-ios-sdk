@@ -136,6 +136,7 @@ public enum VastErrorCodes : Swift.Int {
 }
 @objc @_inheritsConvenienceInitializers public class MomentSDK : ObjectiveC.NSObject {
   @objc public static var shared: Momento_iOS.MomentSDK
+  public var rewardVerificationConfig: Momento_iOS.RewardVerificationConfig?
   @objc public func isDebugMode(_ debugMode: Swift.Bool)
   @objc public enum videoClickType : Swift.Int {
     case linearAd = 1
@@ -152,6 +153,7 @@ public enum VastErrorCodes : Swift.Int {
   @objc public func setTCString(TCSTring: Swift.String)
   @objc public func getMomentoVersion() -> Swift.String
   @objc public func setRewardVideoSkipEnabled(_ state: Swift.Bool)
+  public func setRewardVerification(config: Momento_iOS.RewardVerificationConfig)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -451,6 +453,7 @@ extension Momento_iOS.VastViewableImpression : Swift.Equatable {
     case native
     case video
     case multi
+    case rewardedNative
     public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
@@ -520,6 +523,9 @@ public struct VMAPTrackingEvent : Swift.Codable {
 }
 extension Momento_iOS.VMAPTrackingEvent {
   public init(attrDict: [Swift.String : Swift.String])
+}
+public struct RewardVerificationConfig {
+  public init(verificationURL: Swift.String, onSuccess: @escaping (Swift.Int, Swift.String) -> Swift.Void, onFailure: @escaping (any Swift.Error) -> Swift.Void)
 }
 public struct VastCompanionClickTracking {
   public let id: Swift.String?
