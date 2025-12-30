@@ -443,6 +443,42 @@ SWIFT_CLASS("_TtC11Momento_iOS18MomentVideoManager")
 
 
 
+SWIFT_CLASS("_TtC11Momento_iOS28MomentoRewardedNativeManager")
+@interface MomentoRewardedNativeManager : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+/// API를 통해 데이터를 로드하고, 뷰를 랜더링하는 메서드 (리워드형 네이티브 광고용)
+/// <ul>
+///   <li>
+///     button을 제외한 모든 파라미터는 Optional로, nil을 넘겨 사용자가 원하는 부분을 사용하지 않을 수 있습니다.
+///   </li>
+///   <li>
+///     timeOut 파라미터의 경우 Default값이 설정되어 있어 특정 시간을 설정하지 않으려면 입력하지 않아도 됩니다.
+///   </li>
+/// </ul>
+/// \param mainImageView 상단의 메인 이미지를 담을 UIImageView를 Optional로 받습니다.
+///
+/// \param titleLabel 타이틀 텍스트를 담을 UILabel을 Optional로 받습니다.
+///
+/// \param descriptionLabel 설명 텍스트를 담을 UILabel을 Optional로 받습니다.
+///
+/// \param adButton AdChoice 버튼을 Optional로 받습니다.
+///
+/// \param rewardView 리워드 관련 컴포넌트를 받을 View를 Optional로 받습니다.
+///
+/// \param rewardLogoImageView 리워드 로고 이미지를 담을 UIImageView를 Optional로 받습니다.
+///
+/// \param rewardAmountLabel 리워드 수량 텍스트를 담을 UILabel을 Optional로 받습니다.
+///
+/// \param timeOut 타임아웃의 기준 시간을 <em>sec</em> 단위로 입력 받습니다. Default로 15sec가 설정되어 값를 입력하지 않는다면 timeout의 기준은 15sec 입니다.
+///
+- (void)loadWithRenderingWithMainImageView:(UIImageView * _Nullable)mainImageView titleLabel:(UILabel * _Nullable)titleLabel descriptionLabel:(UILabel * _Nullable)descriptionLabel adButton:(UIButton * _Nullable)adButton ctaView:(UIView * _Nullable)ctaView ctaLabel:(UILabel * _Nullable)ctaLabel rewardImage:(UIImageView * _Nullable)rewardImage timeOut:(double)timeOut;
+/// 광고 제거
+- (void)destory;
+- (void)cancelRequest;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
+
+
 SWIFT_CLASS("_TtC11Momento_iOS14MultiAdManager")
 @interface MultiAdManager : NSObject
 /// Multi 포맷 광고를 로드합니다.
@@ -926,6 +962,42 @@ SWIFT_CLASS("_TtC11Momento_iOS18MomentVideoManager")
 - (void)productViewControllerDidFinish:(SKStoreProductViewController * _Nonnull)viewController;
 @end
 
+
+
+SWIFT_CLASS("_TtC11Momento_iOS28MomentoRewardedNativeManager")
+@interface MomentoRewardedNativeManager : UIView
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
+/// API를 통해 데이터를 로드하고, 뷰를 랜더링하는 메서드 (리워드형 네이티브 광고용)
+/// <ul>
+///   <li>
+///     button을 제외한 모든 파라미터는 Optional로, nil을 넘겨 사용자가 원하는 부분을 사용하지 않을 수 있습니다.
+///   </li>
+///   <li>
+///     timeOut 파라미터의 경우 Default값이 설정되어 있어 특정 시간을 설정하지 않으려면 입력하지 않아도 됩니다.
+///   </li>
+/// </ul>
+/// \param mainImageView 상단의 메인 이미지를 담을 UIImageView를 Optional로 받습니다.
+///
+/// \param titleLabel 타이틀 텍스트를 담을 UILabel을 Optional로 받습니다.
+///
+/// \param descriptionLabel 설명 텍스트를 담을 UILabel을 Optional로 받습니다.
+///
+/// \param adButton AdChoice 버튼을 Optional로 받습니다.
+///
+/// \param rewardView 리워드 관련 컴포넌트를 받을 View를 Optional로 받습니다.
+///
+/// \param rewardLogoImageView 리워드 로고 이미지를 담을 UIImageView를 Optional로 받습니다.
+///
+/// \param rewardAmountLabel 리워드 수량 텍스트를 담을 UILabel을 Optional로 받습니다.
+///
+/// \param timeOut 타임아웃의 기준 시간을 <em>sec</em> 단위로 입력 받습니다. Default로 15sec가 설정되어 값를 입력하지 않는다면 timeout의 기준은 15sec 입니다.
+///
+- (void)loadWithRenderingWithMainImageView:(UIImageView * _Nullable)mainImageView titleLabel:(UILabel * _Nullable)titleLabel descriptionLabel:(UILabel * _Nullable)descriptionLabel adButton:(UIButton * _Nullable)adButton ctaView:(UIView * _Nullable)ctaView ctaLabel:(UILabel * _Nullable)ctaLabel rewardImage:(UIImageView * _Nullable)rewardImage timeOut:(double)timeOut;
+/// 광고 제거
+- (void)destory;
+- (void)cancelRequest;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+@end
 
 
 SWIFT_CLASS("_TtC11Momento_iOS14MultiAdManager")

@@ -26820,6 +26820,507 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Momento_iOS",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MomentoRewardedNativeManager",
+        "printedName": "MomentoRewardedNativeManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any Momento_iOS.MomentAdsDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11Momento_iOS0A21RewardedNativeManagerC8delegateAA17MomentAdsDelegate_pSgvp",
+            "mangledName": "$s11Momento_iOS0A21RewardedNativeManagerC8delegateAA17MomentAdsDelegate_pSgvp",
+            "moduleName": "Momento_iOS",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Momento_iOS.MomentAdsDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MomentAdsDelegate",
+                        "printedName": "any Momento_iOS.MomentAdsDelegate",
+                        "usr": "s:11Momento_iOS17MomentAdsDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Momento_iOS0A21RewardedNativeManagerC8delegateAA17MomentAdsDelegate_pSgvg",
+                "mangledName": "$s11Momento_iOS0A21RewardedNativeManagerC8delegateAA17MomentAdsDelegate_pSgvg",
+                "moduleName": "Momento_iOS",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Momento_iOS.MomentAdsDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MomentAdsDelegate",
+                        "printedName": "any Momento_iOS.MomentAdsDelegate",
+                        "usr": "s:11Momento_iOS17MomentAdsDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Momento_iOS0A21RewardedNativeManagerC8delegateAA17MomentAdsDelegate_pSgvs",
+                "mangledName": "$s11Momento_iOS0A21RewardedNativeManagerC8delegateAA17MomentAdsDelegate_pSgvs",
+                "moduleName": "Momento_iOS",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11Momento_iOS0A21RewardedNativeManagerC8delegateAA17MomentAdsDelegate_pSgvM",
+                "mangledName": "$s11Momento_iOS0A21RewardedNativeManagerC8delegateAA17MomentAdsDelegate_pSgvM",
+                "moduleName": "Momento_iOS",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(unitId:provider:inventoryId:hashedID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MomentoRewardedNativeManager",
+                "printedName": "Momento_iOS.MomentoRewardedNativeManager",
+                "usr": "c:@M@Momento_iOS@objc(cs)MomentoRewardedNativeManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdProvider",
+                "printedName": "Momento_iOS.AdProvider",
+                "usr": "s:11Momento_iOS10AdProviderO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11Momento_iOS0A21RewardedNativeManagerC6unitId8provider09inventoryG08hashedIDACSS_AA10AdProviderOSiSgSSSgtcfc",
+            "mangledName": "$s11Momento_iOS0A21RewardedNativeManagerC6unitId8provider09inventoryG08hashedIDACSS_AA10AdProviderOSiSgSSSgtcfc",
+            "moduleName": "Momento_iOS",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadWithRendering",
+            "printedName": "loadWithRendering(mainImageView:titleLabel:descriptionLabel:adButton:ctaView:ctaLabel:rewardImage:timeOut:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImageView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImageView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Momento_iOS@objc(cs)MomentoRewardedNativeManager(im)loadWithRenderingWithMainImageView:titleLabel:descriptionLabel:adButton:ctaView:ctaLabel:rewardImage:timeOut:",
+            "mangledName": "$s11Momento_iOS0A21RewardedNativeManagerC17loadWithRendering13mainImageView10titleLabel011descriptionM08adButton03ctaK00qM006rewardJ07timeOutySo07UIImageK0CSg_So7UILabelCSgARSo8UIButtonCSgSo6UIViewCSgArOSdtF",
+            "moduleName": "Momento_iOS",
+            "objc_name": "loadWithRenderingWithMainImageView:titleLabel:descriptionLabel:adButton:ctaView:ctaLabel:rewardImage:timeOut:",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "destory",
+            "printedName": "destory()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Momento_iOS@objc(cs)MomentoRewardedNativeManager(im)destory",
+            "mangledName": "$s11Momento_iOS0A21RewardedNativeManagerC7destoryyyF",
+            "moduleName": "Momento_iOS",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancelRequest",
+            "printedName": "cancelRequest()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Momento_iOS@objc(cs)MomentoRewardedNativeManager(im)cancelRequest",
+            "mangledName": "$s11Momento_iOS0A21RewardedNativeManagerC13cancelRequestyyF",
+            "moduleName": "Momento_iOS",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MomentoRewardedNativeManager",
+                "printedName": "Momento_iOS.MomentoRewardedNativeManager",
+                "usr": "c:@M@Momento_iOS@objc(cs)MomentoRewardedNativeManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Momento_iOS@objc(cs)MomentoRewardedNativeManager(im)initWithFrame:",
+            "mangledName": "$s11Momento_iOS0A21RewardedNativeManagerC5frameACSo6CGRectV_tcfc",
+            "moduleName": "Momento_iOS",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Momento_iOS@objc(cs)MomentoRewardedNativeManager",
+        "mangledName": "$s11Momento_iOS0A21RewardedNativeManagerC",
+        "moduleName": "Momento_iOS",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -37036,6 +37537,34 @@
       "offset": 276,
       "length": 9,
       "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Native\/MomentoRewardedNativeManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 400,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Native\/MomentoRewardedNativeManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 589,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Native\/MomentoRewardedNativeManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 693,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Native\/MomentoRewardedNativeManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4162,
+      "length": 2,
+      "value": "15"
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Video\/MomentoSKANManager.swift",

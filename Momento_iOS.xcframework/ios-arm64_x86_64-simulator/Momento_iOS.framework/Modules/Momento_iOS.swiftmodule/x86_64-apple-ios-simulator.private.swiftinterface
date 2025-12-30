@@ -717,6 +717,14 @@ public struct VastStaticResource : Swift.Codable {
 extension Momento_iOS.VastStaticResource : Swift.Equatable {
   public static func == (a: Momento_iOS.VastStaticResource, b: Momento_iOS.VastStaticResource) -> Swift.Bool
 }
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class MomentoRewardedNativeManager : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any Momento_iOS.MomentAdsDelegate)?
+  @_Concurrency.MainActor @preconcurrency public init(unitId: Swift.String, provider: Momento_iOS.AdProvider, inventoryId: Swift.Int? = nil, hashedID: Swift.String? = nil)
+  @objc deinit
+  @objc @_Concurrency.MainActor @preconcurrency public func loadWithRendering(mainImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, adButton: UIKit.UIButton?, ctaView: UIKit.UIView?, ctaLabel: UIKit.UILabel?, rewardImage: UIKit.UIImageView?, timeOut: Swift.Double = 15)
+  @objc @_Concurrency.MainActor @preconcurrency public func destory()
+  @objc @_Concurrency.MainActor @preconcurrency public func cancelRequest()
+}
 extension Swift.String {
   public var toSeconds: Swift.Double? {
     get
