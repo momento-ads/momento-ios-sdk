@@ -26761,7 +26761,7 @@
           {
             "kind": "Function",
             "name": "loadWithRendering",
-            "printedName": "loadWithRendering(mainImageView:titleLabel:descriptionLabel:adButton:ctaView:ctaLogoImageView:ctaLogoImageUrlString:ctaLabel:rewardImage:timeOut:completionHandler:)",
+            "printedName": "loadWithRendering(mainImageView:titleLabel:descriptionLabel:adButton:ctaView:ctaLogoImageView:ctaLogoImageUrlString:ctaLabel:timeOut:completionHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -26882,20 +26882,6 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIImageView?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImageView",
-                    "printedName": "UIKit.UIImageView",
-                    "usr": "c:objc(cs)UIImageView"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "Double",
                 "printedName": "Swift.Double",
                 "hasDefaultArg": true,
@@ -26934,10 +26920,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@Momento_iOS@objc(cs)MomentoRewardedNativeManager(im)loadWithRenderingWithMainImageView:titleLabel:descriptionLabel:adButton:ctaView:ctaLogoImageView:ctaLogoImageUrlString:ctaLabel:rewardImage:timeOut:completionHandler:",
-            "mangledName": "$s11Momento_iOS0A21RewardedNativeManagerC17loadWithRendering13mainImageView10titleLabel011descriptionM08adButton03ctaK00q4LogojK00qrJ9UrlString0qM006rewardJ07timeOut17completionHandlerySo07UIImageK0CSg_So7UILabelCSgAUSo8UIButtonCSgSo6UIViewCSgARSSSgAuRSdySS_SitctF",
+            "usr": "c:@M@Momento_iOS@objc(cs)MomentoRewardedNativeManager(im)loadWithRenderingWithMainImageView:titleLabel:descriptionLabel:adButton:ctaView:ctaLogoImageView:ctaLogoImageUrlString:ctaLabel:timeOut:completionHandler:",
+            "mangledName": "$s11Momento_iOS0A21RewardedNativeManagerC17loadWithRendering13mainImageView10titleLabel011descriptionM08adButton03ctaK00q4LogojK00qrJ9UrlString0qM07timeOut17completionHandlerySo07UIImageK0CSg_So7UILabelCSgATSo8UIButtonCSgSo6UIViewCSgAQSSSgATSdySS_SitctF",
             "moduleName": "Momento_iOS",
-            "objc_name": "loadWithRenderingWithMainImageView:titleLabel:descriptionLabel:adButton:ctaView:ctaLogoImageView:ctaLogoImageUrlString:ctaLabel:rewardImage:timeOut:completionHandler:",
+            "objc_name": "loadWithRenderingWithMainImageView:titleLabel:descriptionLabel:adButton:ctaView:ctaLogoImageView:ctaLogoImageUrlString:ctaLabel:timeOut:completionHandler:",
             "declAttributes": [
               "Preconcurrency",
               "Custom",
@@ -37376,7 +37362,7 @@
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Native\/MomentoRewardedNativeManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3990,
+      "offset": 3955,
       "length": 2,
       "value": "15"
     },
