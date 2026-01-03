@@ -716,7 +716,7 @@ extension Momento_iOS.VastStaticResource : Swift.Equatable {
   @_Concurrency.MainActor @preconcurrency weak public var delegate: (any Momento_iOS.MomentAdsDelegate)?
   @_Concurrency.MainActor @preconcurrency public init(unitId: Swift.String, provider: Momento_iOS.AdProvider, inventoryId: Swift.Int? = nil, hashedID: Swift.String? = nil)
   @objc deinit
-  @objc @_Concurrency.MainActor @preconcurrency public func loadWithRendering(mainImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, adButton: UIKit.UIButton?, ctaView: UIKit.UIView?, ctaLogoImageView: UIKit.UIImageView?, ctaLogoImageUrlString: Swift.String?, ctaLabel: UIKit.UILabel?, timeOut: Swift.Double = 15, completionHandler: @escaping ((Swift.String, Swift.Int) -> Swift.Void))
+  @objc @_Concurrency.MainActor @preconcurrency public func loadWithRendering(mainImageView: UIKit.UIImageView?, titleLabel: UIKit.UILabel?, descriptionLabel: UIKit.UILabel?, adButton: UIKit.UIButton?, ctaView: UIKit.UIView?, ctaLogoImageView: UIKit.UIImageView?, ctaLogoImageUrlString: Swift.String?, ctaLabel: UIKit.UILabel?, ctaText: Swift.String?, timeOut: Swift.Double = 15, completionHandler: @escaping ((Swift.String, Swift.Int) -> Swift.Void))
   @objc @_Concurrency.MainActor @preconcurrency public func destory()
   @objc @_Concurrency.MainActor @preconcurrency public func cancelRequest()
 }
