@@ -35432,7 +35432,7 @@
       "kind": "StringLiteral",
       "offset": 358,
       "length": 8,
-      "value": "\"0.1.55\""
+      "value": "\"0.1.77\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
@@ -36508,7 +36508,7 @@
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/RewardLimitManager.swift",
       "kind": "StringLiteral",
-      "offset": 1624,
+      "offset": 3249,
       "length": 25,
       "value": "\"MomentoDailyRewardLimit\""
     },
