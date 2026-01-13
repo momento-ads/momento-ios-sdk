@@ -35432,7 +35432,7 @@
       "kind": "StringLiteral",
       "offset": 358,
       "length": 8,
-      "value": "\"0.1.80\""
+      "value": "\"0.1.81\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",
@@ -36508,7 +36508,7 @@
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/RewardLimitManager.swift",
       "kind": "StringLiteral",
-      "offset": 3249,
+      "offset": 2354,
       "length": 25,
       "value": "\"MomentoDailyRewardLimit\""
     },
@@ -37411,91 +37411,91 @@
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3016,
+      "offset": 2992,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3060,
+      "offset": 3036,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3104,
+      "offset": 3080,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3149,
+      "offset": 3125,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3202,
+      "offset": 3178,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3249,
+      "offset": 3225,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 3299,
+      "offset": 3275,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 4293,
+      "offset": 4269,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 4335,
+      "offset": 4311,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 4381,
+      "offset": 4357,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 4986,
+      "offset": 4962,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 5948,
+      "offset": 5924,
       "length": 8,
       "value": "\"BANNER\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/MomentResponseModel.swift",
       "kind": "StringLiteral",
-      "offset": 5975,
+      "offset": 5951,
       "length": 8,
       "value": "\"NATIVE\""
     },
