@@ -1154,7 +1154,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(height:unitId:provider:inventoryId:)",
+            "printedName": "init(height:unitId:provider:inventoryId:hashedID:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1194,11 +1194,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11Momento_iOS10BannerViewC6height6unitId8provider09inventoryG0AC14CoreFoundation7CGFloatV_SSAA10AdProviderOSiSgtcfc",
-            "mangledName": "$s11Momento_iOS10BannerViewC6height6unitId8provider09inventoryG0AC12CoreGraphics7CGFloatV_SSAA10AdProviderOSiSgtcfc",
+            "usr": "s:11Momento_iOS10BannerViewC6height6unitId8provider09inventoryG08hashedIDAC14CoreFoundation7CGFloatV_SSAA10AdProviderOSiSgSSSgtcfc",
+            "mangledName": "$s11Momento_iOS10BannerViewC6height6unitId8provider09inventoryG08hashedIDAC12CoreGraphics7CGFloatV_SSAA10AdProviderOSiSgSSSgtcfc",
             "moduleName": "Momento_iOS",
             "declAttributes": [
               "Preconcurrency",
@@ -2159,7 +2174,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(height:unitId:inventoryId:)",
+            "printedName": "init(height:unitId:inventoryId:hashedID:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2193,11 +2208,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11Momento_iOS21PerformentoBannerViewC6height6unitId09inventoryH0AC14CoreFoundation7CGFloatV_SSSiSgtcfc",
-            "mangledName": "$s11Momento_iOS21PerformentoBannerViewC6height6unitId09inventoryH0AC12CoreGraphics7CGFloatV_SSSiSgtcfc",
+            "usr": "s:11Momento_iOS21PerformentoBannerViewC6height6unitId09inventoryH08hashedIDAC14CoreFoundation7CGFloatV_SSSiSgSSSgtcfc",
+            "mangledName": "$s11Momento_iOS21PerformentoBannerViewC6height6unitId09inventoryH08hashedIDAC12CoreGraphics7CGFloatV_SSSiSgSSSgtcfc",
             "moduleName": "Momento_iOS",
             "declAttributes": [
               "Preconcurrency",
@@ -2210,7 +2240,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(height:unitId:provider:inventoryId:)",
+            "printedName": "init(height:unitId:provider:inventoryId:hashedID:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2250,11 +2280,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11Momento_iOS21PerformentoBannerViewC6height6unitId8provider09inventoryH0AC14CoreFoundation7CGFloatV_SSAA10AdProviderOSiSgtcfc",
-            "mangledName": "$s11Momento_iOS21PerformentoBannerViewC6height6unitId8provider09inventoryH0AC12CoreGraphics7CGFloatV_SSAA10AdProviderOSiSgtcfc",
+            "usr": "s:11Momento_iOS21PerformentoBannerViewC6height6unitId8provider09inventoryH08hashedIDAC14CoreFoundation7CGFloatV_SSAA10AdProviderOSiSgSSSgtcfc",
+            "mangledName": "$s11Momento_iOS21PerformentoBannerViewC6height6unitId8provider09inventoryH08hashedIDAC12CoreGraphics7CGFloatV_SSAA10AdProviderOSiSgSSSgtcfc",
             "moduleName": "Momento_iOS",
             "overriding": true,
             "implicit": true,
@@ -32568,7 +32613,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(height:unitId:inventoryId:)",
+            "printedName": "init(height:unitId:inventoryId:hashedID:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -32602,11 +32647,25 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11Momento_iOS16MomentBannerViewC6height6unitId09inventoryH0AC14CoreFoundation7CGFloatV_SSSiSgtcfc",
-            "mangledName": "$s11Momento_iOS16MomentBannerViewC6height6unitId09inventoryH0AC12CoreGraphics7CGFloatV_SSSiSgtcfc",
+            "usr": "s:11Momento_iOS16MomentBannerViewC6height6unitId09inventoryH08hashedIDAC14CoreFoundation7CGFloatV_SSSiSgSSSgtcfc",
+            "mangledName": "$s11Momento_iOS16MomentBannerViewC6height6unitId09inventoryH08hashedIDAC12CoreGraphics7CGFloatV_SSSiSgSSSgtcfc",
             "moduleName": "Momento_iOS",
             "declAttributes": [
               "Preconcurrency",
@@ -32618,7 +32677,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(height:unitId:provider:inventoryId:)",
+            "printedName": "init(height:unitId:provider:inventoryId:hashedID:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -32658,11 +32717,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11Momento_iOS16MomentBannerViewC6height6unitId8provider09inventoryH0AC14CoreFoundation7CGFloatV_SSAA10AdProviderOSiSgtcfc",
-            "mangledName": "$s11Momento_iOS16MomentBannerViewC6height6unitId8provider09inventoryH0AC12CoreGraphics7CGFloatV_SSAA10AdProviderOSiSgtcfc",
+            "usr": "s:11Momento_iOS16MomentBannerViewC6height6unitId8provider09inventoryH08hashedIDAC14CoreFoundation7CGFloatV_SSAA10AdProviderOSiSgSSSgtcfc",
+            "mangledName": "$s11Momento_iOS16MomentBannerViewC6height6unitId8provider09inventoryH08hashedIDAC12CoreGraphics7CGFloatV_SSAA10AdProviderOSiSgSSSgtcfc",
             "moduleName": "Momento_iOS",
             "overriding": true,
             "implicit": true,
@@ -35157,7 +35231,7 @@
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Banner\/Base\/BannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 278,
+      "offset": 312,
       "length": 1,
       "value": "0"
     },
@@ -35432,7 +35506,7 @@
       "kind": "StringLiteral",
       "offset": 358,
       "length": 8,
-      "value": "\"0.1.81\""
+      "value": "\"0.1.82\""
     },
     {
       "filePath": "\/Users\/minseok\/Desktop\/ios\/MomentoIOS\/MomentoIOS\/Classes\/Util\/MomentSDK.swift",

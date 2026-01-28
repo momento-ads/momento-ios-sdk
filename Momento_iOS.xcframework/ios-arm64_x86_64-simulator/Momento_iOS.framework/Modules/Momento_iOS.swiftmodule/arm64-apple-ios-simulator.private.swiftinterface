@@ -48,7 +48,7 @@ extension Momento_iOS.VastNonLinear : Swift.Equatable {
     get
     set
   }
-  @_Concurrency.MainActor @preconcurrency public init(height: CoreFoundation.CGFloat, unitId: Swift.String, provider: Momento_iOS.AdProvider, inventoryId: Swift.Int? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(height: CoreFoundation.CGFloat, unitId: Swift.String, provider: Momento_iOS.AdProvider, inventoryId: Swift.Int? = nil, hashedID: Swift.String? = nil)
   @objc @_Concurrency.MainActor @preconcurrency public func loadAd()
   @objc @_Concurrency.MainActor @preconcurrency public func destory()
   @_Concurrency.MainActor @preconcurrency public func setBannerWidth(value: CoreFoundation.CGFloat)
@@ -79,7 +79,7 @@ extension Momento_iOS.VastExtension : Swift.Equatable {
   public static func == (lhs: Momento_iOS.VastExtension, rhs: Momento_iOS.VastExtension) -> Swift.Bool
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class PerformentoBannerView : Momento_iOS.BannerView {
-  @_Concurrency.MainActor @preconcurrency public init(height: CoreFoundation.CGFloat, unitId: Swift.String, inventoryId: Swift.Int? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(height: CoreFoundation.CGFloat, unitId: Swift.String, inventoryId: Swift.Int? = nil, hashedID: Swift.String? = nil)
   @objc deinit
 }
 public protocol MomentAdsDelegate : AnyObject {
@@ -877,7 +877,7 @@ extension Momento_iOS.VMAPAdBreak {
   public func trackEvents(withUrls urls: [Foundation.URL])
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class MomentBannerView : Momento_iOS.BannerView {
-  @_Concurrency.MainActor @preconcurrency public init(height: CoreFoundation.CGFloat, unitId: Swift.String, inventoryId: Swift.Int? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(height: CoreFoundation.CGFloat, unitId: Swift.String, inventoryId: Swift.Int? = nil, hashedID: Swift.String?)
   @objc deinit
 }
 public struct VastAdCategory : Swift.Codable {
